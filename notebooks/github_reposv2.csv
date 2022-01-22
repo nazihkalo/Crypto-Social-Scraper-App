@@ -1,0 +1,2167 @@
+name,categories,github_links_list
+Bitcoin,['Cryptocurrency'],https://github.com/bitcoin/bitcoin
+Bitcoin,['Cryptocurrency'],https://github.com/bitcoin/bips
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/go-ethereum
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/py-evm
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/aleth
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/web3.py
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/solidity
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/sharding
+Ethereum,['Smart Contract Platform'],https://github.com/ethereum/casper
+Ethereum,['Smart Contract Platform'],https://github.com/paritytech/parity
+Tether,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'USD Stablecoin', 'Binance Smart Chain Ecosystem', None, 'Stablecoins']",
+Binance Coin,"[None, 'Smart Contract Platform', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/binance-exchange/binance-official-api-docs
+Binance Coin,"[None, 'Smart Contract Platform', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/binance-exchange/node-binance-api
+Binance Coin,"[None, 'Smart Contract Platform', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/binance-exchange/php-binance-api
+Solana,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/solana-labs/solana
+USD Coin,"['Arbitrum Ecosystem', None, 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Polygon Ecosystem', 'xDAI Ecosystem', 'USD Stablecoin', 'Stablecoins']",https://github.com/centrehq/centre-tokens
+Cardano,"['Smart Contract Platform', None]",https://github.com/input-output-hk/cardano-sl
+Cardano,"['Smart Contract Platform', None]",https://github.com/input-output-hk/js-cardano-wasm
+Cardano,"['Smart Contract Platform', None]",https://github.com/input-output-hk/plutus
+Cardano,"['Smart Contract Platform', None]",https://github.com/input-output-hk/rust-cardano
+Cardano,"['Smart Contract Platform', None]",https://github.com/input-output-hk/cardano-chain
+XRP,['Cryptocurrency'],https://github.com/ripple/rippled
+XRP,['Cryptocurrency'],https://github.com/ripple/ripple-lib
+Polkadot,"['Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/paritytech/polkadot
+Terra,"['Cosmos Ecosystem', 'Terra Ecosystem', 'Decentralized Finance (DeFi)', 'Smart Contract Platform']",https://github.com/terra-project/core
+Avalanche,"['Avalanche Ecosystem', None, 'Smart Contract Platform']",https://github.com/ava-labs/avalanchego
+Dogecoin,"['Meme Tokens', 'Cryptocurrency']",https://github.com/dogecoin/dogecoin
+Dogecoin,"['Meme Tokens', 'Cryptocurrency']",https://github.com/dogecoin/libdohj
+Shiba Inu,['Meme Tokens'],
+Binance USD,"['Polygon Ecosystem', None, 'Avalanche Ecosystem', 'Harmony Ecosystem', 'Binance Smart Chain Ecosystem', 'USD Stablecoin', 'Stablecoins']",https://github.com/paxosglobal/busd-contract
+Polygon,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', None, 'Smart Contract Platform']",https://github.com/maticnetwork/contracts
+Polygon,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', None, 'Smart Contract Platform']",https://github.com/maticnetwork/heimdall
+Polygon,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', None, 'Smart Contract Platform']",https://github.com/maticnetwork/matic.js
+Polygon,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', None, 'Smart Contract Platform']",https://github.com/maticnetwork/eth-dagger.js
+Polygon,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', None, 'Smart Contract Platform']",https://github.com/maticnetwork/sol-trace
+Crypto.com Coin,"['Cosmos Ecosystem', 'Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/crypto-org-chain/chain-main
+Chainlink,"['Arbitrum Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', None, 'xDAI Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Solana Ecosystem', 'Infrastructure', 'Polkadot Ecosystem', 'Oracle', 'Decentralized Finance (DeFi)', 'Business Services', 'Smart Contract Platform']",https://github.com/smartcontractkit/chainlink
+Chainlink,"['Arbitrum Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', None, 'xDAI Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Solana Ecosystem', 'Infrastructure', 'Polkadot Ecosystem', 'Oracle', 'Decentralized Finance (DeFi)', 'Business Services', 'Smart Contract Platform']",https://github.com/smartcontractkit/chainlink-ruby
+Wrapped Bitcoin,"['Wrapped-Tokens', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Tokenized BTC', None, 'xDAI Ecosystem']",https://github.com/WrappedBTC/bitcoin-token-smart-contracts
+Wrapped Bitcoin,"['Wrapped-Tokens', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Tokenized BTC', None, 'xDAI Ecosystem']",https://github.com/WrappedBTC/DAO
+Cosmos,"['Cosmos Ecosystem', 'Cryptocurrency', 'Binance Smart Chain Ecosystem']",https://github.com/cosmos/cosmos
+Cosmos,"['Cosmos Ecosystem', 'Cryptocurrency', 'Binance Smart Chain Ecosystem']",https://github.com/cosmos/cosmos-sdk
+Cosmos,"['Cosmos Ecosystem', 'Cryptocurrency', 'Binance Smart Chain Ecosystem']",https://github.com/cosmos/voyager
+TerraUSD,"['Seigniorage', 'Terra Ecosystem', 'USD Stablecoin', 'Stablecoins']",https://github.com/terra-project
+Litecoin,['Cryptocurrency'],https://github.com/litecoin-project/litecoin
+Algorand,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/algorand/go-algorand
+Algorand,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/algorand/java-algorand-sdk
+Algorand,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/algorand/js-algorand-sdk
+Algorand,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/algorand/go-algorand-sdk
+Dai,"['Arbitrum Ecosystem', None, 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Polygon Ecosystem', 'USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",
+Near,"['Near Protocol Ecosystem', 'Smart Contract Platform']",https://github.com/near
+Near,"['Near Protocol Ecosystem', 'Smart Contract Platform']",https://github.com/nearprotocol/near-wallet
+Near,"['Near Protocol Ecosystem', 'Smart Contract Platform']",https://github.com/nearprotocol/nearlib
+Near,"['Near Protocol Ecosystem', 'Smart Contract Platform']",https://github.com/nearprotocol/nearcore
+Bitcoin Cash,['Cryptocurrency'],https://github.com/gcash/bchd
+Bitcoin Cash,['Cryptocurrency'],https://github.com/k-nuth/kth
+Bitcoin Cash,['Cryptocurrency'],https://github.com/softwareverde/bitcoin-verde
+Uniswap,"['Arbitrum Ecosystem', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'xDAI Ecosystem', 'Automated Market Maker (AMM)', 'Exchange-based Tokens', 'Governance', 'Decentralized Exchange Token (DEX)', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+TRON,['Smart Contract Platform'],https://github.com/tronprotocol/java-tron
+TRON,['Smart Contract Platform'],https://github.com/tronprotocol/grpc-gateway
+TRON,['Smart Contract Platform'],https://github.com/tronprotocol/protocol
+TRON,['Smart Contract Platform'],https://github.com/tronprotocol/tron-contracts
+TRON,['Smart Contract Platform'],https://github.com/tronprotocol/wallet-cli
+OKB,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Stellar,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/stellar/stellar-core
+Stellar,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/stellar/js-stellar-sdk
+Stellar,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/stellar/go
+Stellar,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/stellar/stellar-protocol
+Fantom,"['Fantom Ecosystem', 'Infrastructure', 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/Fantom-foundation/go-lachesis
+Internet Computer,['Smart Contract Platform'],https://github.com/dfinity/candid
+Internet Computer,['Smart Contract Platform'],https://github.com/dfinity/agent-rs
+Internet Computer,['Smart Contract Platform'],https://github.com/dfinity/cdk-rs
+Lido Staked Ether,"['Eth 2.0 Staking', 'Decentralized Finance (DeFi)']",https://github.com/lidofinance
+VeChain,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Business Platform', 'Smart Contract Platform']",https://github.com/vechain/thor
+VeChain,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Business Platform', 'Smart Contract Platform']",https://github.com/vechain/web3-gear
+VeChain,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Business Platform', 'Smart Contract Platform']",https://github.com/vechain/thor-devkit.js
+VeChain,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Business Platform', 'Smart Contract Platform']",https://github.com/vechain/thorify
+Axie Infinity,"['Axie Infinity', 'Metaverse', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Hedera,['Protocol'],https://github.com/hashgraph
+Hedera,['Protocol'],https://github.com/hashgraph/hashgraph.github.io
+FTX Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+cETH,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Compound Tokens', 'Asset-backed Tokens']",https://github.com/compound-finance/compound-protocol
+Magic Internet Money,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Meme Tokens', 'Arbitrum Ecosystem', None, 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/Abracadabra-money/magic-internet-money
+Filecoin,"['Infrastructure', 'Storage']",https://github.com/filecoin-project/
+The Sandbox,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Theta Network,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/thetatoken/theta-protocol-ledger
+Theta Network,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/thetatoken/theta-infrastructure-vault
+Theta Network,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/thetatoken/theta-infrastructure-ledger-explorer
+Theta Network,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/thetatoken/theta-protocol-delivery-lib
+Elrond,"['Protocol', 'Smart Contract Platform']",https://github.com/ElrondNetwork/elrond-go
+Elrond,"['Protocol', 'Smart Contract Platform']",https://github.com/ElrondNetwork/elrond-ide-vscode
+Elrond,"['Protocol', 'Smart Contract Platform']",https://github.com/ElrondNetwork/elrond-sdk
+Elrond,"['Protocol', 'Smart Contract Platform']",https://github.com/ElrondNetwork/elrond-proxy-go
+Elrond,"['Protocol', 'Smart Contract Platform']",https://github.com/ElrondNetwork/arwen-wasm-vm
+Decentraland,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/decentraland/marketplace
+Decentraland,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/decentraland/cli
+Decentraland,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/decentraland/land-auction
+Decentraland,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/decentraland/mana
+Decentraland,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/decentraland/decentraland-dapps
+Ethereum Classic,['Smart Contract Platform'],https://github.com/ethereumclassic
+Ethereum Classic,['Smart Contract Platform'],https://github.com/multi-geth/multi-geth
+Ethereum Classic,['Smart Contract Platform'],https://github.com/openethereum/openethereum
+Ethereum Classic,['Smart Contract Platform'],https://github.com/hyperledger/besu
+Ethereum Classic,['Smart Contract Platform'],https://github.com/etclabscore/core-geth
+Ethereum Classic,['Smart Contract Platform'],https://github.com/ethereumclassic/ECIPs
+Harmony,"['Harmony Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/harmony-one/harmony
+Harmony,"['Harmony Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/harmony-one/libunison
+Tezos,['Smart Contract Platform'],
+Klaytn,[],https://github.com/klaytn/klaytn
+Monero,['Privacy Coins'],https://github.com/monero-project/monero
+Monero,['Privacy Coins'],https://github.com/monero-project/monero-gui
+Monero,['Privacy Coins'],https://github.com/monero-project/kastelo
+Helium,"['Internet of Things (IOT)', 'Communication']",https://github.com/helium/erlang-hbbft
+LEO Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+cDAI,"['Decentralized Finance (DeFi)', 'Compound Tokens', 'Asset-backed Tokens']",
+The Graph,"['Avalanche Ecosystem', 'xDAI Ecosystem', 'Near Protocol Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Solana Ecosystem', 'Decentralized Finance (DeFi)', 'Infrastructure', 'Business Services', 'Analytics']",https://github.com/graphprotocol/graph-node
+The Graph,"['Avalanche Ecosystem', 'xDAI Ecosystem', 'Near Protocol Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Solana Ecosystem', 'Decentralized Finance (DeFi)', 'Infrastructure', 'Business Services', 'Analytics']",https://github.com/graphprotocol/graph-ts
+The Graph,"['Avalanche Ecosystem', 'xDAI Ecosystem', 'Near Protocol Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Solana Ecosystem', 'Decentralized Finance (DeFi)', 'Infrastructure', 'Business Services', 'Analytics']",https://github.com/graphprotocol/graph-cli
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/firefly
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/hornet
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/bee
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/chronicle.rs
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/iota.go
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/stronghold.rs
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/iota.rs
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/iota.c
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/documentation
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/iota.js
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/goshimmer
+IOTA,"['Internet of Things (IOT)', 'Smart Contract Platform']",https://github.com/iotaledger/streams
+cUSDC,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Compound Tokens', 'Asset-backed Tokens']",https://github.com/compound-finance/compound-protocol
+Aave,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Lending/Borrowing', 'Governance', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/aave/aave-protocol
+EOS,['Smart Contract Platform'],https://github.com/EOSIO/eos
+EOS,['Smart Contract Platform'],https://github.com/EOSIO/eosjs
+EOS,['Smart Contract Platform'],https://github.com/EOSIO/eosio.cdt
+PancakeSwap,"['Governance', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)', 'Exchange-based Tokens', 'Binance Smart Chain Ecosystem']",https://github.com/pancakeswap
+Flow,"['Non-Fungible Tokens (NFT)', 'Sports']",https://github.com/onflow
+Gala,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Arweave,['Storage'],https://github.com/ArweaveTeam/arweave
+Quant,['Protocol'],https://github.com/quantnetwork/Overledger-Interfaces
+Quant,['Protocol'],https://github.com/quantnetwork/eth-contract-metadata
+BitTorrent,"['Protocol', 'Binance Smart Chain Ecosystem', 'Storage']",https://github.com/bittorrent/bittorrent.org
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/blockstack
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/stacks-wallet-web
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/explorer
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/stacks-wallet
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/stacks.js
+Stacks,"['Infrastructure', 'Smart Contract Platform']",https://github.com/blockstack/stacks-blockchain
+Enjin Coin,"['Metaverse', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/enjin/erc-1155
+Kusama,['Polkadot Ecosystem'],https://github.com/kusamanetwork/kusama.network
+Osmosis,"['Cosmos Ecosystem', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)']",https://github.com/osmosis-labs/osmosis
+Amp,"['Decentralized Finance (DeFi)', 'Governance']",https://github.com/amptoken
+Olympus,"['Rebase Tokens', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/OlympusDAO
+Radix,['Smart Contract Platform'],https://github.com/radixdlt
+Bitcoin SV,[],https://github.com/bitcoin-sv/bitcoin-sv
+Loopring,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Loopring/protocols
+Loopring,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Loopring/lightcone
+Loopring,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Loopring/loopr
+Loopring,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Loopring/protocol2
+Loopring,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Loopring/relay
+THORChain,"['Cosmos Ecosystem', 'Decentralized Exchange Token (DEX)', 'Infrastructure', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/thorchain/THORChain
+THORChain,"['Cosmos Ecosystem', 'Decentralized Exchange Token (DEX)', 'Infrastructure', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/thorchain/instaswap-sdk
+Frax,"['Binance Smart Chain Ecosystem', None, 'USD Stablecoin', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'Decentralized Finance (DeFi)', 'Stablecoins', 'Seigniorage']",https://github.com/fraxfinance/frax-solidity
+Maker,"['Lending/Borrowing', 'Avalanche Ecosystem', 'Near Protocol Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/makerdao/dai.js
+eCash,[],https://github.com/bitcoin-abc
+Curve DAO Token,"['Arbitrum Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Exchange-based Tokens', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Decentralized Finance (DeFi)']",https://github.com/curvefi/curve-contract
+Curve DAO Token,"['Arbitrum Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Exchange-based Tokens', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Decentralized Finance (DeFi)']",https://github.com/curvefi/curve-vue
+Theta Fuel,[],https://github.com/thetatoken/theta-protocol-ledger
+Celo,['Celo Ecosystem'],https://github.com/celo-org/celo-blockchain
+Celo,['Celo Ecosystem'],https://github.com/celo-org/celo-monorepo
+Convex Finance,"['Yield Aggregator', 'Decentralized Finance (DeFi)']",https://github.com/convex-eth/platform
+Zcash,['Privacy Coins'],https://github.com/zcash/zcash
+Zcash,['Privacy Coins'],https://github.com/zcash/librustzcash
+Huobi BTC,['Tokenized BTC'],
+NEO,['Smart Contract Platform'],https://github.com/neo-project/neo
+NEO,['Smart Contract Platform'],https://github.com/neo-project/neo-cli
+NEO,['Smart Contract Platform'],https://github.com/neo-project/neo-gui
+NEO,['Smart Contract Platform'],https://github.com/CityOfZion/neon-js
+NEO,['Smart Contract Platform'],https://github.com/CityOfZion/neo-python
+Basic Attention Token,[],https://github.com/brave-intl/publishers
+Basic Attention Token,[],https://github.com/brave-intl/bat-native-ledger
+Basic Attention Token,[],https://github.com/brave-intl/bat-ledger
+Kadena,"['Cosmos Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/kadena-io/chainweb-node
+Kadena,"['Cosmos Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/kadena-io/pact
+Kadena,"['Cosmos Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/kadena-io/chainweaver
+KuCoin Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashpay/dash
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/DashJS
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/dapi-client
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/js-machine
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/js-dpp
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/dashj
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashevo/dapi
+Dash,"['Cryptocurrency', 'Masternodes']",https://github.com/dashpay/dash-network-deploy
+Frax Share,"['Seigniorage', 'Avalanche Ecosystem', 'Olympus Pro', 'Decentralized Finance (DeFi)']",https://github.com/fraxfinance/frax-solidity
+Huobi Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Celsius Network,"['Lending/Borrowing', 'Business Services']",
+Chiliz,"['Non-Fungible Tokens (NFT)', 'Sports']",
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/wavesplatform/
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/waves-enterprise/WE-releases
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/wavesplatform/WavesWallet-iOS
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/wavesplatform/WavesCS
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/wavesplatform/WavesGUI
+Waves,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/wavesplatform/Waves
+Sushi,"['Arbitrum Ecosystem', None, 'Solana Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Yearn Ecosystem', 'Automated Market Maker (AMM)', 'Governance', 'Exchange-based Tokens', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Yield Farming']",
+TrueUSD,"['Avalanche Ecosystem', 'USD Stablecoin', 'Stablecoins']",https://github.com/trusttoken/trueUSD
+ECOMI,"['Collectibles', 'Non-Fungible Tokens (NFT)']",https://github.com/Ecomi-Ecosystem/tge-contract
+Oasis Network,"['Cosmos Ecosystem', 'Smart Contract Platform']",https://github.com/oasislabs
+DeFi Kingdoms,"['Exchange-based Tokens', 'Governance', 'Decentralized Exchange Token (DEX)', 'Gaming', 'Play To Earn', 'Decentralized Finance (DeFi)', 'Automated Market Maker (AMM)', 'Metaverse', 'Harmony Ecosystem']",https://github.com/DefiKingdoms
+Compound,"['Lending/Borrowing', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/compound-finance/compound-protocol
+yearn.finance,"['Yearn Ecosystem', 'Avalanche Ecosystem', 'Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/iearn-finance/ygov-finance
+yearn.finance,"['Yearn Ecosystem', 'Avalanche Ecosystem', 'Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/iearn-finance/itoken
+yearn.finance,"['Yearn Ecosystem', 'Avalanche Ecosystem', 'Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/iearn-finance/iearn-finance
+yearn.finance,"['Yearn Ecosystem', 'Avalanche Ecosystem', 'Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/iearn-finance/yswap-finance
+Spell Token,"['Avalanche Ecosystem', 'Meme Tokens', 'Olympus Pro', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+Mina Protocol,[],https://github.com/MinaProtocol/mina
+NEXO,['Finance / Banking'],https://github.com/nexofinance/NEXO-Token/
+Holo,"['Storage', 'Smart Contract Platform']",https://github.com/holochain/holochain-rust
+Holo,"['Storage', 'Smart Contract Platform']",https://github.com/Holo-Host/holo-nixpkgs
+Holo,"['Storage', 'Smart Contract Platform']",https://github.com/Holochain/holochain-proto
+Holo,"['Storage', 'Smart Contract Platform']",https://github.com/holochain/holosqape
+Holo,"['Storage', 'Smart Contract Platform']",https://github.com/holochain/holochain-ui
+SafeMoon [OLD],['Binance Smart Chain Ecosystem'],https://github.com/safemoonprotocol/Safemoon.sol
+Ravencoin,['Cryptocurrency'],https://github.com/RavenProject/Ravencoin
+Synthetix Network Token,"['Synthetic Issuer', 'Derivatives', 'Governance', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)', 'Exchange-based Tokens']",https://github.com/Synthetixio/synthetix
+Synthetix Network Token,"['Synthetic Issuer', 'Derivatives', 'Governance', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)', 'Exchange-based Tokens']",https://github.com/Synthetixio/synthetix-js
+NEM,[],https://github.com/nemtech/nem2-sdk-typescript-javascript
+NEM,[],https://github.com/nemtech/nem2-workshop-nem-applied-to-supply-chain
+NEM,[],https://github.com/nemtech/nem2-cli
+NEM,[],https://github.com/nemtech/nem2-scenarios
+Pax Dollar,"['USD Stablecoin', 'Stablecoins']",https://github.com/paxosglobal/pax-contracts
+XDC Network,"['Finance / Banking', 'Smart Contract Platform']",https://github.com/XinFinOrg/XDPoSChain
+XDC Network,"['Finance / Banking', 'Smart Contract Platform']",https://github.com/xinfinorg/XinFin-Node
+Marinade staked SOL,['Solana Ecosystem'],https://github.com/marinade-finance/
+IoTeX,"['Internet of Things (IOT)', 'Polygon Ecosystem', 'Business Platform', None]",https://github.com/iotexproject/iotex-core
+GateToken,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+1inch,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Number', 'Binance Smart Chain Ecosystem', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)', 'Exchange-based Tokens']",https://github.com/1inch-exchange/1inch-token
+Secret,"['Cosmos Ecosystem', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/scrtlabs/SecretNetwork
+Bitkub Coin,[],https://github.com/bitkubchain/
+Livepeer,[],https://github.com/livepeer/livepeerjs
+Livepeer,[],https://github.com/livepeer/go-livepeer
+Livepeer,[],https://github.com/livepeer/protocol
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/safe-contracts/
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/conditional-tokens-explorer
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/conditional-tokens-market-makers
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/gp-v2-contracts
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/safe-react/
+Gnosis,"['Prediction Markets', 'Decentralized Exchange Token (DEX)', 'MEV Protection', 'Arbitrum Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/gnosis/gnosis.js
+Zilliqa,"[None, 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/Zilliqa/Zilliqa
+Zilliqa,"[None, 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/Zilliqa/Zilliqa-JavaScript-Library
+Zilliqa,"[None, 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/Zilliqa/Zilliqa-Wallet
+Zilliqa,"[None, 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/Zilliqa/scilla
+cUSDT,"['Finance / Banking', 'Compound Tokens', 'Asset-backed Tokens']",
+LINK,"['Centralized Exchange Token (CEX)', 'Cryptocurrency', 'Smart Contract Platform', 'Exchange-based Tokens']",
+e-Radix,[],https://github.com/radixdlt
+WOO Network,"['Centralized Exchange Token (CEX)', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Exchange-based Tokens']",
+Liquity USD,"['USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/liquity/dev
+Bancor Network Token,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/bancorprotocol/contracts
+Bancor Network Token,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/bancorprotocol/contracts_eos
+Qtum,['Smart Contract Platform'],https://github.com/qtumproject/qtum
+Qtum,['Smart Contract Platform'],https://github.com/qtumproject/qtum-electrum
+Qtum,['Smart Contract Platform'],https://github.com/qtumproject/qtumjs
+Qtum,['Smart Contract Platform'],https://github.com/qtumproject/qtum-web-wallet
+Qtum,['Smart Contract Platform'],https://github.com/qtumproject/libqtum
+Convex CRV,"['Yield Farming', 'Asset-backed Tokens']",https://github.com/convex-eth/platform
+WAX,"['Play To Earn', 'Protocol', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/worldwide-asset-exchange
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/dcrd
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/dcrandroid
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/politeiagui
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/decrediton
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/dcrwallet
+Decred,"['Cryptocurrency', 'Governance', 'Privacy Coins']",https://github.com/decred/dcrdata
+Velas,"['Solana Ecosystem', 'Smart Contract Platform']",https://github.com/velas
+OMG Network,['Smart Contract Platform'],https://github.com/omgnetwork/plasma-contracts
+OMG Network,['Smart Contract Platform'],https://github.com/omgnetwork/elixir-omg
+APENFT,[],
+Decentralized Social,['Cryptocurrency'],https://github.com/deso-protocol
+Ankr,"['Cosmos Ecosystem', 'Eth 2.0 Staking', 'Celo Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Technology & Science']",https://github.com/Ankr-network/dccn-common
+Ankr,"['Cosmos Ecosystem', 'Eth 2.0 Staking', 'Celo Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Technology & Science']",https://github.com/Ankr-network/dccn-hub
+Ankr,"['Cosmos Ecosystem', 'Eth 2.0 Staking', 'Celo Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Technology & Science']",https://github.com/Ankr-network/dccn-cli
+Ankr,"['Cosmos Ecosystem', 'Eth 2.0 Staking', 'Celo Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Technology & Science']",https://github.com/Ankr-network/dccn-daemon
+Ankr,"['Cosmos Ecosystem', 'Eth 2.0 Staking', 'Celo Ecosystem', 'xDAI Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Technology & Science']",https://github.com/Ankr-network/dccn-ui
+Fei USD,"['Decentralized Finance (DeFi)', 'Stablecoins', 'Asset-backed Tokens']",
+renBTC,"['Wrapped-Tokens', 'Tokenized BTC', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/renproject/ren-js
+Dogelon Mars,"['Polygon Ecosystem', 'Meme Tokens']",
+Nexus Mutual,"['Insurance', 'Decentralized Finance (DeFi)']",
+ICON,['Smart Contract Platform'],https://github.com/icon-project/loopchain
+ICON,['Smart Contract Platform'],https://github.com/icon-project/icon_sdk_for_python
+ICON,['Smart Contract Platform'],https://github.com/icon-project/icon-service
+ICON,['Smart Contract Platform'],https://github.com/icon-project/icon-sdk-js
+ICON,['Smart Contract Platform'],https://github.com/icon-project/iconex_android
+Audius,"['Solana Ecosystem', 'Music', 'Non-Fungible Tokens (NFT)']",https://github.com/AudiusProject
+Immutable X,[],
+OEC Token,"['Cosmos Ecosystem', None]",
+Siacoin,"['Near Protocol Ecosystem', 'Storage']",https://github.com/SiaFoundation/siad
+Siacoin,"['Near Protocol Ecosystem', 'Storage']",https://github.com/SkynetLabs/skynet-webportal
+Siacoin,"['Near Protocol Ecosystem', 'Storage']",https://github.com/NebulousLabs/Sia
+IOST,[],https://github.com/iost-official/go-iost
+IOST,[],https://github.com/iost-official/explorer
+IOST,[],https://github.com/iost-official/iost-webapp
+Kava,"['Cosmos Ecosystem', 'Lending/Borrowing', 'Finance / Banking', 'Decentralized Finance (DeFi)']",https://github.com/Kava-Labs/kava
+Kava,"['Cosmos Ecosystem', 'Lending/Borrowing', 'Finance / Banking', 'Decentralized Finance (DeFi)']",https://github.com/Kava-Labs/kava-devnet
+Rally,"['Yield Farming', 'Social Money']",
+Horizen,"['Masternodes', 'Privacy Coins']",https://github.com/HorizenOfficial
+Horizen,"['Masternodes', 'Privacy Coins']",https://github.com/HorizenOfficial/ginger-lib
+Horizen,"['Masternodes', 'Privacy Coins']",https://github.com/HorizenOfficial/HorizenAcademy
+Horizen,"['Masternodes', 'Privacy Coins']",https://github.com/HorizenOfficial/Sidechains-SDK
+Horizen,"['Masternodes', 'Privacy Coins']",https://github.com/HorizenOfficial/zen
+Bitcoin Gold,['Cryptocurrency'],https://github.com/BTCGPU/BTCGPU
+Flux,"['Cryptocurrency', 'Masternodes', 'Privacy Coins']",https://github.com/runonflux
+Ethereum Name Service,"['Non-Fungible Tokens (NFT)', 'Governance']",
+Telcoin,['Polygon Ecosystem'],https://github.com/telcoin/ico
+0x,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Protocol', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/0xProject/0x-monorepo
+0x,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Protocol', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/0xProject/ZEIPs
+0x,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Protocol', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/0xProject/0x-launch-kit
+0x,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Protocol', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/0xProject/0x-starter-project
+UMA,"['Oracle', 'Polygon Ecosystem', 'Synthetic Issuer', 'Derivatives', 'Governance', 'Decentralized Finance (DeFi)', 'Business Services', 'Finance / Banking']",https://github.com/UMAprotocol/protocol
+Redacted Cartel,['Rebase Tokens'],
+Baby Doge Coin,"['Meme Tokens', 'Binance Smart Chain Ecosystem']",
+Rocket Pool,"['Business Services', 'Infrastructure', 'Decentralized Finance (DeFi)']",https://github.com/rocket-pool/rocketpool
+Rocket Pool,"['Business Services', 'Infrastructure', 'Decentralized Finance (DeFi)']",https://github.com/rocket-pool/smartnode
+Nervos Network,[None],https://github.com/nervosnetwork/ckb
+Nervos Network,[None],https://github.com/nervosnetwork/ckb-vm
+Nervos Network,[None],https://github.com/nervosnetwork/rfcs
+Syscoin,['Masternodes'],https://github.com/syscoin/syscoin2
+Render Token,"['Metaverse', 'Polygon Ecosystem', 'Non-Fungible Tokens (NFT)']",
+SKALE,[],https://github.com/skalenetwork
+Perpetual Protocol,"['xDAI Ecosystem', 'Derivatives', 'Perpetuals', 'Automated Market Maker (AMM)', 'Exchange-based Tokens', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)']",
+JUNO,[],https://github.com/CosmosContracts
+SwissBorg,['Finance / Banking'],https://github.com/SwissBorg/sbci-token
+Ontology,"['Near Protocol Ecosystem', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/ontio/ontology
+Ontology,"['Near Protocol Ecosystem', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/ontio/ontology-python-sdk
+Ontology,"['Near Protocol Ecosystem', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/ontio/ontology-ts-sdk
+Ontology,"['Near Protocol Ecosystem', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/ontio/ontology-go-sdk
+Neutrino USD,"['Protocol', 'USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/ventuary-lab/neutrino-contract
+Anchor Protocol,"['Cosmos Ecosystem', 'Lending/Borrowing', 'Terra Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/Anchor-Protocol
+Metahero,['Binance Smart Chain Ecosystem'],https://github.com/metahero-io
+Wonderland,"['Avalanche Ecosystem', None, 'Rebase Tokens', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/Abracadabra-money/wonderland-frontend
+dYdX,"['Perpetuals', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/dydxprotocol
+Smooth Love Potion,"['Axie Infinity', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Hive,[],https://github.com/openhive-network/hive
+Illuvium,"['Metaverse', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/IlluviumGame
+Constellation,[],https://github.com/Constellation-Labs/constellation
+xSUSHI,"['Yearn Ecosystem', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Governance']",
+Tokemak,"['Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",
+ConstitutionDAO,[],
+Synapse,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Olympus Pro', 'Binance Smart Chain Ecosystem']",
+WazirX,['Exchange-based Tokens'],https://github.com/WazirX/wazirx-api
+Dopex,"['Arbitrum Ecosystem', 'Options', 'Decentralized Finance (DeFi)']",https://github.com/dopex-io
+Coin98,"['Solana Ecosystem', 'Wallets', 'Celo Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/coin98
+REN,"['Solana Ecosystem', 'Polygon Ecosystem', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/renproject/renproject.io
+PLEX,[],https://github.com/mineplexio
+FLEX Coin,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Moonriver,"[None, 'Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/PureStake/moonbeam/
+Mask Network,['Polygon Ecosystem'],https://github.com/DimensionDev
+Polymath,['Finance / Banking'],https://github.com/PolymathNetwork/polymath-core
+Polymath,['Finance / Banking'],https://github.com/PolymathNetwork/polymath-issuer
+Polymath,['Finance / Banking'],https://github.com/PolymathNetwork/polymath-offchain
+Polymath,['Finance / Banking'],https://github.com/PolymathNetwork/polymath-ui
+Polymath,['Finance / Banking'],https://github.com/PolymathNetwork/polymath-apps
+Tomb Shares,"['Fantom Ecosystem', 'Governance']",
+Boba Network,['Smart Contract Platform'],https://github.com/omgnetwork
+Raydium,"['Solana Ecosystem', 'Decentralized Exchange Token (DEX)', 'Launchpad', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/DGBio
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/insight-api
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/digibytewallet-android
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/digibytewallet-ios
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/digibytewallet-core
+DigiByte,"['Internet of Things (IOT)', 'Artificial Intelligence', 'Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/DigiByte-Core/digibyte
+UFO Gaming,"['Metaverse', 'Launchpad', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Golem,"['Polygon Ecosystem', 'Business Platform']",https://github.com/golemfactory/golem
+Golem,"['Polygon Ecosystem', 'Business Platform']",https://github.com/golemfactory/golem-unlimited
+Golem,"['Polygon Ecosystem', 'Business Platform']",https://github.com/golemfactory/golem-messages
+Golem,"['Polygon Ecosystem', 'Business Platform']",https://github.com/golemfactory/concent-deployment
+Golem,"['Polygon Ecosystem', 'Business Platform']",https://github.com/golemfactory/golem-electron
+NuCypher,"['Protocol', 'Privacy Coins']",https://github.com/nucypher/
+Mobox,"['Metaverse', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Nano,['Cryptocurrency'],https://github.com/nanocurrency/raiblocks
+Serum,"['Solana Ecosystem', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Chromia,['Smart Contract Platform'],
+Tether Gold,"['Tokenized Gold', 'Stablecoins', 'Asset-backed Tokens']",
+Yield Guild Games,"['Metaverse', 'Collectibles', 'Play To Earn', 'Non-Fungible Tokens (NFT)', None, 'Gaming']",
+Tribe,"['Decentralized Finance (DeFi)', 'Governance']",https://github.com/fei-protocol/fei-protocol-core
+Celer Network,[],https://github.com/celer-network
+Keep3rV1,"['Yearn Ecosystem', 'Number', 'Olympus Pro', 'Infrastructure', 'Decentralized Finance (DeFi)']",
+WINkLink,['Oracle'],
+OriginTrail,"['Polkadot Ecosystem', 'xDAI Ecosystem']",https://github.com/OriginTrail/ot-node
+XYO Network,[],https://github.com/XYOracleNetwork/xyo-solidity
+PlayDapp,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)']",https://github.com/playdapp
+JUST,['Decentralized Finance (DeFi)'],
+Casper Network,['Smart Contract Platform'],https://github.com/casper-ecosystem
+Casper Network,['Smart Contract Platform'],https://github.com/casper-network
+Keep Network,"['Protocol', 'Decentralized Finance (DeFi)', 'Privacy Coins']",https://github.com/keep-network/keep-core
+Keep Network,"['Protocol', 'Decentralized Finance (DeFi)', 'Privacy Coins']",https://github.com/keep-network/tbtc
+Keep Network,"['Protocol', 'Decentralized Finance (DeFi)', 'Privacy Coins']",https://github.com/keep-network/keep-ecdsa
+Cratos,['Binance Smart Chain Ecosystem'],
+Metis Token,['Binance Smart Chain Ecosystem'],https://github.com/MetisProtocol
+Everscale,[],https://github.com/tonlabs
+Function X,[],https://github.com/functionx
+JasmyCoin,[],https://github.com/TokyoToken/JasmyCoin
+Ultra,"['Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Aragon,"['Cosmos Ecosystem', 'Software', 'Governance']",https://github.com/aragon/aragon-core
+Persistence,['Cosmos Ecosystem'],https://github.com/persistenceOne/persistenceCore
+Phantasma,"['Binance Smart Chain Ecosystem', 'Yield Farming', 'Play To Earn', 'Metaverse', 'Gaming', 'Storage', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Smart Contract Platform']",https://github.com/phantasma-io/PhantasmaChain
+Phantasma,"['Binance Smart Chain Ecosystem', 'Yield Farming', 'Play To Earn', 'Metaverse', 'Gaming', 'Storage', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Smart Contract Platform']",https://github.com/phantasma-io/PhantasmaSDK
+Phantasma,"['Binance Smart Chain Ecosystem', 'Yield Farming', 'Play To Earn', 'Metaverse', 'Gaming', 'Storage', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Smart Contract Platform']",https://github.com/phantasma-io/PhantasmaMail
+Phantasma,"['Binance Smart Chain Ecosystem', 'Yield Farming', 'Play To Earn', 'Metaverse', 'Gaming', 'Storage', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Smart Contract Platform']",https://github.com/phantasma-io/PhantasmaSpook
+Phantasma,"['Binance Smart Chain Ecosystem', 'Yield Farming', 'Play To Earn', 'Metaverse', 'Gaming', 'Storage', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Smart Contract Platform']",https://github.com/phantasma-io/PhantasmaWallet
+Victoria VR,['Metaverse'],
+Hathor,[],https://github.com/HathorNetwork/
+Tomb,"['Seigniorage', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Fantom Ecosystem']",
+Merit Circle,"['Metaverse', 'Play To Earn', 'Binance Smart Chain Ecosystem', 'Governance', None, 'Gaming']",https://github.com/Merit-Circle
+Reserve Rights Token,['Decentralized Finance (DeFi)'],https://github.com/reserve-protocol/rsr
+Fetch.ai,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",https://github.com/fetchai/fetchd
+Fetch.ai,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",https://github.com/fetchai/cosmos-sdk
+Fetch.ai,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",https://github.com/fetchai/cosmos-explorer
+Fetch.ai,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",https://github.com/fetchai/agents-aea
+Fetch.ai,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",https://github.com/fetchai/ledger
+Vader Protocol,[],https://github.com/vetherasset/vader-protocol-v2
+HUSD,"['USD Stablecoin', 'Stablecoins']",https://github.com/stcoins/HUSD
+Anyswap,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Automated Market Maker (AMM)', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/anyswap
+Ocean Protocol,"['Polygon Ecosystem', 'Protocol', 'Storage', 'Polkadot Ecosystem']",https://github.com/oceanprotocol/ocean
+Ocean Protocol,"['Polygon Ecosystem', 'Protocol', 'Storage', 'Polkadot Ecosystem']",https://github.com/oceanprotocol/squid-js
+Ocean Protocol,"['Polygon Ecosystem', 'Protocol', 'Storage', 'Polkadot Ecosystem']",https://github.com/oceanprotocol/keeper-contracts
+Ocean Protocol,"['Polygon Ecosystem', 'Protocol', 'Storage', 'Polkadot Ecosystem']",https://github.com/oceanprotocol/pleuston
+Energy Web Token,"['Energy', 'Polkadot Ecosystem']",
+PAX Gold,"['Tokenized Gold', 'Asset-backed Tokens']",https://github.com/paxosglobal/paxos-gold-contract
+Sapphire,['Business Services'],https://github.com/sappcoin-com/SAPP
+Sapphire,['Business Services'],https://github.com/SapphireCoreCoin/SAPP
+Dent,[],
+Lisk,['Smart Contract Platform'],https://github.com/LiskHQ/lisk-sdk
+Lisk,['Smart Contract Platform'],https://github.com/LiskHQ/lisk-core
+Lisk,['Smart Contract Platform'],https://github.com/LiskHQ/lisk-desktop
+Lisk,['Smart Contract Platform'],https://github.com/LiskHQ/lisk-mobile
+DAO Maker,"['Launchpad', 'DaoMaker Ecosystem', 'Binance Smart Chain Ecosystem', 'Governance']",https://github.com/daomaker
+SuperFarm,"['Polygon Ecosystem', 'Collectibles', 'Non-Fungible Tokens (NFT)']",
+Veritaseum,[],https://github.com/veritaseum/Veritaseum
+Injective Protocol,"['Polygon Ecosystem', 'Derivatives', 'Binance Smart Chain Ecosystem', 'Perpetuals', 'Decentralized Finance (DeFi)', 'Cosmos Ecosystem', 'Exchange-based Tokens', 'Decentralized Exchange Token (DEX)']",
+Swipe,"['Finance / Banking', 'Binance Smart Chain Ecosystem']",https://github.com/SwipeWallet/Wallet-Contract
+Cartesi,"['Infrastructure', 'Smart Contract Platform']",https://github.com/cartesi/machine-emulator
+Cartesi,"['Infrastructure', 'Smart Contract Platform']",https://github.com/cartesi/arbitration-dlib
+Cartesi,"['Infrastructure', 'Smart Contract Platform']",https://github.com/cartesi/machine-solidity-step
+COTI,[None],https://github.com/coti-io
+DigitalBits,['Cryptocurrency'],https://github.com/DigitalBitsOrg/datadog-digitalbits-core
+Alchemix USD,"['USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/alchemix-finance
+Akash Network,"['Cosmos Ecosystem', 'Solana Ecosystem']",https://github.com/ovrclk/akash
+Ion,['Cosmos Ecosystem'],
+Alchemix,"['Lending/Borrowing', 'Olympus Pro', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/alchemix-finance
+Origin Dollar,"['USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://www.github.com/originprotocol/origin-dollar
+StarLink,"['Metaverse', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Medibloc,['Cosmos Ecosystem'],https://github.com/Medibloc/crowdsale
+Biconomy,[],https://github.com/bcnmy
+Mdex,['HECO Chain Ecosystem'],https://github.com/mdexSwap
+Zipmex Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/zipmex
+Power Cash,['Binance Smart Chain Ecosystem'],https://github.com/Power-Cash/
+DUSK Network,"['Smart Contract Platform', 'Privacy Coins']",https://github.com/dusk-network/dusk-blockchain
+DUSK Network,"['Smart Contract Platform', 'Privacy Coins']",https://github.com/dusk-network/dusk-zerocaf
+Rari Governance Token,"['Yield Aggregator', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/Rari-Capital
+Zenon,"['Infrastructure', 'Binance Smart Chain Ecosystem']",https://github.com/zenonnetwork/zenon
+Mirror Protocol,"['Cosmos Ecosystem', 'Derivatives', 'Synthetic Issuer', 'Terra Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/Mirror-Protocol/terra-web-app
+Chia,['Smart Contract Platform'],https://github.com/Chia-Network
+Reef Finance,[],https://github.com/reef-defi
+Tenset,[],https://github.com/TensetIO/tenset
+Interest Bearing Bitcoin,[],https://github.com/defidollar/ibBTC
+VeThor Token,[],https://github.com/vechain/thor
+TitanSwap,[],https://github.com/titanSwap
+Conflux,[],https://github.com/Conflux-Chain/
+GMX,"['Derivatives', 'Perpetuals', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/xvi10/gambit-contracts
+Alpha Finance,"['Binance Launchpool', 'Yield Aggregator', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/AlphaFinanceLab/alphahomora
+Alpha Finance,"['Binance Launchpool', 'Yield Aggregator', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/AlphaFinanceLab/alpha-lending-smart-contract
+Klima DAO,"['Polygon Ecosystem', None, 'Rebase Tokens']",
+Status,['Software'],https://github.com/status-im/status-react
+Status,['Software'],https://github.com/status-im/status-go
+Status,['Software'],https://github.com/status-im/swarms
+Status,['Software'],https://github.com/status-im/react-native-desktop
+Status,['Software'],https://github.com/status-im/status.im
+Radicle,['Infrastructure'],https://github.com/radicle-dev
+Request,"['Business Services', 'xDAI Ecosystem']",https://github.com/RequestNetwork/Request_SmartContracts
+Verge,['Privacy Coins'],https://github.com/vergecurrency/verge
+PlatON Network,[],https://github.com/PlatONnetwork/PlatON-Go
+Pundi X,[],
+LUKSO Token,['Non-Fungible Tokens (NFT)'],https://github.com/lukso-network
+Vulcan Forged,"['Metaverse', 'Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+MiL.k Alliance,[],
+Bitcoin Diamond,['Cryptocurrency'],https://github.com/eveybcd/BitcoinDiamond
+AscendEx Token,"['Centralized Exchange Token (CEX)', 'Polygon Ecosystem', 'Exchange-based Tokens']",
+Alchemy Pay,[],
+CoinEx Token,"['Decentralized Exchange Token (DEX)', 'Exchange-based Tokens']",https://github.com/coinexchain/dex-manual
+Trust Wallet Token,"['Wallets', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/trustwallet/wallet-core
+Dvision Network,[],https://github.com/Dvision-Network
+Storj,['Storage'],https://github.com/storj/storj
+Escoin Token,[],https://github.com/escoin-ico
+Orbs,['Infrastructure'],https://github.com/orbs-network/nebula
+Power Ledger,['Energy'],
+inSure DeFi,"['Insurance', 'Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/inSureToken/SmartContract/
+Pundi X [OLD],[],
+Civic,"['Solana Ecosystem', 'Software']",
+Origin Protocol,"['Business Platform', 'Non-Fungible Tokens (NFT)']",https://github.com/OriginProtocol/origin
+Origin Protocol,"['Business Platform', 'Non-Fungible Tokens (NFT)']",https://github.com/OriginProtocol/dshop
+Origin Protocol,"['Business Platform', 'Non-Fungible Tokens (NFT)']",https://github.com/OriginProtocol/origin-dollar
+Alien Worlds,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+DODO,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Band Protocol,"['Cosmos Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Business Services', 'Decentralized Finance (DeFi)', 'Oracle']",https://github.com/bandprotocol/bandchain
+RMRK,"['Metaverse', 'Non-Fungible Tokens (NFT)', 'Polkadot Ecosystem']",https://github.com/rmrk-team/rmrk-spec
+Ardor,"['Infrastructure', 'Smart Contract Platform']",
+Railgun,[],https://github.com/Railgun-Privacy/
+JOE,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/traderjoe-xyz
+XSGD,[None],https://github.com/Xfers/StraitsX-tokens/tree/master/Ethereum
+Sun Token,[],
+Unibright,['Infrastructure'],
+Xido Finance,[],https://github.com/xidofinance
+Circuits of Value,"['Wallets', 'Collectibles', 'Non-Fungible Tokens (NFT)', 'Decentralized Finance (DeFi)', 'Privacy Coins']",https://github.com/DecentricCorp/coval-exodos
+sETH,"['Synths', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Ergo,"['Cryptocurrency', 'Smart Contract Platform', 'Privacy Coins']",https://github.com/ergoplatform/ergo
+Euro Tether,"['EUR Stablecoin', 'Stablecoins']",
+NKN,['Communication'],https://github.com/nknorg/nkn-client-js
+NKN,['Communication'],https://github.com/nknorg/nkn
+NKN,['Communication'],https://github.com/nknorg/nkn-simulation
+iExec RLC,['Oracle'],https://github.com/iExecBlockchainComputing/iexec-sdk
+iExec RLC,['Oracle'],https://github.com/iExecBlockchainComputing/iexec-stack
+iExec RLC,['Oracle'],https://github.com/iExecBlockchainComputing/PoCo
+Tokamak Network,[],https://github.com/onther-tech
+Polkastarter,"['Launchpad', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",
+Balancer,"['Arbitrum Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Exchange-based Tokens', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)']",https://github.com/balancer-labs/balancer-core
+Balancer,"['Arbitrum Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Exchange-based Tokens', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)']",https://github.com/balancer-labs/balancer-exchange
+Balancer,"['Arbitrum Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Exchange-based Tokens', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)']",https://github.com/balancer-labs/pool-management
+Balancer,"['Arbitrum Ecosystem', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Governance', 'Exchange-based Tokens', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)']",https://github.com/balancer-labs/balancer-sor
+Qredo,[],https://github.com/qredo
+My Neighbor Alice,"['Metaverse', 'DaoMaker Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Lido Staked SOL,[],https://github.com/lidofinance
+Wilder World,"['Metaverse', 'Non-Fungible Tokens (NFT)', 'Governance']",
+KardiaChain,"['Infrastructure', 'Binance Smart Chain Ecosystem', 'Smart Contract Platform', None]",https://github.com/kardiachain/go-kardia
+Star Atlas,"['Metaverse', 'Solana Ecosystem', 'Gaming']",
+Bifrost,['Cryptocurrency'],
+Orchid Protocol,['xDAI Ecosystem'],https://github.com/OrchidTechnologies/orchid
+Regen,['Cosmos Ecosystem'],https://github.com/regen-network/
+Rome,"['Rebase Tokens', None, 'Gaming']",
+Mango,['Solana Ecosystem'],https://github.com/blockworks-foundation/mango
+Ark,['Cryptocurrency'],https://github.com/ArkEcosystem/core
+Ark,['Cryptocurrency'],https://github.com/ArkEcosystem/explorer
+Ark,['Cryptocurrency'],https://github.com/ArkEcosystem/mobile-wallet
+Ark,['Cryptocurrency'],https://github.com/ArkEcosystem/desktop-wallet
+Ark,['Cryptocurrency'],https://github.com/ArkEcosystem/deployer
+VVS Finance,[],
+Hxro,"['Derivatives', 'Solana Ecosystem', 'Entertainment', 'Options', 'Exchange-based Tokens']",
+Divi,['Masternodes'],https://github.com/Divicoin/Divicoin
+AllianceBlock,[],
+sBTC,"['Tokenized BTC', 'Synths', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Prometeus,['Binance Smart Chain Ecosystem'],
+Lido DAO,"['Infrastructure', 'Decentralized Finance (DeFi)']",https://github.com/lidofinance/lido-dao
+BakerySwap,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/BakeryProject
+KILT Protocol,['Polkadot Ecosystem'],https://github.com/KILTprotocol
+MX Token,"['Centralized Exchange Token (CEX)', 'Cryptocurrency', 'Exchange-based Tokens']",
+Stratis,['Smart Contract Platform'],https://github.com/stratisproject/StratisCore
+Stratis,['Smart Contract Platform'],https://github.com/stratisproject/Breeze
+Stratis,['Smart Contract Platform'],https://github.com/stratisproject/FederatedSidechains
+agEUR,['EUR Stablecoin'],https://github.com/AngleProtocol
+OpenDAO,[],
+Hector DAO,['Rebase Tokens'],https://github.com/HectorDAO-HEC
+aelf,['Infrastructure'],https://github.com/aelfProject/AElf
+aelf,['Infrastructure'],https://github.com/AElfProject/aelf-sdk.js
+aelf,['Infrastructure'],https://github.com/AElfProject/aelf-web-wallet
+Pirate Chain,['Privacy Coins'],https://github.com/PirateNetwork/pirate
+Pirate Chain,['Privacy Coins'],https://github.com/PirateNetwork/SevenSeas
+Pirate Chain,['Privacy Coins'],https://github.com/PirateNetwork/PirateOcean
+API3,"['Number', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Oracle', None]",https://github.com/api3dao/airnode
+API3,"['Number', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Oracle', None]",https://github.com/api3dao/api3-dao
+chrono.tech,['Business Services'],https://github.com/ChronoBank/SmartContracts
+StormX,[],
+Orion Protocol,"['DaoMaker Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/orionprotocol
+GXChain,['Big Data'],https://github.com/gxchain/gxb-core
+GXChain,['Big Data'],https://github.com/gxchain/gxclient-node
+GXChain,['Big Data'],https://github.com/gxchain/gxchain-explorer
+CoinMetro,['Exchange-based Tokens'],
+SingularityNET,['Artificial Intelligence'],https://github.com/singnet/singnet
+Gemini Dollar,"['USD Stablecoin', 'Stablecoins']",https://github.com/gemini/dollar
+Seedify.fund,"['Launchpad', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Numeraire,"['Business Services', 'Decentralized Finance (DeFi)']",https://github.com/erasureprotocol/erasure-protocol
+Numeraire,"['Business Services', 'Decentralized Finance (DeFi)']",https://github.com/numerai/numerapi-1
+Klever,[],https://github.com/klever-app
+Utrust,[],https://github.com/utrustdev/speedtracker
+Venus,"['Binance Launchpool', 'Lending/Borrowing', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/VenusProtocol/Venus-Protocol
+Gitcoin,[],
+Dawn Protocol,['Cosmos Ecosystem'],https://github.com/Dawn-Protocol/dawn-erc20-erc777
+Spookyswap,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Fantom Ecosystem', 'Olympus Pro', 'Automated Market Maker (AMM)']",
+BTC Standard Hashrate Token,"['Binance Launchpool', 'Binance Smart Chain Ecosystem']",https://github.com/Standard-Hashrate-Group/SmartContracts
+Popsicle Finance,"['Polygon Ecosystem', 'Fantom Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/Popsicle-Finance/
+Astroport,[],https://github.com/astroport-fi/astroport
+Bounce,"['Launchpad', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",
+Kyber Network Crystal,['Polygon Ecosystem'],https://github.com/kybernetwork/KyberWallet
+Steem,['Cryptocurrency'],https://github.com/steemit/steem
+Steem,['Cryptocurrency'],https://github.com/steemit/condenser
+Steem,['Cryptocurrency'],https://github.com/steemit/hivemind
+cUNI,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Compound Tokens', 'Asset-backed Tokens']",https://github.com/compound-finance/compound-protocol
+Ribbon Finance,"['Structured Products', 'Options', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/ribbon-finance
+MaidSafeCoin,['Storage'],https://github.com/maidsafe/safe_client_libs
+MaidSafeCoin,['Storage'],https://github.com/maidsafe/parsec
+MaidSafeCoin,['Storage'],https://github.com/maidsafe/safe_browser
+VelasPad,[],
+Sovryn,[],https://github.com/DistributedCollective/Sovryn-frontend
+TrueFi,"['Lending/Borrowing', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+Metadium,['Protocol'],https://github.com/METADIUM/go-metadium
+Ankr Reward-Bearing Staked ETH,['Eth 2.0 Staking'],https://github.com/Ankr-network/stkr-smartcontract-public
+Gains Farm,"['Derivatives', 'Perpetuals', 'Number', 'Polygon Ecosystem']",
+MXC,"['Internet of Things (IOT)', 'Polkadot Ecosystem']",https://github.com/mxc-foundation
+LIT,[],
+Fuse,"['Finance / Banking', 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/fuseio/fuse-network
+Swarm,['xDAI Ecosystem'],https://github.com/ethersphere
+Presearch,[],https://github.com/PresearchOfficial/PRE-Token
+Neos Credits,['Metaverse'],https://github.com/Neos-Metaverse/NeosPublic
+Biswap,['Binance Smart Chain Ecosystem'],https://github.com/biswap-org
+Vectorspace AI,['Artificial Intelligence'],
+IDEX,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/idexio/IDEXd
+USDX,"['USD Stablecoin', 'Stablecoins']",
+Bezoge Earth,['Non-Fungible Tokens (NFT)'],https://github.com/BezogeEarth/Bezoge
+RSK Infrastructure Framework,['Protocol'],https://github.com/riflabs/RIF-Token
+Electroneum,['Finance / Banking'],https://github.com/electroneum/electroneum
+Uquid Coin,[],https://github.com/uquid/express
+Aavegotchi,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Metaverse', 'Gaming', 'Polygon Ecosystem', 'Governance', 'Collectibles']",https://github.com/aavegotchi
+Kyber Network Crystal Legacy,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Governance', 'Exchange-based Tokens']",https://github.com/kybernetwork/KyberWallet
+Iron Bank EURO,[],
+Proton,"['Finance / Banking', 'Smart Contract Platform']",https://github.com/ProtonProtocol
+TomoChain,['Smart Contract Platform'],https://github.com/tomochain/tomochain
+TomoChain,['Smart Contract Platform'],https://github.com/tomochain/tomoscan
+TomoChain,['Smart Contract Platform'],https://github.com/tomochain/tomomaster
+DeFi Pulse Index,"['Index', 'DeFi Index', 'Structured Products', 'Polygon Ecosystem', 'TokenSets', 'Decentralized Finance (DeFi)']",https://github.com/SetProtocol/set-v2
+Coin of the champions,['Binance Smart Chain Ecosystem'],
+Avalaunch,"['Avalanche Ecosystem', 'Launchpad']",https://github.com/avalaunch-app
+Ampleforth,"['Rebase Tokens', 'Decentralized Finance (DeFi)']",https://github.com/ampleforth/uFragments
+Ampleforth,"['Rebase Tokens', 'Decentralized Finance (DeFi)']",https://github.com/ampleforth/market-oracle
+Wrapped NXM,"['Insurance', 'Wrapped-Tokens', 'Decentralized Finance (DeFi)']",
+Hermez Network,[],https://github.com/hermeznetwork
+BTSE Token,['Exchange-based Tokens'],
+Bonfida,"['Solana Ecosystem', 'Big Data', 'Business Services', 'Infrastructure', 'Decentralized Finance (DeFi)']",
+Telos,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/telosnetwork
+Telos,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/Telos-Foundation/telos
+Metal,['Cryptocurrency'],
+BENQI,"['Lending/Borrowing', 'Avalanche Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+CRYPTO20,['Number'],https://github.com/cryptotwenty/smartcontracts
+STP Network,"['Derivatives', 'Synthetic Issuer', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",
+Handshake,"['Infrastructure', 'Protocol', 'Non-Fungible Tokens (NFT)']",https://github.com/handshake-org/hsd
+Handshake,"['Infrastructure', 'Protocol', 'Non-Fungible Tokens (NFT)']",https://github.com/UrkelLabs/rsd
+QuarkChain,[],https://github.com/QuarkChain/pyquarkchain
+QuarkChain,[],https://github.com/QuarkChain/quarkchain-web3.js
+BNB48 Club Token,[],https://github.com/BNB48Club
+Beldex,"['Cryptocurrency', 'Masternodes', 'Privacy Coins']",https://github.com/Beldex-Coin/beldex
+Wrapped Centrifuge,[],https://github.com/centrifuge/
+Clover Finance,[],https://github.com/clover-network
+Syntropy,[],https://github.com/noia-network
+SuperRare,['Non-Fungible Tokens (NFT)'],
+Invictus,"['Solana Ecosystem', None, 'Rebase Tokens', 'Asset-backed Tokens']",
+Badger DAO,"['Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/Badger-Finance
+Badger DAO,"['Yield Aggregator', 'Polygon Ecosystem', 'Arbitrum Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/Badger-Finance/badger-system
+Beta Finance,['Binance Smart Chain Ecosystem'],
+Ellipsis,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/ellipsis-finance
+sUSD,"['USD Stablecoin', 'Synths', 'Decentralized Finance (DeFi)', 'Stablecoins', 'Asset-backed Tokens']",https://github.com/Synthetixio/synthetix
+DEAPCOIN,"['Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/Digita-Entertainment-Asset/DEP
+XMON,['Non-Fungible Tokens (NFT)'],https://github.com/0xmons/0xmons-contracts-new
+SafePal,"['Wallets', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Aurory,"['Metaverse', 'Solana Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Kirobo,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/kiroboio/
+Verasity,"['Entertainment', 'Gaming']",https://github.com/verasitytech/
+Linear,"['Decentralized Exchange Token (DEX)', 'Yield Farming', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/Linear-finance/linear
+Adventure Gold,['Governance'],
+STASIS EURO,"['Finance / Banking', 'Cryptocurrency', 'EUR Stablecoin', 'Stablecoins']",https://github.com/STASISNET/STASIS-EURS-token-smart-contract
+IRISnet,['Cosmos Ecosystem'],https://github.com/irisnet/irishub
+FUNToken,['Gambling'],
+BSCPAD,['Launchpad'],
+Aave [OLD],['Decentralized Finance (DeFi)'],https://github.com/aave/aave-protocol
+Aave [OLD],['Decentralized Finance (DeFi)'],https://github.com/ETHLend/DAPP
+FEG Token,[],
+XCAD Network,"['Polygon Ecosystem', None, 'Binance Smart Chain Ecosystem']",
+Enzyme,"['Asset Manager', 'Finance / Banking', 'Business Platform', 'Decentralized Finance (DeFi)']",https://github.com/enzymefinance
+Enzyme,"['Asset Manager', 'Finance / Banking', 'Business Platform', 'Decentralized Finance (DeFi)']",https://github.com/melonproject/protocol
+Decentral Games,"['Metaverse', 'Gambling', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/decentralgames
+PEAKDEFI,[],
+hi Dollar,[],
+QANplatform,['Smart Contract Platform'],https://github.com/qanplatform/qanx-token
+Augur,"['Prediction Markets', 'Polygon Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)']",https://github.com/AugurProject/augur-core
+Augur,"['Prediction Markets', 'Polygon Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)']",https://github.com/AugurProject/augur.js
+Augur,"['Prediction Markets', 'Polygon Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)']",https://github.com/AugurProject/augur-ui
+Augur,"['Prediction Markets', 'Polygon Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)']",https://github.com/AugurProject/augur
+Augur,"['Prediction Markets', 'Polygon Ecosystem', 'Protocol', 'Decentralized Finance (DeFi)']",https://github.com/AugurProject/augur-node
+Everipedia,"['Polygon Ecosystem', 'Olympus Pro', 'Media', 'Binance Smart Chain Ecosystem']",https://github.com/EveripediaNetwork/Everipedia
+Strike,[],https://github.com/StrikeFinance
+Wanchain,"['Infrastructure', 'Protocol']",https://github.com/wanchain/go-wanchain
+Wanchain,"['Infrastructure', 'Protocol']",https://github.com/wanchain/wanx
+Wanchain,"['Infrastructure', 'Protocol']",https://github.com/wanchain/wanchain-js-sdk
+RedFOX Labs,"['Metaverse', 'Collectibles', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Dero,['Privacy Coins'],https://github.com/deroproject/derosuite
+Dero,['Privacy Coins'],https://github.com/deroproject/dero
+Oxygen,['Solana Ecosystem'],
+LGCY Network,[],
+Decentral Games Governance,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+cBAT,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Compound Tokens', 'Asset-backed Tokens']",
+Strong,['Infrastructure'],https://github.com/strongblock
+AIOZ Network,['Entertainment'],
+Gods Unchained,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+MAI,"['Polygon Ecosystem', 'Stablecoins']",https://github.com/0xlaozi/qidao
+Rich Quack,[],
+Unizen,[],https://github.com/unizen-io
+Celo Dollar,"['Celo Ecosystem', 'USD Stablecoin', 'Stablecoins']",https://github.com/celo-org
+sEUR,"['EUR Stablecoin', 'Synths', 'Decentralized Finance (DeFi)', 'Stablecoins', 'Asset-backed Tokens']",
+Quickswap,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/QuickSwap/quickswap-core
+DFI.money,"['Yield Aggregator', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/yfii
+RIZON,[],https://github.com/rizon-world/rizon
+DerivaDAO,"['Derivatives', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)']",
+KeeperDAO,"['MEV Protection', 'Olympus Pro', 'Business Services', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/keeperdao
+Index Coop - ETH 2x Flexible Leverage Index,"['Index', 'DeFi Index', 'Leveraged Token', 'Decentralized Finance (DeFi)']",
+Samoyedcoin,"['Solana Ecosystem', 'Meme Tokens']",
+Saito,"['Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Gaming']",https://github.com/saitotech/saito-lite
+Voxies,['Polygon Ecosystem'],
+Solanium,"['Solana Ecosystem', 'Launchpad']",https://github.com/solanium-io
+Dopex Rebate Token,"['Arbitrum Ecosystem', 'Options', 'Decentralized Finance (DeFi)']",https://github.com/dopex-io
+Socean Staked Sol,['Solana Ecosystem'],
+THORChain (ERC20),['Wrapped-Tokens'],
+Ethernity Chain,"['Metaverse', 'Polygon Ecosystem', 'Collectibles', 'Non-Fungible Tokens (NFT)']",
+Tranchess,"['Yield Farming', 'Governance']",https://github.com/tranchess/contract-core
+bZx Protocol,"['Lending/Borrowing', 'Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/bZxNetwork/bZx-monorepo
+Magic,"['Metaverse', 'Arbitrum Ecosystem', 'Non-Fungible Tokens (NFT)']",https://github.com/TreasureForLoot
+Kin,"['Solana Ecosystem', 'Communication']",https://github.com/kinecosystem/kin-devplatform-android
+Kin,"['Solana Ecosystem', 'Communication']",https://github.com/kinecosystem/kin-ecosystem-android-sdk
+Automata,"['Binance Launchpool', 'Polygon Ecosystem', 'MEV Protection']",
+Woonkly Power,['Binance Smart Chain Ecosystem'],https://github.com/Woonkly
+Harvest Finance,"['Yield Aggregator', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/harvest-finance
+Cudos,[],
+sETH2,[],https://github.com/stakewise
+LTO Network,"['Cryptocurrency', 'Binance Smart Chain Ecosystem']",https://github.com/ltonetwork
+LCX,"['Finance / Banking', 'Exchange-based Tokens']",
+Star Atlas DAO,"['Metaverse', 'Solana Ecosystem', 'Gaming']",
+GameZone,['Binance Smart Chain Ecosystem'],
+Trustswap,"['Avalanche Ecosystem', 'Launchpad', 'Decentralized Finance (DeFi)']",
+c0x,"['Finance / Banking', 'Compound Tokens', 'Asset-backed Tokens']",
+Somnium Space CUBEs,"['Metaverse', 'Polygon Ecosystem', 'Near Protocol Ecosystem', 'Augmented Reality', 'Non-Fungible Tokens (NFT)', 'Virtual Reality']",
+WHALE,"['Non-Fungible Tokens (NFT)', 'Social Money']",
+CertiK,"['Binance Launchpool', 'Cosmos Ecosystem', 'Polygon Ecosystem', 'Business Services']",https://github.com/ShentuChain
+Beefy.Finance,"[None, 'Celo Ecosystem', 'Arbitrum Ecosystem', 'Harmony Ecosystem', 'Fantom Ecosystem', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'HECO Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Yield Aggregator', 'Binance Smart Chain Ecosystem']",https://github.com/beefyfinance/beefy-app
+Beefy.Finance,"[None, 'Celo Ecosystem', 'Arbitrum Ecosystem', 'Harmony Ecosystem', 'Fantom Ecosystem', 'Polygon Ecosystem', 'Avalanche Ecosystem', 'HECO Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Yield Aggregator', 'Binance Smart Chain Ecosystem']",https://github.com/beefyfinance
+Alpha Quark Token,[],https://github.com/alphaquark/Alpha-Quark
+mStable USD,"['Polygon Ecosystem', 'Olympus Pro', 'USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/mstable/mStable-contracts
+mStable USD,"['Polygon Ecosystem', 'Olympus Pro', 'USD Stablecoin', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/mstable/mStable-app
+ShapeShift FOX Token,"['Polygon Ecosystem', 'Olympus Pro']",
+ScPrime,"['Big Data', 'Storage']",
+ARPA Chain,[],
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/KomodoPlatform
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/BarterDEX
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/Agama
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/developer-docs
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/komodotools
+Komodo,['Smart Contract Platform'],https://github.com/jl777/SuperNET/tree/jl777
+Komodo,['Smart Contract Platform'],https://github.com/jl777/coins/tree/jl777
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/EasyDEX-GUI
+Komodo,['Smart Contract Platform'],https://github.com/jl777/komodo/tree/jl777
+Komodo,['Smart Contract Platform'],https://github.com/KomodoPlatform/komodo
+Boson Protocol,"['Metaverse', 'Non-Fungible Tokens (NFT)']",https://github.com/bosonprotocol
+district0x,['Business Platform'],https://github.com/district0x/name-bazaar
+Kava Swap,[],https://github.com/Kava-Labs/kava
+GYEN,[],https://github.com/trust-zcom/gmotrust-stablecoin-contract
+BitShares,['Exchange-based Tokens'],https://github.com/bitshares/bitshares-core
+BitShares,['Exchange-based Tokens'],https://github.com/bitshares/python-bitshares
+BitShares,['Exchange-based Tokens'],https://github.com/bitshares/bitshares-ui
+BitShares,['Exchange-based Tokens'],https://github.com/bitshares/bitsharesjs-ws
+BitShares,['Exchange-based Tokens'],https://github.com/bitshares/bitsharesjs
+Impossible Decentralized Incubator Access,"['Launchpad', None, 'Binance Smart Chain Ecosystem', None]",https://github.com/ImpossibleFinance
+BarnBridge,"['Derivatives', 'Polygon Ecosystem', 'Olympus Pro', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/BarnBridge
+Zombie Inu,['Binance Smart Chain Ecosystem'],
+Sentinel,['Cosmos Ecosystem'],https://github.com/sentinel-official/sentinel
+Aergo,['Smart Contract Platform'],https://github.com/aergoio/aergo
+Aergo,['Smart Contract Platform'],https://github.com/aergoio/ship
+Aergo,['Smart Contract Platform'],https://github.com/aergoio/SMT
+Aergo,['Smart Contract Platform'],https://github.com/aergoio/litetree
+Aergo,['Smart Contract Platform'],https://github.com/aergoio/heraj
+HUNT,['Technology & Science'],https://github.com/Steemhunt/reviewhunt-pre
+HUNT,['Technology & Science'],https://github.com/Steemhunt/web
+HUNT,['Technology & Science'],https://github.com/Steemhunt/token-website
+HUNT,['Technology & Science'],https://github.com/Steemhunt/browser-extension
+HUNT,['Technology & Science'],https://github.com/Steemhunt/whitelist
+Comdex,[],https://github.com/comdex-official
+Rai Reflex Index,"['Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Tokocrypto,[],https://github.com/Tokocrypto/
+DeFi Land,"['Metaverse', 'Solana Ecosystem']",
+DVF,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/DeversiFi
+Contentos,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/coschain/contentos-go
+Litentry,['Polkadot Ecosystem'],https://github.com/litentry
+Travala.com,['Tourism'],https://github.com/travala/AVA-token
+ThunderCore,['Smart Contract Platform'],https://github.com/thundercore/pala
+ThunderCore,['Smart Contract Platform'],https://github.com/thundercore/thundercore-localchain
+GuildFi,"['Play To Earn', None, 'Gaming']",
+Token Pocket,"['Polygon Ecosystem', 'xDAI Ecosystem']",https://github.com/TP-Lab
+Rarible,"['Non-Fungible Tokens (NFT)', 'Governance']",
+New Order,[],https://github.com/new-order-network
+Cortex,[],https://github.com/CortexFoundation/Cortex_Release
+Cortex,[],https://github.com/CortexFoundation/ncnn
+Nerve Finance,"['Decentralized Exchange Token (DEX)', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Hifi Finance,[],https://github.com/hifi-finance
+Unifty,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'xDAI Ecosystem']",
+Carry,['Business Platform'],https://github.com/carryprotocol/carry-smart-contract/
+Alpaca Finance,"['Lending/Borrowing', 'Yield Aggregator', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/alpaca-finance/alpaca-contract
+Offshift,['Polkadot Ecosystem'],
+Koinos,[],https://github.com/koinos
+BiLira,"['Avalanche Ecosystem', 'Finance / Banking', 'Stablecoins']",
+Gas,[],https://github.com/neo-project/neo
+COCOS BCX,"['Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/Cocos-BCX/CocosPay
+Zero Collateral Dai,['Seigniorage'],https://github.com/zaifinance/zai-protocol
+Yieldly,[],
+Position Token,[],https://github.com/PositionExchange
+Terra Virtua Kolect,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)']",
+Propy,['Real Estate'],
+Sai,['Decentralized Finance (DeFi)'],https://github.com/makerdao/market-maker-keeper
+Sai,['Decentralized Finance (DeFi)'],https://github.com/makerdao/dai.js
+Sai,['Decentralized Finance (DeFi)'],https://github.com/makerdao/auction-keeper
+Doge Army Token,[],
+MetaVPad,['Binance Smart Chain Ecosystem'],
+Karura,[],https://github.com/AcalaNetwork/Acala
+Shyft Network,[],https://github.com/ShyftNetwork
+DeRace,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/Derace/
+NAGA,[],
+Hacken Token,['Business Services'],
+Tellor,"['Polygon Ecosystem', 'Business Services', 'Decentralized Finance (DeFi)', 'Oracle']",https://github.com/tellor-io
+Tellor,"['Polygon Ecosystem', 'Business Services', 'Decentralized Finance (DeFi)', 'Oracle']",https://github.com/tellor-io/TellorCore
+Dock,"['Big Data', 'Polkadot Ecosystem']",
+Sifchain,"['Cosmos Ecosystem', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/Sifchain/sifnode
+Shiden Network,"['Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/PlasmNetwork/Astar
+Kava Lend,"['Binance Launchpool', 'Cosmos Ecosystem', 'Lending/Borrowing', 'Decentralized Finance (DeFi)']",
+Hydra,[],https://github.com/Hydra-Chain
+Tornado Cash,"['Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/tornadocash/tornado-core
+ShareToken,['Business Platform'],https://github.com/ShareRing/Shareledger
+Ampleforth Governance Token,"['Near Protocol Ecosystem', 'Governance']",https://github.com/ampleforth/Forth/
+cVault.finance,['Governance'],https://github.com/cVault-finance
+Ambire AdEx,"['Media', 'Marketing', 'Polkadot Ecosystem']",https://github.com/AdExNetwork/adex-protocol
+Ambire AdEx,"['Media', 'Marketing', 'Polkadot Ecosystem']",https://github.com/AdExNetwork/adex-validator
+Ambire AdEx,"['Media', 'Marketing', 'Polkadot Ecosystem']",https://github.com/AdExNetwork/adex-market
+Ambire AdEx,"['Media', 'Marketing', 'Polkadot Ecosystem']",https://github.com/AdExNetwork/adex-platform
+Ambire AdEx,"['Media', 'Marketing', 'Polkadot Ecosystem']",https://github.com/AdExNetwork/adex-protocol-eth
+ChainX,"['Cryptocurrency', 'Polkadot Ecosystem']",https://github.com/chainx-org/ChainX
+Ovr,"['Metaverse', 'Play To Earn', 'Augmented Reality', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/OVR-Platform
+ZKSwap,['Decentralized Exchange Token (DEX)'],
+ParaSwap,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/paraswap
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/network-monorepo
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/network
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/streamr-platform
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/broker
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/streamr-client-java
+Streamr XDATA,"['Internet of Things (IOT)', 'Big Data', 'Infrastructure', 'xDAI Ecosystem']",https://github.com/streamr-dev/streamr-client-javascript
+GridPlus [OLD],['Wallets'],https://github.com/GridPlus/gridplus-sdk
+GridPlus [OLD],['Wallets'],https://github.com/GridPlus/phonon-network
+MixMarvel,[],
+Altura,['Non-Fungible Tokens (NFT)'],https://github.com/Plutus-Gaming-NFTs-Reimagined
+DIA,"['Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Oracle', 'xDAI Ecosystem']",https://github.com/diadata-org
+Pylon Protocol,"['Terra Ecosystem', 'Launchpad']",https://github.com/pylon-protocol
+PAID Network,"['Launchpad', 'Polkadot Ecosystem']",
+Nuls,['Smart Contract Platform'],https://github.com/nuls-io/nuls-v2
+Nuls,['Smart Contract Platform'],https://github.com/nuls-io/nuls
+FIO Protocol,['Protocol'],https://github.com/fioprotocol
+Phala Network,['Polkadot Ecosystem'],
+Taboo Token,['Binance Smart Chain Ecosystem'],https://github.com/TabooOFFICIAL/TABOO
+EDEN,['MEV Protection'],https://github.com/eden-network
+Covalent,"['Infrastructure', 'Governance', 'Business Services', 'Business Platform', 'Analytics', 'Big Data', 'Decentralized Finance (DeFi)', 'Polkadot Ecosystem', 'Near Protocol Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Polygon Ecosystem']",https://github.com/covalenthq
+Loom Network (OLD),"['Cosmos Ecosystem', 'Infrastructure']",https://github.com/loomnetwork/loom-js
+Loom Network (OLD),"['Cosmos Ecosystem', 'Infrastructure']",https://github.com/loomnetwork/go-loom
+Bella Protocol,"['Binance Launchpool', 'Yield Aggregator', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Liquity,"['Lending/Borrowing', 'Decentralized Finance (DeFi)']",https://github.com/liquity/dev
+Fodl Finance,"['Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+Polkaswap,[],https://github.com/sora-xor/polkaswap-web
+Kleros,"['Prediction Markets', 'Polygon Ecosystem', 'xDAI Ecosystem']",https://github.com/kleros/kleros
+Aion,['Cryptocurrency'],https://github.com/aionnetwork/aion
+Aion,['Cryptocurrency'],https://github.com/aionnetwork/AVM
+Aion,['Cryptocurrency'],https://github.com/aionnetwork/aion_fastvm
+Mossland,['Augmented Reality'],https://github.com/realityreflection/MossCoin
+Aleph.im,"['Polygon Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Solana Ecosystem', 'Storage', 'Cosmos Ecosystem', 'Polkadot Ecosystem', 'Infrastructure']",https://github.com/aleph-im/myaleph
+Aleph.im,"['Polygon Ecosystem', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Solana Ecosystem', 'Storage', 'Cosmos Ecosystem', 'Polkadot Ecosystem', 'Infrastructure']",https://github.com/aleph-im/aleph-client
+Elastos,['Smart Contract Platform'],https://github.com/elastos/Elastos.OS
+Elastos,['Smart Contract Platform'],https://github.com/elastos/Elastos.ELA.SPV.Cpp
+Elastos,['Smart Contract Platform'],https://github.com/elastos/Elastos.ELA
+Elastos,['Smart Contract Platform'],https://github.com/elastos/Elastos.ELA.SideChain
+Elastos,['Smart Contract Platform'],https://github.com/elastos/Elastos.NET.Carrier.Native.SDK
+MIMO Parallel Governance Token,[],https://github.com/mimo-capital
+RAMP,"['Solana Ecosystem', 'Lending/Borrowing', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS
+SIX Network,['Business Platform'],https://github.com/thesixnetwork/stellarterm
+Bluzelle,"['Cosmos Ecosystem', 'Binance Smart Chain Ecosystem', 'Storage', 'Polkadot Ecosystem', 'Gaming']",https://github.com/njmurarka/bluzelle
+Splinterlands,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+BitMart Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Viper,"['Harmony Ecosystem', 'Decentralized Finance (DeFi)', 'Decentralized Exchange Token (DEX)', 'Exchange-based Tokens', 'Governance', 'Yield Farming', 'Automated Market Maker (AMM)']",https://github.com/VenomProtocol
+BoringDAO BTC,"['Tokenized BTC', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/BoringDAO/boringDAO-contract
+Hoo Token,[],
+Saber,['Solana Ecosystem'],https://github.com/saber-hq/stable-swap-program
+Morpheus Network,['Infrastructure'],https://github.com/MorpheusNetwork/tokensale
+RAI Finance,[],https://github.com/RaiFinance
+Sperax,[],https://github.com/Sperax
+Firo,"['Masternodes', 'Privacy Coins']",https://github.com/firoorg/firo
+Bytecoin,['Privacy Coins'],https://github.com/bcndev/bytecoin
+Bytecoin,['Privacy Coins'],https://github.com/bcndev/bytecoin-gui
+Refereum,['Entertainment'],
+Bytom,"['Cosmos Ecosystem', 'Polygon Ecosystem', 'Smart Contract Platform']",https://github.com/bytom/bytom
+ApeSwap Finance,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Automated Market Maker (AMM)', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Exchange-based Tokens']",https://github.com/ApeSwapFinance
+JET,"['Solana Ecosystem', 'Lending/Borrowing', 'Decentralized Finance (DeFi)']",https://github.com/jet-lab/jet-v1/
+PARSIQ,"['Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Solana Ecosystem', 'Analytics', 'Smart Contract Platform', 'Business Services', 'Infrastructure']",
+Measurable Data Token,['Big Data'],https://github.com/measurabledatatoken/-
+GM,[],
+Vai,"['USD Stablecoin', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Stablecoins']",https://github.com/VenusProtocol/venus-protocol
+Adshares,['Business Services'],https://github.com/adshares/adserver
+Meter Governance,['Smart Contract Platform'],https://github.com/meterio
+Hoge Finance,['Meme Tokens'],https://github.com/HogeFinance
+Reflexer Ungovernance Token,['Decentralized Finance (DeFi)'],https://github.com/reflexer-labs
+MANTRA DAO,"['Launchpad', 'Polygon Ecosystem', 'Polkadot Ecosystem']",
+BYTZ,"['Entertainment', 'Binance Smart Chain Ecosystem']",https://github.com/bytzcurrency/slate
+Energi,['Masternodes'],https://github.com/energicryptocurrency
+Aeternity,"['Infrastructure', 'Smart Contract Platform']",https://github.com/aeternity/epoch
+Aeternity,"['Infrastructure', 'Smart Contract Platform']",https://github.com/aeternity/elixir-node
+Aeternity,"['Infrastructure', 'Smart Contract Platform']",https://github.com/aeternity/aepp-contracts
+Aeternity,"['Infrastructure', 'Smart Contract Platform']",https://github.com/aeternity/aepp-components
+Aeternity,"['Infrastructure', 'Smart Contract Platform']",https://github.com/aeternity/infrastructure
+StarTerra,"['Terra Ecosystem', 'Gaming']",https://github.com/starterra
+BoringDAO [OLD],"['Polygon Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/BoringDAO
+Rainicorn,"['Metaverse', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/rainitoken
+Euphoria,['Rebase Tokens'],https://github.com/VenomProtocol/euphoria-contracts
+SpiritSwap,"['Decentralized Exchange Token (DEX)', 'Fantom Ecosystem', 'Olympus Pro', 'Automated Market Maker (AMM)', 'Exchange-based Tokens']",
+Newscrypto Coin,['Education'],https://github.com/itsBunneh/nwc-contract
+BEAM,"['Cryptocurrency', 'Privacy Coins']",https://github.com/BeamMW/beam
+Groestlcoin,['Privacy Coins'],https://github.com/GroestlCoin/GroestlCoin
+PAC Protocol,"['Storage', 'Masternodes']",https://github.com/PACGlobalOfficial/PAC
+Vite,"['Decentralized Exchange Token (DEX)', 'Binance Smart Chain Ecosystem', 'Smart Contract Platform']",https://github.com/vitelabs/go-vite
+Akropolis,"['Yearn Ecosystem', 'Yield Aggregator', 'Finance / Banking', 'Business Platform', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/akropolisio/akropolis-network
+Akropolis,"['Yearn Ecosystem', 'Yield Aggregator', 'Finance / Banking', 'Business Platform', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/akropolisio/akropolisOS
+Akropolis,"['Yearn Ecosystem', 'Yield Aggregator', 'Finance / Banking', 'Business Platform', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/akropolisio/akropolis-polkadot
+Akropolis,"['Yearn Ecosystem', 'Yield Aggregator', 'Finance / Banking', 'Business Platform', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/akropolisio/akropolis-discovery
+Bomber Coin,['Binance Smart Chain Ecosystem'],
+BNS Token,[],
+Opulous,"['Music', 'Non-Fungible Tokens (NFT)']",
+Mobius,['Internet of Things (IOT)'],https://github.com/mobius-network/mobius-node
+Blocto Token,[None],https://github.com/portto
+MATH,"['Cosmos Ecosystem', 'Polygon Ecosystem', 'Software', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem']",https://github.com/mathwallet
+LockTrip,['Tourism'],https://github.com/LockTrip/Blockchain
+LockTrip,['Tourism'],https://github.com/LockTrip/Service-Layer
+LockTrip,['Tourism'],https://github.com/LockTrip/cpp-ethereum
+SUKU,[],
+Geist Finance,['Fantom Ecosystem'],https://github.com/geist-finance
+CateCoin,"['Gaming', 'Entertainment', 'Play To Earn', 'Yield Aggregator', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Meme Tokens']",
+ApolloX,['Binance Smart Chain Ecosystem'],
+EverRise,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+NFTX,"['Asset Manager', 'Non-Fungible Tokens (NFT)', 'Decentralized Finance (DeFi)']",https://github.com/NFTX-project/x-contracts
+Phoenix Global [OLD],['Business Services'],https://github.com/phoenixglobal
+Koda Cryptocurrency,['Binance Smart Chain Ecosystem'],
+Steem Dollars,[],https://github.com/steemit/steem
+Maple,['Decentralized Finance (DeFi)'],
+New BitShares,[],https://github.com/bitshares-cnvote/newbitshares-core
+SOLVE,['Healthcare'],https://github.com/SolveCare/schedule-a-doctor
+BOSAGORA,"['Metaverse', 'Technology & Science']",https://github.com/bpfkorea/agora
+Mute,[],
+Nominex,"['Centralized Exchange Token (CEX)', 'Binance Smart Chain Ecosystem', 'Exchange-based Tokens']",https://github.com/nominex/eth-smart-contracts
+Metronome,['Cryptocurrency'],https://github.com/autonomoussoftware/metronome.io
+Nexus,[],https://github.com/Nexusoft/NexusInterface
+Nexus,[],https://github.com/Nexusoft/LLL-TAO
+Nexus,[],https://github.com/Nexusoft/Nexus
+KRYLL,[],https://github.com/Cryptense/KryllToken
+Orca,"['Solana Ecosystem', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/orca-so
+Luffy,[],
+ERC20,['Business Platform'],https://github.com/Belance/tokenbase
+Atari,"['Metaverse', 'Polygon Ecosystem', 'Fantom Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+e-Money,"['Cosmos Ecosystem', 'Polygon Ecosystem']",https://github.com/e-money
+Aurox Token,[],
+Celo Euro,"['EUR Stablecoin', 'Stablecoins']",https://github.com/celo-org/
+Dash Diamond,[],https://github.com/DashDiamond/DASHD
+ADAPad,[],
+Blox,[],https://github.com/bloxapp
+TRONPAD,[],
+InsurAce,"['Insurance', 'Solana Ecosystem', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/InsurAce-Protocol
+Depo,[],
+Sport and Leisure,['Entertainment'],
+SquidDao,"[None, 'Non-Fungible Tokens (NFT)', 'Rebase Tokens', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+SingularityDAO,[],https://github.com/singularitydao
+Silent Notary,[],https://github.com/SilentNotaryEcosystem/Cil-core
+Sentinel Protocol,[],
+Paris Saint-Germain Fan Token,"['Fan Token', 'Sports']",
+Civilization,['Polygon Ecosystem'],https://github.com/sator-settler/civ-token
+Instadapp,['Decentralized Finance (DeFi)'],https://github.com/instadapp/dsa-connect
+Edgeware,"['Polkadot Ecosystem', 'Smart Contract Platform']",https://github.com/hicommonwealth/edgeware-node
+Era Swap Token,['Business Platform'],https://github.com/KMPARDS/EraSwapSmartContracts
+Era Swap Token,['Business Platform'],https://github.com/KMPARDS/Eraswap_life
+Silo Finance,[],https://github.com/silo-finance
+Alchemist,['MEV Protection'],https://github.com/alchemistcoin/alchemist
+Ooki,[],
+Sandclock,['Olympus Pro'],https://github.com/sandclock-org/echidna
+Sipher,['Gaming'],
+Pangolin,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Olympus Pro', 'Decentralized Finance (DeFi)']",
+OccamFi,['Launchpad'],
+VideoCoin,"['Entertainment', 'Non-Fungible Tokens (NFT)']",https://github.com/videocoin
+FUSION,"['Finance / Banking', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/FUSIONFoundation/dcrm-go
+Marlin,['Infrastructure'],https://github.com/marlinprotocol/OpenWeaver
+Phonon DAO,[],https://github.com/PhononDAO
+Crabada,"['Avalanche Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Axion,[],https://github.com/Axion-Network/axion-contracts
+Everest,"['Polygon Ecosystem', 'Business Platform']",https://github.com/EverID/FE-iron
+Stake DAO,"['Yield Aggregator', 'Olympus Pro', 'Decentralized Finance (DeFi)']",
+Velo,[],https://github.com/velo-protocol
+Paribus,[],https://github.com/paribus
+V.SYSTEMS,['Infrastructure'],https://github.com/virtualeconomy/v-systems
+Avocado DAO,"['Metaverse', 'Collectibles', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+USDK,"['USD Stablecoin', 'Stablecoins']",https://github.com/oklink/demo-net
+Futureswap,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Smartlands Network,[],https://github.com/Smartlands-Platform/SLT
+Shabu Shabu,[],https://github.com/ironminter/shabushabu
+Zignaly,['Binance Smart Chain Ecosystem'],
+Glitch Protocol,['Polygon Ecosystem'],
+Hegic,"['Derivatives', 'Options', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/hegic/contracts-v888
+Epik Prime,[],
+Bread,[],https://github.com/breadwallet/breadwallet-core
+DexTools,"['Business Services', 'Analytics']",
+Stronghold Token,[],
+Vesper Finance,"['Yield Aggregator', 'Polygon Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/vesperfi
+Stratos,"['Entertainment', 'Infrastructure', 'Storage']",https://github.com/stratosnet
+dForce Token,"['Cryptocurrency', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/dforcenetwork
+Frontier,"['Solana Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/frontierwallet
+Cap,"['Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/0xcap/client
+Cap,"['Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/0xcap/protocol
+Retreeb,['Fantom Ecosystem'],
+PolkaFoundry,['Polygon Ecosystem'],https://github.com/polkafoundry
+Gamestarter,['Binance Smart Chain Ecosystem'],
+Aragon Court,['Legal'],https://github.com/aragon/aragon-court
+BoringDAO,"['Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/BoringDAO
+Revolution Populi,[],https://github.com/Revolution-Populi/revpop-core
+Haven,['Privacy Coins'],https://github.com/haven-protocol-org/haven
+Haven,['Privacy Coins'],https://github.com/haven-protocol-org/haven-gui
+Bean,[],https://github.com/BeanstalkFarms/Beanstalk
+Sora,"['Cryptocurrency', 'Polkadot Ecosystem']",https://github.com/soramitsu
+Sora,"['Cryptocurrency', 'Polkadot Ecosystem']",https://github.com/sora-xor
+Verus Coin,['MEV Protection'],https://github.com/VerusCoin/VerusCoin
+OpenOcean,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/openocean-finance/
+Chain Games,"['Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/Chain-Games
+PlatonCoin,['Cryptocurrency'],https://github.com/platonfinance/SmartContracts
+Jade Protocol,"[None, 'Rebase Tokens', 'Binance Smart Chain Ecosystem']",
+Crypto Raiders,['Polygon Ecosystem'],
+Inverse Finance,"['Lending/Borrowing', 'Yield Aggregator', 'Olympus Pro', 'Decentralized Finance (DeFi)']",https://github.com/InverseFinance
+SERO,"['Protocol', 'Privacy Coins']",https://github.com/sero-cash/go-sero
+AirSwap,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Governance', 'Exchange-based Tokens']",https://github.com/airswap/contracts
+Guild of Guardians,['Gaming'],
+MCDEX,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/mcdexio
+MCDEX,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/mcdexio/mai-tp
+MCDEX,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/mcdexio/mai-fund-protocol
+MCDEX,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Arbitrum Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/mcdexio/mai-protocol-v2
+Manchester City Fan Token,"['Fan Token', 'Sports']",
+Ternoa,[],https://github.com/capsule-corp-ternoa/
+XDEFI,[],https://github.com/XDeFi-tech/
+STAKE,"['Smart Contract Platform', 'xDAI Ecosystem']",https://github.com/xdaichain/stake-token
+SX Network,['Polygon Ecosystem'],https://github.com/sportx-bet/smart-contracts
+YIELD App,"['Finance / Banking', 'Polygon Ecosystem']",
+Sentivate,['Internet of Things (IOT)'],https://github.com/sentivate/SentivateAlphaNetwork
+Sentivate,['Internet of Things (IOT)'],https://github.com/sentivate/Sentivate-Network-White-Paper
+Chain Guardians,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/ChainGuardians/
+PolySwarm,"['Business Services', 'Cryptocurrency']",https://github.com/polyswarm/polyswarm-api
+PolySwarm,"['Business Services', 'Cryptocurrency']",https://github.com/polyswarm/polyswarm-cli
+PolySwarm,"['Business Services', 'Cryptocurrency']",https://github.com/polyswarm/polyswarm-client
+Metaverse Index,"['Index', 'NFT Index']",
+Epic Cash,"['Polygon Ecosystem', 'Cryptocurrency', 'Privacy Coins']",
+Step Finance,"['Solana Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/step-finance
+BTU Protocol,"['Polygon Ecosystem', 'Cryptocurrency']",https://github.com/btuprotocol/btuprotocol-implementation-earth
+HyperCash,['Cryptocurrency'],https://github.com/HcashOrg/hcashd
+HyperCash,['Cryptocurrency'],https://github.com/HcashOrg/hcGUI
+HyperCash,['Cryptocurrency'],https://github.com/HcashOrg/hcwallet
+Unifi Protocol DAO,"['Binance Launchpool', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+EQIFi,[],
+Pendle,"['Derivatives', 'Avalanche Ecosystem', 'Olympus Pro', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)']",https://github.com/pendle-finance
+Numbers Protocol,['Binance Smart Chain Ecosystem'],https://github.com/numbersprotocol
+Cardstarter,"['Launchpad', None]",
+Trias Token,[],
+QASH,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Umbrella Network,"['Polygon Ecosystem', 'Oracle']",https://github.com/umbrella-network/overture
+LikeCoin,['Cosmos Ecosystem'],https://github.com/likecoin/likecoin-chain
+AstroSwap,[],
+Hot Cross,[],https://github.com/hotcrosscom
+ForTube,"['Lending/Borrowing', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', None]",https://github.com/theforceprotocolgroup/smartcontract
+Efforce,[],
+Trisolaris,"['Decentralized Exchange Token (DEX)', 'Near Protocol Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/trisolaris-labs
+Decentral Games (Old),"['Binance Smart Chain Ecosystem', 'Play To Earn', 'Polygon Ecosystem', 'Metaverse', 'Non-Fungible Tokens (NFT)', 'Gambling', 'Entertainment', 'Gaming']",https://github.com/decentralgames
+VIDT Datalink,"['Play To Earn', 'Artificial Intelligence', 'Business Services', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/V-ID/V-ID-Token
+Thought,[],https://github.com/thoughtnetwork/thought-whitepaper
+UniLend Finance,"['Lending/Borrowing', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+Premia,"['Derivatives', 'Olympus Pro', 'Arbitrum Ecosystem', 'Options', 'Decentralized Finance (DeFi)']",https://github.com/Premian-Labs/premia-contracts
+Gifto,[],https://github.com/GIFTO-io/GiftoSmartContract
+DeXe,"['Business Platform', 'Binance Smart Chain Ecosystem']",https://github.com/dexe-network/dexe
+Spartacus,"['Fantom Ecosystem', 'Rebase Tokens']",https://github.com/spartacus-finance
+MarketMove,[],https://github.com/MarketMoveAI/MOVEContract
+WaykiChain,['Cryptocurrency'],https://github.com/WaykiChain/WaykiChain
+PowerPool Concentrated Voting Power,"['Yearn Ecosystem', 'Asset Manager', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/powerpool-finance
+GoChain,['Business Platform'],https://github.com/gochain-io/gochain
+GoChain,['Business Platform'],https://github.com/gochain-io/netstats
+tBTC,"['Tokenized BTC', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/keep-network/tbtc
+Gem Exchange And Trading,"['Collectibles', 'Non-Fungible Tokens (NFT)']",https://github.com/gxtmg/gxt_erc20
+Rootkit,[],https://github.com/rootkitfinance
+Hotbit Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+CargoX,"['Polygon Ecosystem', 'Infrastructure']",
+Refinable,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",
+Universe.XYZ,['Non-Fungible Tokens (NFT)'],
+Snowbank,"['Avalanche Ecosystem', None, 'Rebase Tokens', 'Asset-backed Tokens']",
+Mithril,[],https://github.com/mithio/mithril-smart-contract
+KCCPad,[],
+Muse DAO,['Non-Fungible Tokens (NFT)'],https://github.com/verynifty
+Dora Factory,[],
+Crust Network,"['Storage', 'Polkadot Ecosystem']",https://github.com/crustio/crust
+GNY,['Artificial Intelligence'],
+Aquarius,[],https://github.com/AquaToken
+Moon Nation Game,[],
+Exeedme,"['Play To Earn', 'Binance Smart Chain Ecosystem', 'Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gambling', 'Polkadot Ecosystem', 'Gaming']",
+Tokenlon,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)']",
+pTokens BTC,"['Wrapped-Tokens', 'Tokenized BTC', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/provable-things/ptokens-core
+TerraKRW,"['KRW Stablecoin', 'Terra Ecosystem', 'Stablecoins']",https://github.com/terra-project/core
+Cream,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Lending/Borrowing', 'Yearn Ecosystem', 'Automated Market Maker (AMM)', 'Governance', 'Decentralized Finance (DeFi)']",
+Reddcoin,['Finance / Banking'],https://github.com/reddcoin-project/reddcoin
+Reddcoin,['Finance / Banking'],https://github.com/reddcoin-project/reddstack-api
+Ethereum Push Notification Service - EPNS,"['Polygon Ecosystem', 'Business Services', 'Infrastructure', 'Decentralized Finance (DeFi)', 'Analytics']",
+ADAX,[],
+Unicly,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Automated Market Maker (AMM)', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Exchange-based Tokens']",https://github.com/uniclyNFT/unicly-core
+Apollo,['Privacy Coins'],https://github.com/ApolloFoundation/Apollo
+Symbiosis Finance,[],https://github.com/symbiosis-finance
+veCRV-DAO yVault,['Yearn Ecosystem'],
+BEPRO Network,"['Gambling', 'Entertainment']",
+Friends With Benefits Pro,['Social Money'],
+SelfKey,['Business Services'],https://github.com/SelfKeyFoundation/Identity-Wallet
+PIVX,"['Masternodes', 'Privacy Coins']",https://github.com/PIVX-Project/PIVX
+PIVX,"['Masternodes', 'Privacy Coins']",https://github.com/PIVX-Project/PET4L
+PIVX,"['Masternodes', 'Privacy Coins']",https://github.com/PIVX-Project/PIVX-iOS
+PIVX,"['Masternodes', 'Privacy Coins']",https://github.com/PIVX-Project/PIVX-SPMT
+Neutrino System Base Token,['Decentralized Finance (DeFi)'],
+Nimiq,[],https://github.com/nimiq
+Nimiq,[],https://github.com/nimiq/core-rs-albatross
+Nimiq,[],https://github.com/nimiq/core-rs
+StableXSwap,['Binance Smart Chain Ecosystem'],https://github.com/stablexlabs
+Spool DAO Token,[],
+Nash,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/nash-io
+HydraDX,['Polygon Ecosystem'],https://github.com/galacticcouncil?tab=repositories
+Steam Exchange,['Binance Smart Chain Ecosystem'],https://github.com/SteamExchange
+vEmpire DDAO,"['Metaverse', 'Yield Aggregator', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/v-Empire/vEmpire
+AVINOC,['Tourism'],https://github.com/AVINOCICO
+Wing Finance,"['Binance Launchpool', 'Decentralized Finance (DeFi)', None]",
+sLINK,"['Synths', 'Asset-backed Tokens']",
+Bone ShibaSwap,[],
+Bridge$,['Binance Smart Chain Ecosystem'],
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/oxen-io
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/loki-gui
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/loki
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/loki-network
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/loki-android-wallet
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/loki-messenger
+Oxen,"['Business Platform', 'Masternodes', 'Privacy Coins']",https://github.com/loki-project/lokinet-builder
+Media Licensing Token,[],https://github.com/welt-der-wunder/smart-contracts
+Clearpool,[],
+REVV,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/animocabrands/f1dt-ethereum-contracts/blob/master/contracts/token/ERC20/REVV.sol
+Torum,"['Metaverse', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Atletico Madrid Fan Token,"['Fan Token', 'Sports']",
+Hiblocks,[],https://github.com/hiblocks
+Dego Finance,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Governance']",https://github.com/dego-labs
+DXdao,"['Polygon Ecosystem', 'Software', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/protofire/omen-exchange
+DXdao,"['Polygon Ecosystem', 'Software', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/levelkdev/dxswap-dapp
+pNetwork,"['Polygon Ecosystem', 'Infrastructure', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/provable-things/ethereum-bridge
+pNetwork,"['Polygon Ecosystem', 'Infrastructure', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/provable-things/ethereum-api
+pNetwork,"['Polygon Ecosystem', 'Infrastructure', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/provable-things/ptokens-core
+pNetwork,"['Polygon Ecosystem', 'Infrastructure', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",https://github.com/provable-things/ptokens.js
+Dacxi,['Education'],
+Reserve,"['Decentralized Finance (DeFi)', 'Stablecoins', 'Asset-backed Tokens']",https://github.com/reserve-protocol/rsv-v2
+Kylin Network,"['Business Services', 'Infrastructure', 'Polkadot Ecosystem', 'Smart Contract Platform', 'Oracle']",https://github.com/Kylin-Network
+USDP Stablecoin,"['USD Stablecoin', 'Yield Farming', 'Stablecoins']",https://github.com/unitprotocol/core
+DogeBonk,"['Meme Tokens', 'Binance Smart Chain Ecosystem']",
+BNBPay,[],https://github.com/BNBPay/BNBPay
+Stafi,"['Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",
+Manifold Finance,['MEV Protection'],https://github.com/manifoldfinance
+Opacity,['Storage'],https://github.com/opacity/webinterface
+Index Cooperative,"['Asset Manager', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",
+GAMEE,"['Polygon Ecosystem', 'Play To Earn', 'Binance Smart Chain Ecosystem']",
+ANGLE,['Olympus Pro'],https://github.com/AngleProtocol
+Lattice Token,[],
+ProximaX,"['Binance Smart Chain Ecosystem', 'Storage']",https://github.com/proximax-storage/mongo-go-driver
+ProximaX,"['Binance Smart Chain Ecosystem', 'Storage']",https://github.com/proximax-storage/catapult-docker
+ProximaX,"['Binance Smart Chain Ecosystem', 'Storage']",https://github.com/proximax-storage/catapult-server
+ProximaX,"['Binance Smart Chain Ecosystem', 'Storage']",https://github.com/proximax-storage/catapult-rest
+Cryptex Finance,"['Synthetic Issuer', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/cryptexfinance
+Safe Haven,"['Polygon Ecosystem', 'Infrastructure']",https://github.com/Safehaven-io/Documents
+Peony Coin,[],https://github.com/decenomy/PNY
+Vertcoin,[],https://github.com/vertcoin-project/vertcoin-core
+DaTa eXchange Token,[],https://github.com/databrokerglobal
+GivingToServices SVS,['Charity'],
+GET Protocol,"['Polygon Ecosystem', 'Protocol', 'Non-Fungible Tokens (NFT)']",https://github.com/GUTSTickets/ico
+GET Protocol,"['Polygon Ecosystem', 'Protocol', 'Non-Fungible Tokens (NFT)']",https://github.com/getprotocol
+MovieBloc,[],
+HOPR,"['Protocol', 'Governance', 'Privacy Coins', 'xDAI Ecosystem']",https://github.com/hoprnet/hoprnet
+Maximizer,['Avalanche Ecosystem'],
+Blockchain Monster Hunt,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+DxSale Network,"['Avalanche Ecosystem', 'Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+WPP Token,['Energy'],
+MAP Protocol,"['Polygon Ecosystem', 'Protocol', 'Polkadot Ecosystem']",https://github.com/mapprotocol
+Polkadex,['Polkadot Ecosystem'],https://github.com/Polkadex-Substrate
+Ultiledger,[],https://github.com/ultiledger/ULT
+NFTb,['Non-Fungible Tokens (NFT)'],
+StackOS,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Polkamarkets,"['Prediction Markets', 'Polygon Ecosystem']",
+Counterparty,['Smart Contract Platform'],https://github.com/CounterpartyXCP/counterparty-lib
+MultiVAC,[],https://github.com/multivactech
+BLOCKv,['Non-Fungible Tokens (NFT)'],https://github.com/BLOCKvIO/contracts
+Freeway Token,['Binance Smart Chain Ecosystem'],
+XELS,[],
+Valkyrie Protocol,[],https://github.com/valkyrieprotocol
+BUX Token,"['Binance Smart Chain Ecosystem', 'Exchange-based Tokens']",https://github.com/Blockport/tokensale
+PolkaBridge,"['Launchpad', 'Polkadot Ecosystem']",https://github.com/cyclese96/PolkaBridge-Contract
+Launchpool,['Launchpad'],https://github.com/Launchpool/Smart-Contracts
+MORK,['Social Money'],
+Adappter Token,[],https://github.com/sinestcorp/Adappter
+ViperPit,['Harmony Ecosystem'],https://github.com/VenomProtocol/venomswap-contracts
+ELYSIA,['Real Estate'],https://github.com/elysia-dev
+Quantstamp,['Business Services'],https://github.com/quantstamp/token-distribution
+governance ZIL,[None],https://github.com/Zilliqa/staking-contract/blob/bug_bounty/contracts/gzil.scilla
+Yuan Chain Coin,[],https://github.com/yuanchain/yuanchain
+3X Long Ethereum Token,['Leveraged Token'],
+Scallop,[],
+Gelato,['Olympus Pro'],https://github.com/gelatodigital
+Particl,['Privacy Coins'],https://github.com/particl/particl-core
+Particl,['Privacy Coins'],https://github.com/particl/particl-market
+Particl,['Privacy Coins'],https://github.com/particl/particl-desktop
+Tracer DAO,"['Perpetuals', 'Arbitrum Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/tracer-protocol
+Conscious Value Network,['Entertainment'],
+vVSP,[],
+Drops Ownership Power,"['Lending/Borrowing', 'Decentralized Finance (DeFi)']",https://github.com/Dropsorg/drops-nft-protocol
+CUTcoin,['Cryptocurrency'],https://github.com/cutcoin/cutcoin
+Nest Protocol,"['Decentralized Finance (DeFi)', 'Oracle']",https://github.com/NEST-Protocol/NEST-oracle-V3
+Nest Protocol,"['Decentralized Finance (DeFi)', 'Oracle']",https://github.com/NestDapp/NestDapp
+Doge Dash,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/TatvaShah/DogeDash/tree/main
+FC Barcelona Fan Token,"['Fan Token', 'Sports']",
+VEED,['Non-Fungible Tokens (NFT)'],
+HBTC Captain Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Zano,"['Cryptocurrency', 'Privacy Coins']",https://github.com/hyle-team/zano
+Rubic,"['Polygon Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/Cryptorubic
+Aventus,"['Entertainment', 'Business Platform', 'Smart Contract Platform']",https://github.com/AventusProtocolFoundation
+Aventus,"['Entertainment', 'Business Platform', 'Smart Contract Platform']",https://github.com/AventusSystems/aventus-dapp-proposals
+Aventus,"['Entertainment', 'Business Platform', 'Smart Contract Platform']",https://github.com/AventusSystems/bronze-protocol
+Banano,"['Meme Tokens', 'Cryptocurrency']",https://github.com/BananoCoin/banano
+Witnet,['Business Services'],https://github.com/witnet/witnet-rust
+Dragonchain,[],https://github.com/dragonchain/dragonchain
+Thorstarter,['Olympus Pro'],https://github.com/Thorstarter/thorstarter-contracts
+Mint Club,[],https://github.com/Steemhunt/mint.club-contract
+Grin,"['Cryptocurrency', 'Privacy Coins']",https://github.com/GrinPlusPlus/GrinPlusPlus
+Waltonchain,['Business Services'],
+XAYA,"['Polygon Ecosystem', 'Play To Earn', 'Entertainment', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem', 'Gaming']",https://github.com/xaya/xaya
+SnowBlossom,[],https://github.com/snowblossomcoin/snowblossom
+LBRY Credits,[],https://github.com/lbryio/lbry
+Validity,['Protocol'],https://github.com/RadiumCore/
+The Doge NFT,"['Fractionalized NFT', 'Meme Tokens', 'Non-Fungible Tokens (NFT)']",
+PolyDoge,"['Polygon Ecosystem', 'Meme Tokens', 'Cryptocurrency', 'Non-Fungible Tokens (NFT)']",
+Raptoreum,[],https://github.com/Raptor3um/raptoreum
+Gains,[],
+Cellframe,[],
+Mars Ecosystem Token,[],https://github.com/MarsEcosystem
+Qi Dao,"['Lending/Borrowing', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/0xlaozi/qidao
+Block Ape Scissors,['Binance Smart Chain Ecosystem'],https://github.com/BlockApeScissors
+Permission Coin,[],
+Solend,[],https://github.com/solendprotocol
+Ledgis,[],
+DSLA Protocol,"['Infrastructure', 'Protocol']",https://github.com/Stacktical/stacktical-dsla-token
+Polkacity,"['Metaverse', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/POLKACITY/
+Beethoven X,['Fantom Ecosystem'],https://github.com/beethovenxfi/beethovenx-token
+ICHI,"['Solana Ecosystem', 'Olympus Pro', 'Yield Farming', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",
+Smart Valor,[],https://github.com/smartvalor/EIP-Spec
+#MetaHash,[],https://github.com/metahashorg/metagate
+MicroPets,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/Micropetsbsctoken
+O3 Swap,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'xDAI Ecosystem', None]",https://github.com/O3Labs
+Cardstack,"['Protocol', 'xDAI Ecosystem']",https://github.com/cardstack/cardstack-token
+Cardstack,"['Protocol', 'xDAI Ecosystem']",https://github.com/cardstack/catalog-experiment
+Cardstack,"['Protocol', 'xDAI Ecosystem']",https://github.com/cardstack/boxel
+Cardstack,"['Protocol', 'xDAI Ecosystem']",https://github.com/cardstack/cardstack
+Unisocks,"['Tokenized Products', 'Non-Fungible Tokens (NFT)']",https://github.com/Uniswap/unisocks
+Juventus Fan Token,"['Fan Token', 'Sports']",
+Fancy Games,[],
+Global Coin Research,"['Polygon Ecosystem', 'Social Money']",
+MobieCoin,[],
+FireStarter,"['Polygon Ecosystem', 'Play To Earn', 'Decentralized Finance (DeFi)', 'Gaming']",
+Blizz Finance,[],https://github.com/pe1kko/blizz-protocol
+ArtWallet,[],https://github.com/artwallet
+Vent Finance,['Binance Smart Chain Ecosystem'],
+MetaversePRO,"[None, 'Rebase Tokens', 'Binance Smart Chain Ecosystem']",https://github.com/MetaversePRO
+Thoreum,[],https://github.com/ThoreumFinance/contracts
+ZoidPay,[],
+GamerCoin,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/GamerHash
+Delta Exchange Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/delta-exchange/DETO
+Smart MFG,[],https://github.com/syncfab/SyncFabContract
+saffron.finance,"['Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/saffron-finance/saffron
+PulsePad,[],
+Dope Wars Paper,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Governance', 'Gaming']",https://github.com/dopedao
+Ariva,['Binance Smart Chain Ecosystem'],
+BABB,['Finance / Banking'],
+FaraLand,"['Non-Fungible Tokens (NFT)', 'Gaming']",
+Spartan Protocol Token,['Binance Smart Chain Ecosystem'],https://github.com/spartan-protocol
+Werewolf Coin,['Binance Smart Chain Ecosystem'],https://github.com/werewolf-official
+DeHub,[],https://github.com/DeHubToken/dehub-public-contract
+Sakura,[],https://github.com/clover-network
+Dexlab,['Solana Ecosystem'],
+Tulip Protocol,"['Solana Ecosystem', 'Yield Aggregator', 'Yield Farming']",https://github.com/sol-farm
+CoinZoom Token,[],https://github.com/CoinZoomInc/ZoomToken
+VFOX,"['Metaverse', 'Virtual Reality']",
+DogeGF,['Meme Tokens'],https://github.com/DogeGF-Token/DogeGF
+Deri Protocol,"['Derivatives', 'Perpetuals', 'Decentralized Exchange Token (DEX)', 'Options', 'Decentralized Finance (DeFi)']",https://github.com/deri-finance
+Ardana,"[None, 'Decentralized Exchange Token (DEX)', 'Yield Farming', 'Exchange-based Tokens', 'Automated Market Maker (AMM)', 'Lending/Borrowing', 'Governance', 'Decentralized Finance (DeFi)']",
+Etherisc DIP Token,"['Insurance', 'Finance / Banking', 'xDAI Ecosystem']",https://github.com/etherisc
+Nifty League,"['Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/NiftyLeague
+mStable Governance Token: Meta,"['Yield Aggregator', 'Polygon Ecosystem', 'Olympus Pro', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/mstable/mStable-app
+mStable Governance Token: Meta,"['Yield Aggregator', 'Polygon Ecosystem', 'Olympus Pro', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/mstable/mStable-contracts
+Skey Network,"['Internet of Things (IOT)', 'Business Services', 'Oracle']",
+Only1,['Solana Ecosystem'],https://github.com/only1nft
+Hundred Finance,[],https://github.com/hundred-finance
+NAOS Finance,[],
+Minds,[],https://github.com/Minds/minds
+Bao Finance,"['Yield Farming', 'xDAI Ecosystem']",
+Auto,"['Yield Aggregator', 'Polygon Ecosystem', 'HECO Chain Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', None]",https://github.com/autofarm-network/autofarmV2
+B.Protocol,['MEV Protection'],https://github.com/backstop-protocol
+UniCrypt,"['Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'xDAI Ecosystem']",
+Meme,"['Non-Fungible Tokens (NFT)', 'Yield Farming']",
+SolChicks Token,[],
+BitcoinStaking,[],https://github.com/BitcoinStaking
+Goldcoin,[],https://github.com/goldcoin/goldcoin
+Router Protocol,['Polygon Ecosystem'],https://github.com/router-protocol/router-governance
+Aurora Chain,[],
+9D NFT,['Binance Smart Chain Ecosystem'],https://github.com/COGI-Technology/cogi_contracts
+Navcoin,['Privacy Coins'],https://github.com/NAVCoin/navcoin-core
+Navcoin,['Privacy Coins'],https://github.com/NAVCoin/npips
+Navcoin,['Privacy Coins'],https://github.com/NAVCoin/navcoin-dev-tools
+sAUD,"['Synths', 'Decentralized Finance (DeFi)', 'Stablecoins', 'Asset-backed Tokens']",
+NFTLaunch,[],
+Fractal,[],https://github.com/trustfractal/erc20-token-deployment
+pBTC35A,['Number'],https://github.com/MarsFi/POWToken
+Oxbull Tech,['Launchpad'],
+Darwinia Network Native Token,"['Polkadot Ecosystem', 'Gaming']",https://github.com/darwinia-network/darwinia
+0chain,['Storage'],https://github.com/0chain/
+Solrise Finance,['Solana Ecosystem'],
+ZB Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+Bankless DAO,['Olympus Pro'],
+Peercoin,[],https://github.com/peercoin/peercoin
+Poolz Finance,"['Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Polkadot Ecosystem']",https://github.com/The-Poolz/PoolzToken
+Mogul Productions,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/mogulproductions
+Charged Particles,"['Collectibles', 'Non-Fungible Tokens (NFT)', 'Governance']",https://github.com/Charged-Particles
+Onston,[],
+Yield Yak,"['Avalanche Ecosystem', 'Olympus Pro']",https://github.com/yieldyak
+Earthcoin,[],https://github.com/earthcoinproject/earthcoin
+Orion Money,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/orionterra
+LaunchZone,[None],https://github.com/launchzone
+Lithium Finance,[],https://github.com/LithiumFinance
+Infinity Pad,['DaoMaker Ecosystem'],
+Niftyx Protocol,"['Avalanche Ecosystem', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Governance', 'Gaming']",https://github.com/shroom-finance
+BlackPool Token,"['Metaverse', 'Asset Manager', 'Olympus Pro', 'Non-Fungible Tokens (NFT)', None, 'Gaming']",
+MAPS,['Solana Ecosystem'],
+Cake Monster,"['Meme Tokens', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Binance Smart Chain Ecosystem']",https://github.com/cake-monster
+Santiment Network Token,[],https://github.com/santiment/SantimentMobile
+Troy,['Business Services'],
+Gameswap,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Exchange-based Tokens', 'Gaming']",
+Warden,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/WardenSwap
+Biconomy Exchange Token,[],
+Talken,[],
+0x_nodes,[],
+NFT Art Finance,['Non-Fungible Tokens (NFT)'],
+Waves Ducks,"['Polygon Ecosystem', 'Collectibles', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/vlzhr/waves-ducks
+WagyuSwap,[],
+StrikeX,['Binance Smart Chain Ecosystem'],
+TokenClub,[],
+Uno Re,['Binance Smart Chain Ecosystem'],https://github.com/Uno-Re
+Ferrum Network,"['Infrastructure', 'Decentralized Finance (DeFi)']",https://github.com/ferrumnet/fenova
+Lossless,['DaoMaker Ecosystem'],https://github.com/Lossless-Cash
+AXEL,"['Software', 'Masternodes']",https://github.com/axelnetwork/AXEL
+Suterusu,['Polygon Ecosystem'],https://github.com/suterusu-io
+MARS4,"['Metaverse', 'Non-Fungible Tokens (NFT)']",https://github.com/mars4code
+SafeCoin,[],https://github.com/Fair-Exchange/safecoin
+Empire Capital Token,"['Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Sienna,[],https://github.com/SiennaNetwork
+HAPI,"['Polygon Ecosystem', 'Oracle']",
+Bondly,"['Metaverse', 'Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Polkadot Ecosystem', 'Non-Fungible Tokens (NFT)']",https://github.com/bondly/
+Convergence,['Polkadot Ecosystem'],
+Heroes & Empires,[],
+FOAM,"['Cosmos Ecosystem', 'Infrastructure', 'Protocol']",https://github.com/f-o-a-m/
+FOAM,"['Cosmos Ecosystem', 'Infrastructure', 'Protocol']",https://github.com/f-o-a-m/plasma-demo
+FOAM,"['Cosmos Ecosystem', 'Infrastructure', 'Protocol']",https://github.com/f-o-a-m/foam.css
+Neblio,['Smart Contract Platform'],https://github.com/NeblioTeam/neblio
+Kujira,['Terra Ecosystem'],https://github.com/Team-Kujira/
+Mirrored Invesco QQQ Trust,['Mirrored Assets'],https://github.com/mirror-protocol
+Katana Inu,['Binance Smart Chain Ecosystem'],https://github.com/katanainu/katacoin-contract
+Kine Protocol,[],
+K21,"['Number', 'Non-Fungible Tokens (NFT)']",
+Jarvis Reward Token,"['Derivatives', 'Finance / Banking', 'Synthetic Issuer', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Realm,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Populous,['Business Services'],https://github.com/bitpopulous/populous-smartcontracts
+Oraichain Token,"['Cosmos Ecosystem', 'Artificial Intelligence', 'Big Data', 'Business Services', 'Decentralized Finance (DeFi)', 'Oracle']",https://github.com/oraichain
+Infinitecoin,[],https://github.com/infinitecoin-project/infinitecoin
+AntiMatter,"['Derivatives', 'HECO Chain Ecosystem', 'Non-Fungible Tokens (NFT)', 'Options', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/antimatter-finance
+Chainge Finance,[],https://github.com/ChaingeFinance/ChaingeToken
+Pibble,[],https://github.com/Pibble-io/pibble-core
+Polychain Monsters,"['Polygon Ecosystem', 'Collectibles', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/polkamon
+Penguin Finance,"['Avalanche Ecosystem', 'Yield Farming']",https://github.com/Penguin-Finance/penguin-contracts-deployed
+Cindicator,[],https://github.com/cindicator/CindicatorArbitrageBot
+Arianee,"['Number', 'Polygon Ecosystem', 'Business Platform']",https://github.com/Arianee
+dHEDGE DAO,"['Asset Manager', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Governance', 'Exchange-based Tokens']",
+Aldrin,"['Solana Ecosystem', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)']",https://github.com/Cryptocurrencies-AI
+Prism,['Solana Ecosystem'],
+Mirrored Apple,['Mirrored Assets'],https://github.com/mirror-protocol
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/tokens-1
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/tokens
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/EtherSecurityLookup
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/eth-contract-metadata
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/EtherAddressLookup
+IQeon,"['Entertainment', 'Gaming']",https://github.com/iqeon/smart-contract
+LOOP Finance,['Terra Ecosystem'],
+Safemars,[],
+Eco Value Coin,['Energy'],https://github.com/ecovalue/evc-contracts
+Pawtocol,['Binance Smart Chain Ecosystem'],
+Tranquil Finance,['Harmony Ecosystem'],
+Shopping.io,[],
+Internxt,['Internet of Things (IOT)'],https://github.com/internxt/INXT
+WOM Protocol,['Media'],
+CumRocket,['Meme Tokens'],
+Mirrored iShares Silver Trust,['Mirrored Assets'],https://github.com/mirror-protocol
+Electra Protocol,[],https://github.com/ElectraProtocol/XEP-Core
+THORSwap,['Olympus Pro'],
+Evolution Finance,[],
+Betu,"['Gambling', 'Play To Earn', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Defi For You,[],https://raw.githubusercontent.com/defi-vn/defi-landing-page/master/static/img/DFY-200x200.png
+TruBadger,[],https://github.com/trubadger
+VitaDAO,[],https://github.com/VitaDAO
+MUSK Gold,[],https://github.com/MuskGold
+Thales,"['Derivatives', 'Decentralized Finance (DeFi)']",https://github.com/thales-markets
+Minter,['Cryptocurrency'],https://github.com/MinterTeam/minter-go-node
+Minter,['Cryptocurrency'],https://github.com/MinterTeam/minter-console-web
+Mirrored Microsoft,['Mirrored Assets'],https://github.com/mirror-protocol
+Stakeborg DAO,[],
+Bifrost Native Coin,"['Derivatives', 'Lending/Borrowing', 'Yield Farming', 'Polkadot Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/bifrost-finance
+MetaGods,['Binance Smart Chain Ecosystem'],
+Obyte,['Smart Contract Platform'],https://github.com/byteball/ocore
+Dentacoin,['Healthcare'],https://github.com/dentacoin/aftercare-app-android
+Dentacoin,['Healthcare'],https://github.com/Dentacoin/review-platform
+Dentacoin,['Healthcare'],https://github.com/Dentacoin/wallet
+PoolTogether,"['Polygon Ecosystem', 'Olympus Pro', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",
+Gather,"['Smart Contract Platform', 'Governance', 'Masternodes']",
+Seascape Crowns,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Galatasaray Fan Token,"['Fan Token', 'Sports']",
+unFederalReserve,"['Lending/Borrowing', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/UnFederalReserve/
+Charli3,[],
+88mph,"['Yield Aggregator', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/88mphapp
+Sylo,"['Polygon Ecosystem', 'Communication']",https://github.com/dn3010
+Pika,[],https://github.com/GameFiLtd/Pika-core
+Bridge Mutual,"['Insurance', 'Polkadot Ecosystem']",
+Mirrored Tesla,['Mirrored Assets'],https://github.com/mirror-protocol
+Equilibria,['Oracle'],https://github.com/EquilibriaCC/Equilibria
+Dfyn Network,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', None]",https://github.com/dfyn
+Defi Warrior,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Robot,[],https://github.com/MetaFactoryAI
+Percent,"['Yield Farming', 'Governance']",https://github.com/percent-finance/compound-protocol
+Phoenix Global,[],https://github.com/phoenixglobal
+Synthetify Token,"['Derivatives', 'Solana Ecosystem', 'Decentralized Exchange Token (DEX)', 'Synthetic Issuer', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/Synthetify
+Bedrock,[],
+Bogged Finance,"['Binance Smart Chain Ecosystem', 'Oracle']",
+Mysterium,[],https://github.com/MysteriumNetwork/node
+BlockchainSpace,[None],
+Ambrosus,['Internet of Things (IOT)'],https://github.com/ambrosus
+Curate,['Non-Fungible Tokens (NFT)'],https://github.com/curate-project
+Thorus,"['Avalanche Ecosystem', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/ThorusFi
+Nebulas,['Smart Contract Platform'],https://github.com/nebulasio/
+Abyss,['Business Platform'],https://github.com/abyssfinance
+Gro DAO Token,"['Yield Aggregator', 'Olympus Pro']",
+Spectrum Token,"['Yield Aggregator', 'Terra Ecosystem']",https://github.com/spectrumprotocol
+Notional Finance,[],https://github.com/notional-finance
+Yearn Lazy Ape,"['Index', 'DeFi Index']",
+DuckDaoDime,[],
+Mirrored Amazon,['Mirrored Assets'],
+Revomon,"['Binance Smart Chain Ecosystem', 'Play To Earn', 'Metaverse', 'Non-Fungible Tokens (NFT)', 'Virtual Reality', 'Collectibles', 'Gaming']",
+Secret Finance,"['Decentralized Exchange Token (DEX)', 'MEV Protection', 'Decentralized Finance (DeFi)']",https://github.com/enigmampc/SecretSwap
+Lunr Token,[],
+Quantum Resistant Ledger,['Cryptocurrency'],https://github.com/theQRL/QRL
+Quantum Resistant Ledger,['Cryptocurrency'],https://github.com/theQRL/qips
+Quantum Resistant Ledger,['Cryptocurrency'],https://github.com/theQRL/zeus
+Quantum Resistant Ledger,['Cryptocurrency'],https://github.com/theQRL/zond
+Quantum Resistant Ledger,['Cryptocurrency'],https://github.com/theQRL/theqrl.org
+Ubeswap,"['Celo Ecosystem', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)']",https://github.com/ubeswap/ubeswap-governance
+FreeRossDAO,[],
+Cerby Token,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/DefiFactoryToken/DefiFactoryToken
+MahaDAO,"['Launchpad', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",http://github.com/mahadao
+TE-FOOD,['Manufacturing'],
+Pandacoin,[],https://github.com/DigitalPandacoin/pandacoin
+Mirrored Alibaba,['Mirrored Assets'],
+GEEQ,['Internet of Things (IOT)'],
+NFTrade,"['Avalanche Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/NFTrade/NFTDToken
+Tarot,"['Lending/Borrowing', 'Yield Aggregator', 'Fantom Ecosystem', 'Yield Farming']",https://github.com/tarot-finance/tarot-token
+Dafi Protocol,"['Derivatives', 'Synthetic Issuer', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+0xBitcoin,"['Number', 'Cryptocurrency']",https://github.com/0xbitcoin/0xbitcoin-web
+0xBitcoin,"['Number', 'Cryptocurrency']",https://github.com/0xbitcoin/0xbitcoin-token
+Ignis,[],
+Pallapay,[],
+Ispolink,['Polygon Ecosystem'],
+UniX,"['Play To Earn', None, 'Gaming']",
+Mirrored Google,['Mirrored Assets'],https://github.com/mirror-protocol
+Arcblock,['Protocol'],https://github.com/ArcBlock/ArcBlock-Token
+NerveNetwork,['Decentralized Exchange Token (DEX)'],https://github.com/NerveNetwork/nerve
+Aidos Kuneen,['Finance / Banking'],https://github.com/AidosKuneen/aknode
+APWine,"['Yield Aggregator', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/APWine
+SafeMoon Inu,['Meme Tokens'],https://github.com/Safemoon-Inu-Token
+Finxflo,[],
+BlackDragon Token,[],
+Asch,['Smart Contract Platform'],https://github.com/AschPlatform/asch
+e-Money EUR,['EUR Stablecoin'],https://github.com/e-money/em-ledger
+Million,[],
+APY.Finance,"['Yield Aggregator', 'Polygon Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)']",
+Nectar,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/deversifi
+BountyMarketCap,[],
+KleeKai,['Gaming'],https://github.com/KleeKai-DEV
+Tower,"['Collectibles', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Governance']",
+Lith Token,[],
+Factom,['Smart Contract Platform'],https://github.com/FactomProject/factomd
+My DeFi Pet,"['Collectibles', 'Play To Earn', 'Non-Fungible Tokens (NFT)', None, 'Gaming']",
+Planet Finance,['Decentralized Finance (DeFi)'],https://github.com/planetfinance
+BSCEX,"['Decentralized Exchange Token (DEX)', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/bscex
+Wagerr,"['Gambling', 'Masternodes']",https://github.com/wagerr/HTML5-Wallet
+Blank,[],https://github.com/Blank-Wallet/
+StarShip,[],https://github.com/deploystarship
+Mirrored Netflix,['Mirrored Assets'],https://github.com/mirror-protocol
+Stakenet,"['Cryptocurrency', 'Governance', 'Masternodes']",https://github.com/X9Developers/XSN
+Zuki Moba,['Binance Smart Chain Ecosystem'],https://github.com/zukimoba
+Marinade,[],https://github.com/marinade-finance/
+Fear,"['Polygon Ecosystem', 'Play To Earn', 'DaoMaker Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Metaverse ETP,['Cryptocurrency'],https://github.com/mvs-org/metaverse
+Metaverse ETP,['Cryptocurrency'],https://github.com/mvs-org/lightwallet
+Metaverse ETP,['Cryptocurrency'],https://github.com/mvs-org/mvs-explorer-api
+Kattana,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/kattana-io
+JulSwap,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/justliquidity
+Covesting,[],https://github.com/covesting/covesting-io
+dotmoovs,"['Polygon Ecosystem', 'Play To Earn', 'Artificial Intelligence', 'Binance Smart Chain Ecosystem', 'Sports', 'Gaming']",
+Mirrored United States Oil Fund,['Mirrored Assets'],
+KIRA Network,['Cosmos Ecosystem'],https://github.com/kiracore
+Advanced Technology Coin,['Cryptocurrency'],https://github.com/AdvancedTechnologyCoin/arc
+Shibaverse,[],https://github.com/Shibaverse/
+CBC.network,[],
+Lambda,"['Cosmos Ecosystem', 'Infrastructure']",https://github.com/LambdaIM/proofDP
+Lambda,"['Cosmos Ecosystem', 'Infrastructure']",https://github.com/LambdaIM/token-profile
+DappRadar,[],https://github.com/dappradar/nft-sales-adapters
+Unicly CryptoPunks Collection,"['uTokens', 'Fractionalized NFT', 'Non-Fungible Tokens (NFT)']",
+Radar,['Binance Smart Chain Ecosystem'],
+OneLedger,"['Cosmos Ecosystem', 'Protocol', 'Smart Contract Platform']",https://github.com/Oneledger/protocol
+Birake,"['Centralized Exchange Token (CEX)', 'Masternodes', 'Exchange-based Tokens']",https://github.com/birake/birakecoin
+Monsta Infinite,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+DeepBrain Chain,['Artificial Intelligence'],
+apM Coin,['Business Platform'],https://github.com/apmcoin
+Binamon,"['Metaverse', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+IOI Token,"['Metaverse', 'Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+DAOhaus,"['Governance', 'xDAI Ecosystem']",https://github.com/HausDAO/pokemol-web
+Rangers Protocol,[],https://github.com/rangersprotocol/
+Robonomics Network,"['Internet of Things (IOT)', 'Polkadot Ecosystem']",https://github.com/airalab/aira
+Run,[],
+Xend Finance,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/xendfinance
+RealFevr,['Binance Smart Chain Ecosystem'],https://github.com/bepronetwork/bepro-js/issues/50
+Morpheus Labs,['Business Platform'],https://github.com/Morpheuslabs-io/morpheus-ops-console
+ZeroSwap,"['Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Shirtum,[],https://github.com/Shirtum
+Game Fantasy Token,[None],https://github.com/GameFantasyDev/starcrazy-contracts
+Probit Token,"['Cryptocurrency', 'Exchange-based Tokens']",https://github.com/probitexchange/
+ACryptoS,"['Yield Aggregator', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/acryptosx
+Modefi,"['Fantom Ecosystem', 'Oracle']",
+Cope,['Solana Ecosystem'],
+Signum,['Smart Contract Platform'],https://github.com/signum-network
+Signum,['Smart Contract Platform'],https://github.com/signum-network/signum-node
+Lunar,[],https://github.com/LunarLegionBsc/Lunar
+Wall Street Games,"['Polygon Ecosystem', 'Play To Earn', 'Binance Smart Chain Ecosystem']",
+King Shiba,[],
+Enecuum,"['Cryptocurrency', 'Smart Contract Platform', 'Masternodes']",https://github.com/Enecuum/enecuum.com
+Cola Token,[],
+Nabox,['Binance Smart Chain Ecosystem'],
+ExNetwork Token,[],https://github.com/exnetwork/exnetworktools
+Vidya,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Port Finance,['Solana Ecosystem'],https://github.com/port-finance/
+Arcona,"['Metaverse', 'Augmented Reality']",https://github.com/ArconaEcosystem/arcona-core
+Pinknode,['Polkadot Ecosystem'],
+NXT,['Smart Contract Platform'],
+Starname,['Cosmos Ecosystem'],https://github.com/iov-one
+Velhalla,[],
+Pegaxy Stone,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Opium,"['Derivatives', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance', 'xDAI Ecosystem']",https://github.com/OpiumProtocol
+Tranche Finance,['Polygon Ecosystem'],
+Solarbeam,[None],https://github.com/solarbeamio
+Burency,[],
+Kromatika,[],https://github.com/Kromatika-Finance
+Signata,['Business Services'],https://github.com/congruentlabs/sata-contracts-v1
+Genesis Worlds,"['Metaverse', 'Gaming']",
+Public Mint,[],
+Mercurial,['Solana Ecosystem'],
+DFX Finance,"['Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+AXIA Coin,[],
+MiniDOGE,[],
+DinoX,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Cashaa,['Polygon Ecosystem'],https://github.com/cashaadev/CashaaUi
+Genesis Pool,['Launchpad'],
+Kuma Inu,"['Meme Tokens', 'Yield Farming']",
+PepeCash,[],
+wLITI,[],https://github.com/Liti-Capital/Equity-Tokenization
+FREEdom coin,"['Cryptocurrency', 'Binance Smart Chain Ecosystem']",
+Voice Token,[],https://github.com/NixPlatform/nix-bridge-token/
+ARMOR,"['Insurance', 'Decentralized Finance (DeFi)']",
+Leonicorn Swap,[],https://github.com/Leonicornswap
+Ethereans,"['Business Platform', 'Non-Fungible Tokens (NFT)', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/EthereansOS/Organizations-Core
+Netswap,[],https://github.com/netswap
+Pacoca,"['Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",
+Mirrored Twitter,['Mirrored Assets'],https://github.com/mirror-protocol
+Jenny Metaverse DAO Token,['Non-Fungible Tokens (NFT)'],https://github.com/JennyMetaverse/Litepaper
+The Parallel,['Binance Smart Chain Ecosystem'],https://github.com/theparalleldotio
+WannaSwap,"['Decentralized Exchange Token (DEX)', 'Near Protocol Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/wannaswap
+GridZone.io,"['Metaverse', 'Non-Fungible Tokens (NFT)', 'Governance']",https://github.com/GridZone/gridzone-governance
+Receive Access Ecosystem,['Media'],https://github.com/rokfin/eth-contracts
+Jupiter,['Communication'],https://github.com/SigwoTechnologies/jupiter
+Charg Coin,['Energy'],https://github.com/ChargCoinLLC/NODE
+Bitcoin 2,['Cryptocurrency'],https://github.com/BITC2/bitcoin2
+ETHPad,[],
+OAX,[],https://github.com/OAXFoundation
+DOEX,[],
+BitKan,['Exchange-based Tokens'],
+TONToken,[],https://github.com/ton-blockchain/ton
+Mirrored iShares Gold Trust,['Mirrored Assets'],
+Don-key,[],
+DEEPSPACE,"['Play To Earn', 'Entertainment', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/deepspace-game
+LABS Group,['Polygon Ecosystem'],https://github.com/labsgroupio
+Wabi,[],
+Idavoll DAO,['Polygon Ecosystem'],https://github.com/idavollnetwork/idavoll
+Phantasma Energy,"['Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/phantasma-io
+GeroWallet,[],
+Kalao,"['Metaverse', 'Avalanche Ecosystem']",
+Liquidus,[],https://github.com/Liquidus-Finance
+xxxNifty,['Binance Smart Chain Ecosystem'],
+Relay Token,[],
+Konomi Network,[],
+Sin City,[],
+DLP Duck Token,['Launchpad'],
+Siren,"['Derivatives', 'Polygon Ecosystem', 'Options', 'Decentralized Finance (DeFi)']",https://github.com/sirenmarkets/core
+Tempus,[],https://github.com/tempus-finance
+Elk Finance,"['Avalanche Ecosystem', 'Fantom Ecosystem', 'xDAI Ecosystem', None]",https://github.com/elkfinance
+Draken,[],https://github.com/drakentech
+SONM,['Storage'],https://github.com/sonm-io/core
+Pluton,[],
+EpiK Protocol,[],https://github.com/EpiK-Protocol
+Hord,"['DaoMaker Ecosystem', 'Governance']",https://github.com/hord
+Strips Finance,[],https://github.com/strips-finance
+CSP DAO Network,[],
+TigerCash,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",
+AC Milan Fan Token,"['Fan Token', 'Sports']",
+Media Network,['Solana Ecosystem'],https://github.com/mediafoundation
+Swash,['xDAI Ecosystem'],https://github.com/swashapp
+Plasma Finance,"['Polygon Ecosystem', 'Business Services', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/plasmadlt/PPAY-Governance
+Ojamu,[],
+MetaWars,['Binance Smart Chain Ecosystem'],
+Crypterium,['Finance / Banking'],
+DIGG,"['Rebase Tokens', 'Decentralized Finance (DeFi)']",https://github.com/Badger-Finance
+Botto,['Olympus Pro'],https://github.com/bottoproject
+Standard Protocol,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Yield Farming']",https://www.github.com/digitalnativeinc/
+Cyclos,['Solana Ecosystem'],
+Brokoli,[],
+RioDeFi,['Polkadot Ecosystem'],
+Fandom Chain,[],https://github.com/hanryubank/fandomchain
+Lympo Market Token,[],
+Franklin,[],https://github.com/tokenfly/Franklin-Token
+Nord Finance,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+HEdpAY,['Finance / Banking'],
+Govi,"['Derivatives', 'Decentralized Finance (DeFi)']",https://github.com/coti-io/cvi-contracts
+Yee,[],
+SWFTCOIN,"['Polygon Ecosystem', 'HECO Chain Ecosystem', 'Exchange-based Tokens']",https://github.com/SwftCoins/SwftCoin
+POP Network,[],https://github.com/popnetwork
+UpBots,[],
+SparkPoint,[],https://github.com/sparkpointio/support
+CoinMerge (BSC),['Binance Smart Chain Ecosystem'],
+Gunstar Metaverse,['Binance Smart Chain Ecosystem'],
+Trabzonspor Fan Token,"['Fan Token', 'Sports']",
+SALT,[],https://github.com/unyo/saltcoin
+Wirex,['Cryptocurrency'],
+Etherrock #72,['Fractionalized NFT'],
+Unmarshal,"['Polygon Ecosystem', 'Oracle']",https://github.com/eucrypt
+Swop,[],https://github.com/swopfi/swopfi-smart-contracts
+Plian,['Smart Contract Platform'],
+Paint Swap,"['Fantom Ecosystem', 'Automated Market Maker (AMM)', 'Non-Fungible Tokens (NFT)', 'Yield Farming']",https://github.com/PaintSwap
+Scream,"['Lending/Borrowing', 'Fantom Ecosystem', 'Olympus Pro']",https://github.com/scream-finance
+FIAT DAO Token,[],https://github.com/fiatdao
+Mirrored Ether,['Mirrored Assets'],https://github.com/mirror-protocol
+Apollo DAO,[],
+Belt,"['Decentralized Exchange Token (DEX)', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+OpenAlexa Protocol,[],
+Pastel,['Non-Fungible Tokens (NFT)'],https://github.com/PastelNetwork/Pastel
+Pastel,['Non-Fungible Tokens (NFT)'],https://github.com/PastelNetwork/Pastel_Electron_Wallet
+Pastel,['Non-Fungible Tokens (NFT)'],https://github.com/PastelNetwork
+Vera,[],
+Monetha,"['Business Services', 'Business Platform']",https://github.com/monetha/magento
+Raiden Network Token,['Infrastructure'],https://github.com/raiden-network/raiden/
+Gyro,"[None, 'Rebase Tokens', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Gas DAO,[],
+Wild Credit,[],https://github.com/WildCredit/contracts
+Impossible Finance,[],https://github.com/impossiblefinance
+BTC 2x Flexible Leverage Index,"['DeFi Index', 'Leveraged Token']",
+ZBG Token,['Exchange-based Tokens'],
+Tierion,[],https://github.com/tierion/-
+DeFi Yield Protocol,"['Avalanche Ecosystem', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/dypfinance
+Credmark,[],https://github.com/credmark/cmk-launch-contracts
+iMe Lab,['Binance Smart Chain Ecosystem'],https://github.com/imemessenger/
+Hyve,"['Gig Economy', 'Binance Smart Chain Ecosystem']",
+Furucombo,"['Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+Terra World Token,[],https://github.com/TerraWorld/TerraWorld
+Unido,"['Business Services', 'Polkadot Ecosystem']",
+BiFi,"['Lending/Borrowing', 'Decentralized Finance (DeFi)']",https://github.com/bifrost-platform/BIFI
+ZooKeeper,[],https://github.com/zooFarming
+FortKnoxster,[],
+Swingby,['Polygon Ecosystem'],https://github.com/SwingbyProtocol/
+DEGEN Index,"['Index', 'DeFi Index']",https://github.com/indexed-finance
+AS Roma Fan Token,"['Fan Token', 'Sports']",
+AnRKey X,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+LATOKEN,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/ElKornacio/contracts-early
+cWBTC,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+TrueFlip,[],https://github.com/TrueFlip/trueflip-contracts
+Oddz,['Polygon Ecosystem'],https://github.com/oddz-finance
+Rupiah Token,['Cryptocurrency'],https://github.com/rupiah-token/rupiahtoken-smart-contracts
+RigoBlock,['Finance / Banking'],https://github.com/rigoblock
+SaTT,['Business Services'],https://github.com/Atayen/satt
+Dogs Of Elon,['Meme Tokens'],
+Green Climate World,['Binance Smart Chain Ecosystem'],
+Razor Network,"['Polygon Ecosystem', 'Oracle']",https://github.com/razor-network
+Moeda Loyalty Points,[],https://github.com/moedabank/moeda
+Moeda Loyalty Points,[],https://github.com/moedaplatform
+LuaSwap,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",https://github.com/tomochain/luaswap
+Feisty Doge NFT,"['Fractionalized NFT', 'Non-Fungible Tokens (NFT)']",
+Spheroid Universe,"['Metaverse', 'Augmented Reality', 'Non-Fungible Tokens (NFT)']",
+Waterfall Governance Token,['Binance Smart Chain Ecosystem'],https://github.com/WaterfallDefi/
+MoonStarter,['Launchpad'],
+Oiler,"['Derivatives', 'Decentralized Exchange Token (DEX)', 'Options']",https://github.com/oilernetwork
+PutinCoin,[],
+LOCGame,"['Polygon Ecosystem', 'Collectibles', 'Non-Fungible Tokens (NFT)']",
+Creampye [OLD],['Binance Smart Chain Ecosystem'],
+mStable BTC,"['Olympus Pro', 'Tokenized BTC', 'Decentralized Finance (DeFi)']",
+Formation FI,['Binance Smart Chain Ecosystem'],
+Decentral Games ICE,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Yel.Finance,[],https://github.com/YieldEnhancementLabs
+xFund,"['Business Services', 'Oracle', 'Governance']",https://github.com/unification-com/xfund-smart-contract
+RocketX,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Connect Financial,[],https://github.com/Connect-Financial
+SideShift Token,[],
+AlgoVest,[],
+Polis,['Binance Smart Chain Ecosystem'],https://github.com/polischain
+Airbloc,[],https://github.com/airbloc/token
+Airbloc,[],https://github.com/airbloc/contract-mvp
+Dinger Token,[],https://github.com/SchrodingerToken/DINGER
+Dify.Finance,[],https://github.com/difyfinance
+Allbridge,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/allbridge-io
+Cops Finance,[],
+Litecoin Cash,[],https://github.com/litecoincash-project/litecoincash
+Bonded Finance,[],
+Citizen Finance,"['Collectibles', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/citizenfi
+FNDZ Token,['Binance Smart Chain Ecosystem'],https://github.com/fndzdao/
+Decentr,"['Cosmos Ecosystem', 'Business Services', 'Protocol']",https://github.com/nanikeev/Decentr
+BSC Station,"['Automated Market Maker (AMM)', 'Non-Fungible Tokens (NFT)', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+UniLayer,"['Decentralized Exchange Token (DEX)', 'Business Services', 'Non-Fungible Tokens (NFT)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Lympo,['Healthcare'],
+Diamond,['Masternodes'],https://github.com/DMDcoin/Diamond
+DOSE,[],https://github.com/olivexbvi/dose-ethereum-contracts
+Crypto Carbon Energy,[],https://github.com/cycecoin
+EnreachDAO,"['Binance Smart Chain Ecosystem', 'Governance']",
+Splyt,"['Polkadot Ecosystem', 'Asset-backed Tokens']",
+Wrapped Ampleforth,[],
+RainbowToken,['Binance Smart Chain Ecosystem'],https://github.com/BSCGuru/rainbowtoken
+Scrooge,['Binance Smart Chain Ecosystem'],
+Equalizer,"['Lending/Borrowing', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Uniqly,['Non-Fungible Tokens (NFT)'],
+Pickle Finance,"[None, 'Polygon Ecosystem', 'Yearn Ecosystem', 'Yield Aggregator', 'Governance', 'Decentralized Finance (DeFi)', 'Yield Farming']",
+xToken,"['Yield Aggregator', 'Yield Farming', 'Decentralized Finance (DeFi)']",https://github.com/xtokenmarket/xtoken-js
+Monolith,"['Cryptocurrency', 'Decentralized Finance (DeFi)']",https://github.com/tokencard/MultiSigWallet
+FairGame,[],https://github.com/FairGame2017/crowdsale
+BabyDoge ETH,[],https://github.com/babydogecoingg
+Kommunitas,"['Launchpad', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/Kommunitas-net
+cREP,"['Finance / Banking', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+SuperLauncher DAO,"['Launchpad', 'Binance Smart Chain Ecosystem']",https://github.com/SuperLauncher/SmartContracts
+dfohub,"['Business Platform', 'Governance']",https://github.com/ethereansos
+Divergence Protocol,[],https://github.com/DivergenceProtocol
+Tixl,[],https://github.com/tixl
+NFT Protocol,"['Protocol', 'Non-Fungible Tokens (NFT)', 'Governance']",http://github.com/nftprotocol
+NFT Protocol,"['Protocol', 'Non-Fungible Tokens (NFT)', 'Governance']",https://github.com/Blockparty-Global/
+Bird.Money,['Oracle'],https://github.com/birdcarer
+Privateum,[],
+YF Link,"['Finance / Banking', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",
+Onooks,"['Cryptocurrency', 'Social Money', 'Governance']",https://github.com/onooks/onooks
+OneSwap DAO Token,[],https://github.com/oneswap/oneswap_contract_ethereum
+Roseon Finance,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Stakecube,"['Cryptocurrency', 'Masternodes']",https://github.com/stakecube/stakecube
+CyberFi,"['Launchpad', 'Polygon Ecosystem', 'Business Services']",
+AMLT Network,[],
+Unipilot,[],https://github.com/VoirStudio
+Quadrant Protocol,"['Polygon Ecosystem', 'Big Data']",
+ARC Governance,"['Lending/Borrowing', 'Non-Fungible Tokens (NFT)', 'Decentralized Finance (DeFi)', 'Governance']",
+Must,"['Polygon Ecosystem', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/cometh-game/
+SafeDeal,['Masternodes'],https://github.com/safedeal-project/safedeal
+KICK.IO,[],
+Olyseum,[],https://github.com/olyseum
+Annex Finance,[],https://github.com/annexfinance/annex-protocol
+bitCNY,"['CNY Stablecoin', 'Stablecoins']",
+Chronicle,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",
+AurusDeFi,"['Polygon Ecosystem', 'Cryptocurrency', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Gaia Everworld,"['Polygon Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",
+CoinxPad,"['Launchpad', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/Coinxpad
+Warp Finance,"['Lending/Borrowing', 'Decentralized Finance (DeFi)']",https://github.com/warpfinance/
+GraphLinq Protocol,"['Polygon Ecosystem', 'Business Services', 'Infrastructure', 'Analytics']",
+StakeWise,[],https://github.com/stakewise
+KAINET,"['Binance Smart Chain Ecosystem', 'Gaming']",
+TXA,[],
+Ubiq,['Smart Contract Platform'],https://github.com/ubiq/go-ubiq
+Nafter,[],
+CoverCompared,['Polkadot Ecosystem'],https://github.com/CoverCompared
+Fortress,"['Avalanche Ecosystem', 'Rebase Tokens', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/Fortress-DAO/
+QLC Chain,['Technology & Science'],https://github.com/qlcchain/go-qlc
+Graviton,['Fantom Ecosystem'],https://github.com/Graviton-One/
+Flux Token,[],
+Treasure Under Sea,"['Avalanche Ecosystem', 'Play To Earn', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+Wownero,[],https://git.wownero.com/wownero/wownero
+DUST Token,['Cryptocurrency'],https://github.com/icinsight/mutantmonsters
+Tidal Finance,"['Insurance', 'Polygon Ecosystem']",https://github.com/tidalfinance
+Giveth,['xDAI Ecosystem'],https://github.com/Giveth/giv-token-contracts
+Viberate,"['Music', 'Entertainment', 'Analytics']",https://github.com/viberate/Contract
+ShopNEXT,['Binance Smart Chain Ecosystem'],
+Petrachor,['Cryptocurrency'],https://github.com/petrachor/petrachor
+ANY Blocknet,"['Protocol', 'Masternodes']",https://github.com/BlocknetDX/blocknet
+ToaCoin,[],https://github.com/toacoin/TOA
+MetaDoge,['Binance Smart Chain Ecosystem'],
+Jigstack,[],https://github.com/jigstack-dev
+IX Swap,[],
+SuperBid,['Non-Fungible Tokens (NFT)'],
+The Crypto Prophecies,"['Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/quazard-gaming/crypto-prophecies-contracts
+CarbonEco,[],https://github.com/orgs/absorbco2/repositories
+UNCL,[],
+CrossWallet,[],
+ZMINE,['Business Services'],
+Acent,[],
+Blocknet,"['Protocol', 'Masternodes']",https://github.com/BlocknetDX/blocknet
+Ruff,[],https://github.com/RuffNotes/RuffChain
+Smoothy,['Binance Smart Chain Ecosystem'],
+Dollars,"['Seigniorage', 'Rebase Tokens']",https://github.com/dollar-protocol
+Cryptopolis,['Binance Smart Chain Ecosystem'],
+1-UP,"['Meme Tokens', 'Play To Earn', 'Gaming']",https://github.com/1-up-platform/
+Vaiot,[],https://github.com/VAIoT
+TETU,['Polygon Ecosystem'],https://github.com/tetu-io
+Wam,['Binance Smart Chain Ecosystem'],https://github.com/Digitapeu/wam-coin
+Sentinel [OLD],"['Cosmos Ecosystem', 'Technology & Science']",https://github.com/sentinel-official/sentinel
+Oduwa Coin,[],https://github.com/ODUWAX/oduwacoin
+TOKPIE,['Finance / Banking'],https://github.com/Tokpie/tokpie-contract
+Polytrade,[],
+Polker,"['Play To Earn', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Mt Pelerin Shares,"['Finance / Banking', 'Polygon Ecosystem', 'xDAI Ecosystem']",https://github.com/MtPelerin
+Mirrored Bitcoin,['Mirrored Assets'],https://github.com/mirror-protocol
+SmartCash,['Masternodes'],https://github.com/SmartCash/Core-Smart
+SmartCash,['Masternodes'],https://github.com/SmartCash/smartcash.github.io
+SmartCash,['Masternodes'],https://github.com/SmartCash/smarthub_local
+SmartCash,['Masternodes'],https://github.com/SmartCash/electrum-smart
+SmartCash,['Masternodes'],https://github.com/SmartCash/electrum-smart-server
+SmartCash,['Masternodes'],https://github.com/SmartCash/smartnode
+LIQ Protocol,['Solana Ecosystem'],https://github.com/liqprotocol
+Starter.xyz,"['Avalanche Ecosystem', 'Launchpad', 'Polygon Ecosystem', 'Fantom Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/bscstarter/crispy-octo
+Euler Tools,[],https://github.com/eulertools
+Revolve Games,"['Play To Earn', 'Binance Smart Chain Ecosystem', 'Gaming']",
+Hara Token,['Big Data'],https://github.com/dattabot-blockchain/hart
+Asian Fintech,['Binance Smart Chain Ecosystem'],
+Relevant,['Media'],https://github.com/relevant-community/relevant
+Artery,[],https://github.com/arterynetwork
+Kalmar,"['Yield Aggregator', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Revault Network,[],https://github.com/Revault-network/
+BlockBank,[],
+OG Fan Token,"['Fan Token', 'Entertainment']",
+NFT Index,['Index'],
+Transient,[],
+CluCoin,[],
+Polylastic,"['Index', 'Binance Smart Chain Ecosystem']",https://github.com/polylastic
+ZilSwap,[None],
+Tokenomy,['Infrastructure'],
+Vires Finance,[],https://github.com/viresfinance/protocol/
+UREEQA,"['Music', 'Non-Fungible Tokens (NFT)']",
+OceanEX Token,['Exchange-based Tokens'],
+PocMon (Old),[],
+Nemesis DAO,['Binance Smart Chain Ecosystem'],https://github.com/NemesisDao
+Vabble,[],
+Idena,"['Protocol', 'Oracle']",https://github.com/idena-network
+Float Protocol,['Olympus Pro'],https://github.com/FloatProtocol
+Enigma,"['Smart Contract Platform', 'Privacy Coins']",https://github.com/enigmampc/enigma-p2p
+Enigma,"['Smart Contract Platform', 'Privacy Coins']",https://github.com/enigmampc/enigma-core
+Enigma,"['Smart Contract Platform', 'Privacy Coins']",https://github.com/enigmampc/enigma-contract
+PolkaWar,['Gaming'],https://github.com/polkawar
+Raze Network,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/Raze-Net
+Huckleberry,[None],https://github.com/HuckleberryDex
+Throne,[],https://github.com/ThroneProject/ERC-20
+Ionomy,['Masternodes'],https://github.com/ionomy/ion
+Autonio,"['Decentralized Exchange Token (DEX)', 'Polygon Ecosystem', 'Decentralized Finance (DeFi)']",
+CACHE Gold,[],https://github.com/cache-token
+Blockasset,[],
+EvidenZ,"['Cryptocurrency', 'Education']",
+Ekta,['Binance Smart Chain Ecosystem'],https://github.com/ektaproject/ekta
+PieDAO DOUGH v2,"['Asset Manager', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/pie-dao/
+SpankChain,[],https://github.com/spankchain/token-vault
+VersoView,['Polygon Ecosystem'],
+SpaceChain (ERC-20),[],https://github.com/spacechain/SpaceChainOS
+Einsteinium,[],https://github.com/emc2foundation/qt-wallet-emc2
+Bundles,[],
+GROWTH DeFi,"['Avalanche Ecosystem', 'Olympus Pro', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/GrowthDeFi/growthdefi-v1-core
+1337,"['Number', 'Social Money']",
+Skycoin,[],https://github.com/skycoin/skycoin
+DinoSwap,['Polygon Ecosystem'],
+WOWswap,"['Avalanche Ecosystem', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', None]",
+Legend of Fantasy War,['Binance Smart Chain Ecosystem'],
+Useless,[],https://github.com/uselesscrypto
+DeFiner,"['Lending/Borrowing', 'Decentralized Finance (DeFi)', None]",
+Falcon Project,['Entertainment'],https://github.com/ProjectFalcon
+MakiSwap,['HECO Chain Ecosystem'],
+Crypton,"['Cryptocurrency', 'Privacy Coins']",
+Gulden,['Cryptocurrency'],https://github.com/Gulden/gulden-official
+X-Consoles,[],
+Ripio Credit Network,"['Lending/Borrowing', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/ripio/rcn-network
+BigShortBets,[],
+TenX,['Finance / Banking'],https://github.com/comit-network/comit-rs
+TenX,['Finance / Banking'],https://github.com/comit-network/RFCs
+Plant vs Undead Token,['Play To Earn'],https://github.com/plantvsundead/
+Avaxlauncher,"['Avalanche Ecosystem', 'Binance Smart Chain Ecosystem']",
+Fedoracoin,[],https://github.com/fedoracoin/fedoracoin
+Serey Coin,[],https://github.com/serey-io/serey-blockchain-node
+Revest Finance,[],
+KOROMARU,[],
+Fabric,"['Solana Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/fabric-foundation/
+NearPad,[],
+Game Ace Token,[],https://github.com/AlchemyToys
+Achain,[],https://github.com/Achain-Dev/Achain
+Unicly Hashmasks Collection,"['uTokens', 'Fractionalized NFT', 'Non-Fungible Tokens (NFT)']",
+BNPL Pay,[],
+Jetfuel Finance,['Binance Smart Chain Ecosystem'],https://github.com/jetfuelfinance
+InventoryClub,[],
+Switcheo,"['Cosmos Ecosystem', 'Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Kineko,['Entertainment'],
+Xfinite Entertainment Token,[],https://github.com/xfinite-io/XET
+XVIX,[],https://github.com/xvi10/xvix-contracts
+Metrix Coin,[],https://github.com/TheLindaProjectInc/metrix
+Monavale,"['Metaverse', 'Polygon Ecosystem', 'Non-Fungible Tokens (NFT)']",https://github.com/DIGITALAX/staking/blob/main/contracts/MONA.sol
+EverETH,['Binance Smart Chain Ecosystem'],https://github.com/EverETHcode
+CREDITS,[],https://github.com/CREDITSCOM/node
+Rhythm,['Music'],https://github.com/ryandavern/Rhythm
+CryptoCart V2,['Binance Smart Chain Ecosystem'],
+Bibox Token,['Exchange-based Tokens'],https://github.com/bibox365/bixtoken
+Unicly Bored Ape Yacht Club Collection,"['uTokens', 'Fractionalized NFT', 'Non-Fungible Tokens (NFT)']",
+VIBE,"['Metaverse', 'Play To Earn', 'Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",https://github.com/amack2u/VibeHub
+Pussy Financial,[],
+UniWhales,['Analytics'],
+Shardus,['Protocol'],https://github.com/Shardus/shardus.github.io
+UniDex,['xDAI Ecosystem'],https://github.com/supakawaiidesu/UniDex-Token
+Hakka Finance,"['Decentralized Finance (DeFi)', 'Governance']",https://github.com/hakkafinance/blackholeswap.com
+Cypherium,['Smart Contract Platform'],https://github.com/cypherium/
+SWAPZ.app,[],
+SOLACE,[],https://github.com/solace-fi/solace-stats
+MCH Coin,"['Entertainment', 'Non-Fungible Tokens (NFT)', 'Gaming']",
+IDLE,"['Yield Aggregator', 'Polygon Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",http://github.com/Idle-Labs
+INSTAR,['Big Data'],
+Coin,['Decentralized Finance (DeFi)'],https://github.com/coindefi/COIN
+BlackHat Coin,[],https://github.com/BlackHatCoin/BlackHatWallet
+Ghost,"['Cryptocurrency', 'Privacy Coins']",https://github.com/ghost-coin
+Nucleus Vision,['Business Platform'],https://github.com/NucleusVision/smartcontracts
+Bitlocus,['Binance Smart Chain Ecosystem'],
+The Three Kingdoms,['Gaming'],
+Total Crypto Market Cap,"['Index', 'DeFi Index']",https://github.com/cryptexfinance
+Dapp.com,['Business Platform'],
+Husky AVAX,"['Avalanche Ecosystem', 'Music']",
+Unit Protocol New,"['Lending/Borrowing', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/unitprotocol/core
+Demole,['Binance Smart Chain Ecosystem'],
+Investin,['Solana Ecosystem'],https://github.com/Investin-pro
+YAM,"['Insurance', 'Asset Manager', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/yam-finance/yam-protocol
+Hedget,"['Derivatives', 'Decentralized Exchange Token (DEX)', 'Options', 'Decentralized Finance (DeFi)']",
+Ridotto,[],https://github.com/ridotto-io/ridotto.io
+Matrix AI Network,['Artificial Intelligence'],https://github.com/MatrixAINetwork/WhitePaper
+WorldCoin,[],https://github.com/Worldcoin-Network/worldcoin
+WorldCoin,[],https://github.com/OfficialWorldcoinGlobal/Worldcoin/releases
+WorldCoin,[],https://github.com/WorldcoinGlobal/WorldcoinDaemon
+Teloscoin,"['Technology & Science', 'Masternodes']",https://github.com/phoenixkonsole/transcendence
+TrueChain,[],
+MATRYX,[],https://github.com/matryx/Matryx-Alpha
+DeepOnion,['Privacy Coins'],https://github.com/deeponion/deeponion
+Uniform Fiscal Object,[],https://github.com/fiscalobject/ufo
+CyberMiles,['Cosmos Ecosystem'],https://github.com/cybermiles/cybermiles-token
+Prosper,"['Prediction Markets', 'Polygon Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Pawthereum,[],https://github.com/pawthereum
+Helmet Insure,[],https://github.com/helmet-insure/helmet-insure.github.io
+HTMLCOIN,['Protocol'],https://github.com/HTMLCOIN/HTMLCOIN
+X-CASH,['Finance / Banking'],https://github.com/X-CASH-official/X-CASH
+Equilibrium EOSDT,"['USD Stablecoin', 'Stablecoins']",https://github.com/equilibrium-eosdt
+Reward Hunters Token,['Binance Smart Chain Ecosystem'],https://github.com/RewardHunters
+JULIEN,['Social Money'],
+Phantasia,[],
+Metaverse Miner,[],
+INTchain,[],https://github.com/intfoundation
+Banana,['Non-Fungible Tokens (NFT)'],
+KAKA NFT World,['Binance Smart Chain Ecosystem'],
+Electronic Gulden,[],https://github.com/Electronic-Gulden-Foundation/egulden
+Revain,[],https://github.com/Revain/REVETHToken
+Waggle Network,[],
+Everlens,['Binance Smart Chain Ecosystem'],
+ODEM,['Education'],https://github.com/odemio/zeppelin-solidity
+ODEM,['Education'],https://github.com/odemio/stakebank
+ODEM,['Education'],https://github.com/odemio/onf-diceware
+Hanu Yokia,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",https://github.com/Goji-Crypto
+Swarm Markets,[],https://github.com/SwarmMarkets/trade-smart-contracts
+Exodia,"['Fantom Ecosystem', 'Rebase Tokens']",
+Feeder Finance,"['Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+cSAI,"['Finance / Banking', 'Asset-backed Tokens']",
+Bankless BED Index,[],
+Horizon Protocol,"['Synthetic Issuer', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/Horizon-Protocol/
+OolongSwap,[],https://github.com/OolongSwap/oolongswap-deployments/
+Kambria,"['Polygon Ecosystem', 'Cryptocurrency']",https://github.com/kambria-platform/kambria-contracts
+Kambria,"['Polygon Ecosystem', 'Cryptocurrency']",https://github.com/kambria-platform/tokens
+Cardence,"['Launchpad', 'Binance Smart Chain Ecosystem']",
+MASS,"['Technology & Science', 'Smart Contract Platform']",https://github.com/massnetorg
+Roobee,[],https://github.com/roobee-platform/Roobee
+TribeOne,[],https://github.com/TribeOneDefi
+Shih Tzu,['Meme Tokens'],
+Orakuru,"['Business Services', 'Infrastructure', 'Smart Contract Platform', 'Oracle']",
+Moonscape,"['Binance Smart Chain Ecosystem', None]",https://github.com/Seastarinteractive/moonscape
+Xeta Reality,[],https://github.com/XetaReality
+Dogey-Inu,[],
+8Pay,['Polygon Ecosystem'],
+Swerve,"['Automated Market Maker (AMM)', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/SwerveFinance/SwervContracts
+Spaceswap MILK2,"['Avalanche Ecosystem', 'Number', 'Binance Smart Chain Ecosystem']",https://github.com/spaceswap
+Bloom,['Finance / Banking'],https://github.com/hellobloom/core
+BnkToTheFuture,['Finance / Banking'],https://github.com/BankToTheFuture/bft
+EOSForce,['Smart Contract Platform'],https://github.com/eosforce/eosforce
+Rewards Bunny,['Binance Smart Chain Ecosystem'],https://github.com/rewardsbunny/RewardsBunny
+TOP Network,['Infrastructure'],
+ACA Token,[],
+Spendcoin,"['Cosmos Ecosystem', 'Finance / Banking']",https://github.com/Spend/Spend-Business
+Quark,['Cryptocurrency'],https://github.com/MaxGuevara/quark
+Quark,['Cryptocurrency'],https://github.com/quark-project/quark
+Pillar,"['Finance / Banking', 'Business Platform', 'Software', 'Governance', 'xDAI Ecosystem']",https://github.com/pillarwallet/PillarToken
+Shakita Inu,['Binance Smart Chain Ecosystem'],
+Vexanium,['Business Platform'],https://github.com/vexanium/contract
+Black Eye Galaxy,"['Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/blackeyegalaxy
+TasteNFT,['Binance Smart Chain Ecosystem'],
+Dune,[],
+OnX Finance,"['Avalanche Ecosystem', 'Polygon Ecosystem']",https://github.com/OnXFinance/
+Score Token,[None],
+Impermax,"['Avalanche Ecosystem', 'Polygon Ecosystem', None]",https://github.com/Impermax-Finance
+Microtick,[],https://github.com/microtick
+smARTOFGIVING,['Charity'],https://github.com/smartofgiving/AOG
+DAppNode,['xDAI Ecosystem'],https://github.com/dappnode
+OtterClam,"['Polygon Ecosystem', 'Rebase Tokens', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",https://github.com/OtterClam
+Kick,"['Finance / Banking', 'Binance Smart Chain Ecosystem']",https://github.com/kickico/contracts
+Obortech,[],https://github.com/OBORTECH-org/OBOT
+Mist,['Gaming'],
+Mettalex,['Synthetic Issuer'],https://github.com/fetchai/mettalex-market-maker
+Mettalex,['Synthetic Issuer'],https://github.com/fetchai/mettalex-token
+Whiteheart,"['Derivatives', 'Decentralized Finance (DeFi)']",
+Trava Finance,"['Lending/Borrowing', 'Yield Farming']",https://github.com/TravaFinance
+Afreum,[],
+Woofy,"['Yearn Ecosystem', 'Meme Tokens']",https://github.com/yearn/woofy
+Yup,['Social Money'],https://github.com/yup-io
+Genaro Network,[],https://github.com/GenaroSanada/Genaro
+Hiveterminal token,[],https://github.com/cazala/coin-hive
+OTOCASH,['Finance / Banking'],https://github.com/otocash/OTOCASH
+Zap,['Oracle'],https://github.com/zapproject
+Zap,['Oracle'],https://github.com/zapproject/FeedArbitration
+Verox,['Polygon Ecosystem'],
+Cube,['Business Platform'],
+Spore,"['Avalanche Ecosystem', 'Non-Fungible Tokens (NFT)', 'Binance Smart Chain Ecosystem']",https://github.com/sporeproject/spore-frontend
+CloutContracts,[],https://github.com/CloutContracts
+Gridcoin,['Technology & Science'],https://github.com/gridcoin-community/Gridcoin-Research
+ClinTex CTi,[],http://github.com/ClinTex/
+Minto,[],
+VDV Token,[],
+impactMarket,['Celo Ecosystem'],https://github.com/impactMarket
+Nyzo,['Cryptocurrency'],https://github.com/Open-Nyzo/
+Nyzo,['Cryptocurrency'],https://github.com/n-y-z-o/nyzoVerifier
+Celestial,['Non-Fungible Tokens (NFT)'],https://github.com/CeltGame
+Blockzero Labs,['Business Platform'],
+Restart Energy,['Cryptocurrency'],https://github.com/TransylvaniaHighTech/RestartEnergyICO
+B-cube.ai,[],
+Filda,"['Lending/Borrowing', 'HECO Chain Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/fildaio/FilDA
+Filda,"['Lending/Borrowing', 'HECO Chain Ecosystem', 'Yield Farming', 'Decentralized Finance (DeFi)', 'Governance']",https://github.com/fildaio
+Unslashed Finance,"['Insurance', 'Olympus Pro', 'Decentralized Finance (DeFi)']",
+Sirin Labs Token,[],https://github.com/sirin-labs/crowdsale-smart-contract
+Sirin Labs Token,[],https://github.com/sirin-labs/certain-channel
+Sirin Labs Token,[],https://github.com/sirin-labs/karma.js
+Sarcophagus,[],https://github.com/sarcophagus-org/sarco-token
+Etho Protocol,"['Infrastructure', 'Masternodes']",https://github.com/Ether1Project/Ether1
+BillionHappiness,[],https://github.com/BHCHappiness
+Pontoon,[],https://github.com/pontoonfi
+Vanilla Network,"['Gambling', 'Polygon Ecosystem']",https://github.com/vanilla-network/Vanilla-Core
+EUNO,[],https://github.com/Euno/explorer
+ARCS,[],
+Auroracoin,[],https://github.com/aurarad/auroracoin
+Asko,['Cryptocurrency'],https://github.com/joefilmo/askonetwork-contracts
+Edgeless,['Business Platform'],https://github.com/EdgelessCasino/Smart-Contracts
+OIN Finance,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Mover,['Yield Aggregator'],https://github.com/Holyheld
+Big Data Protocol,"['Solana Ecosystem', 'Polygon Ecosystem', 'Big Data', 'Storage', 'Analytics']",https://github.com/bigdataprotocol/bdp-contracts
+Paypolitan Token,[],
+Zenfuse,[],
+Shopping.io Governance,[],https://github.com/shoppingio
+Egretia,['Software'],https://github.com/Egretia/Egretia-Engine
+Hodl Finance,[],
+Flare Token,['Polygon Ecosystem'],https://github.com/1FLR/1FLR-Contract
+Aimedis,['Binance Smart Chain Ecosystem'],https://github.com/AimedisBV/AIMX/
+Float Protocol: Float,[],https://github.com/FloatProtocol/
+Agave Token,['xDAI Ecosystem'],https://github.com/1Hive/agave-frontend
+Rabbit Finance,"['Lending/Borrowing', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/RabbitFinanceProtocol
+42-coin,['Number'],https://github.com/42-coin/42
+VeriSafe,['Business Platform'],https://github.com/VeriSafe/Desktop-Wallet
+VeriSafe,['Business Platform'],https://github.com/VeriSafe/VeriDex
+VeriSafe,['Business Platform'],https://github.com/VeriSafe/veridex-launchpad
+VeriSafe,['Business Platform'],https://github.com/VeriSafe/Ethereum
+VeriSafe,['Business Platform'],https://github.com/VeriSafe/verisafe-docs
+Cook,"['DeFi Index', 'Avalanche Ecosystem', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",https://github.com/CookFinance
+Tectonic,[],
+Dovu,['Cryptocurrency'],https://github.com/dovuofficial/
+Adora Token,[],
+WanSwap,"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Decentralized Finance (DeFi)']",https://github.com/wanswap
+BitOrbit,[],
+Emanate,['Music'],
+All Sports,[],
+sDEFI,"['Index', 'DeFi Index', 'Synths', 'Decentralized Finance (DeFi)', 'Asset-backed Tokens']",
+Tycoon,[],https://github.com/tycoon
+ACryptoSI,"['Decentralized Exchange Token (DEX)', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+Effect Network,['Artificial Intelligence'],https://github.com/effectai/neo-dev-toolkit
+Grey Token,['Non-Fungible Tokens (NFT)'],https://github.com/GreyTokenTeam
+CoinsPaid,"['Polygon Ecosystem', 'Binance Smart Chain Ecosystem']",
+Kaiba Inu,[],https://github.com/KaibaInu
+Jur,['Legal'],https://github.com/jurteam
+Vita Inu,['Meme Tokens'],https://github.com/Vita-Inu
+YIN Finance,['Binance Smart Chain Ecosystem'],https://github.com/YinFinance
+HollyGold,[],
+MetaFabric,['Binance Smart Chain Ecosystem'],
+Ycash,[],https://github.com/YcashFoundation/ycash/
+SmartMesh,[],https://github.com/SmartMeshFoundation/SmartMesh_iOS
+Value DeFi,"['Yield Aggregator', 'Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Yield Farming', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)']",
+Raven Protocol,['Artificial Intelligence'],
+carVertical,[],https://github.com/carVertical/ico
+Metaverse NFT Index,"['Index', 'NFT Index']",
+Newdex Token,"['Decentralized Exchange Token (DEX)', 'Binance Smart Chain Ecosystem', 'Decentralized Finance (DeFi)', 'Exchange-based Tokens']",
+PlayNity,"['Terra Ecosystem', 'Binance Smart Chain Ecosystem']",
+My Master War,"['Play To Earn', 'Binance Smart Chain Ecosystem', 'Gaming']",https://github.com/MyMasterWar/MAT-erc20
+Bitcoin Pro,['Cryptocurrency'],https://github.com/Bitcoin-PRO/BitcoinPro
+Advertise Coin,[],
+Ternio,['Business Platform'],https://github.com/Ternio/stellarterm
+Ideaology,['Polygon Ecosystem'],https://github.com/ideaologyio/idea
+High Performance Blockchain,"['Cryptocurrency', 'Smart Contract Platform']",https://github.com/hpb-project/go-hpb
+Vidulum,['Cryptocurrency'],https://github.com/vidulum/vidulum/
+Shar Pei,[],
+Babylon Finance,[],
+Ethermon,"['Metaverse', 'Polygon Ecosystem', 'Play To Earn', 'Gaming']",
+SmartCredit Token,['Lending/Borrowing'],
+LGO Token,"['Centralized Exchange Token (CEX)', 'Exchange-based Tokens']",https://github.com/lgo-public
+Neumark,[],https://github.com/Neufund/platform-frontend
+Tap,[],
+Decubate,['Binance Smart Chain Ecosystem'],
+disBalancer,[],https://github.com/thedisbalancer
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-core
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-guardian
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-cloud
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-desktop
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-mobile
+Conceal,"['Finance / Banking', 'Privacy Coins']",https://github.com/ConcealNetwork/conceal-wallet
+SwapDEX,[],https://github.com/69th-byte
+Fastswap (BSC),"['Decentralized Exchange Token (DEX)', 'Automated Market Maker (AMM)', 'Binance Smart Chain Ecosystem']",
+Polkalokr,['Binance Smart Chain Ecosystem'],https://github.com/Polkalokr
+Nidhi Dao,"['Polygon Ecosystem', None, 'Rebase Tokens', 'Asset-backed Tokens']",
+Lendingblock,[],https://github.com/lendingblock/etherwallet
+Lendingblock,[],https://github.com/lendingblock/ethereum-lists
+Covenants,['Decentralized Finance (DeFi)'],https://github.com/ethereansos
+Covenants,['Decentralized Finance (DeFi)'],https://github.com/b-u-i-d-l/unifi
+Covenants,['Decentralized Finance (DeFi)'],https://github.com/EthereansOS/Covenants-Core
+HitChain,[],
+Sunny Aggregator,['Solana Ecosystem'],https://github.com/SunnyAggregator

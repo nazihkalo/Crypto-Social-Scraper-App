@@ -1,7 +1,8 @@
 __pycache__/
 env/*
 .vscode/*
-
+.env
+.streamlit/secrets.toml
 scrapes/*
 
 URS.egg-info/*

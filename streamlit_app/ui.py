@@ -3,85 +3,120 @@ import pandas as pd
 import streamlit as st
 from pandas.tseries import offsets
 
-import utils
-
+from . import utils
 
 
 ### SUmmary stats from coingecko
 
+
 def get_cg_summary_data(coin_choice, df):
-       summary_cols = ['genesis_date',    
-       'market_cap_rank', 
-       'sentiment_votes_up_percentage',
-       'sentiment_votes_down_percentage', 
-       'coingecko_rank',
-       'coingecko_score', 
-       'developer_score', 
-       'community_score',
-       'liquidity_score', 
-       'public_interest_score', 
-       'last_updated', 
-       'contract_address']
-       cg_data = df.loc[df.name == coin_choice,summary_cols]
-       for col in cg_data.columns:
-              st.markdown(
-              f"<p class='small-font'><strong>{col}</strong>: {cg_data[col].values[0]}</p>",  # noqa: E501
-              unsafe_allow_html=True,
-              )
+    summary_cols = [
+        "genesis_date",
+        "market_cap_rank",
+        "sentiment_votes_up_percentage",
+        "sentiment_votes_down_percentage",
+        "coingecko_rank",
+        "coingecko_score",
+        "developer_score",
+        "community_score",
+        "liquidity_score",
+        "public_interest_score",
+        "last_updated",
+        "contract_address",
+    ]
+    cg_data = df.loc[df.name == coin_choice, summary_cols]
+    for col in cg_data.columns:
+        st.markdown(
+            f"<p class='small-font'><strong>{col}</strong>: {cg_data[col].values[0]}</p>",  # noqa: E501
+            unsafe_allow_html=True,
+        )
+
 
 ##### Market Data
 def get_market_data(coin_choice, df):
-    market_data_json = df.loc[df.name == coin_choice,'market_data'][0]
-    market_cap = market_data_json['market_cap']
-    current_price = market_data_json['current_price']
-    circulating_supply = market_data_json['circulating_supply']
-    price_change_percentage_24h = market_data_json['market_cap_change_percentage_24h_in_currency']
+    market_data_json = df.loc[df.name == coin_choice, "market_data"][0]
+    market_cap = market_data_json["market_cap"]
+    current_price = market_data_json["current_price"]
+    circulating_supply = market_data_json["circulating_supply"]
+    price_change_percentage_24h = market_data_json[
+        "market_cap_change_percentage_24h_in_currency"
+    ]
     # text = f"#### Market Cap {market_cap['usd']}\n#### Total Supply {circulating_supply}\n#### Current Price {current_price['usd']}\n#### Price Change 24h {price_change_percentage_24h['usd']}\n"
-    market_stats = {"market_cap" : (f"${market_cap['usd']:,}", "💰"), 
-        'current_price':(f"${current_price['usd']:,}", "🤑"),
-        'circulating_supply':(f"{circulating_supply:,}", "💩"),
-        'price_change_percentage_24h':(f"{price_change_percentage_24h['usd']:.0%}", "%")}
+    market_stats = {
+        "market_cap": (f"${market_cap['usd']:,}", "💰"),
+        "current_price": (f"${current_price['usd']:,}", "🤑"),
+        "circulating_supply": (f"{circulating_supply:,}", "💩"),
+        "price_change_percentage_24h": (
+            f"{price_change_percentage_24h['usd']:.0%}",
+            "%",
+        ),
+    }
     return market_stats
+
 
 ####### SOCIALS
 
+
 def get_community_data(coin_choice, df):
-    market_data_json = df.loc[df.name == coin_choice,'community_data'][0]
-    market_data_json = {k:v if v else 0 for (k,v) in market_data_json.items()}
-    resp = {"Facebook Likes": (f"{market_data_json['facebook_likes']:,}", "💬"),
-            "Twitter Followers": (f"{market_data_json['twitter_followers']:,}", "💬"),
-            "Reddit Average posts 48h": (f"{market_data_json['reddit_average_posts_48h']:,}", "💬"),
-            "Reddit Average Comments 48h": (f"{market_data_json['reddit_average_comments_48h']:,}", "💬"),
-            "Reddit Subscribers": (f"{market_data_json['reddit_subscribers']:,}", "💬"),
-            "Reddit Accounts Active 48h": (f"{market_data_json['reddit_accounts_active_48h']:,}", "💬"),
-            "Telegram User Count": (f"{market_data_json['telegram_channel_user_count']:,}", "💬"),}
+    market_data_json = df.loc[df.name == coin_choice, "community_data"][0]
+    market_data_json = {k: v if v else 0 for (k, v) in market_data_json.items()}
+    resp = {
+        "Facebook Likes": (f"{market_data_json['facebook_likes']:,}", "💬"),
+        "Twitter Followers": (f"{market_data_json['twitter_followers']:,}", "💬"),
+        "Reddit Average posts 48h": (
+            f"{market_data_json['reddit_average_posts_48h']:,}",
+            "💬",
+        ),
+        "Reddit Average Comments 48h": (
+            f"{market_data_json['reddit_average_comments_48h']:,}",
+            "💬",
+        ),
+        "Reddit Subscribers": (f"{market_data_json['reddit_subscribers']:,}", "💬"),
+        "Reddit Accounts Active 48h": (
+            f"{market_data_json['reddit_accounts_active_48h']:,}",
+            "💬",
+        ),
+        "Telegram User Count": (
+            f"{market_data_json['telegram_channel_user_count']:,}",
+            "💬",
+        ),
+    }
     return resp
 
 
 def get_social_links_data(coin_choice, df):
     """Gets Social media links from coingecko df"""
-    links_json = df.loc[df.name == coin_choice,'links'][0]
+    links_json = df.loc[df.name == coin_choice, "links"][0]
     homepage = links_json.get("homepage")[0]
     twitter_screen_name = links_json.get("twitter_screen_name")
     twitter_link = f"https://twitter.com/{twitter_screen_name}"
     subreddit_url = links_json.get("subreddit_url")
-    gitlinks = links_json.get("repos_url").get("github", [''])
+    gitlinks = links_json.get("repos_url").get("github", [""])
     google = f"https://www.google.com/search?q={coin_choice}"
-    return {'twitter':twitter_screen_name, 'github':gitlinks,'reddit':subreddit_url,'homepage':homepage, 'google':google}
+    return {
+        "twitter": twitter_screen_name,
+        "github": gitlinks,
+        "reddit": subreddit_url,
+        "homepage": homepage,
+        "google": google,
+    }
+
 
 def get_social_links_html(coin_choice, df):
     """Produces HTML for UI: Social media links from coingecko df"""
-    HtmlFile = open("./components/social_links.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
+    HtmlFile = open("streamlit_app/components/social_links.html", "r", encoding="utf-8")
+    source_code = HtmlFile.read()
     links_dict = get_social_links_data(coin_choice, df)
-    github_html = ''.join([f'<a href={link} class ="fa fa-github"></a>' for link in links_dict["github"]])
+    github_html = "".join(
+        [f'<a href={link} class ="fa fa-github"></a>' for link in links_dict["github"]]
+    )
     links_html = f'<body><a href="{links_dict["homepage"]}" class="fa fa-rss"></a><a href="{links_dict["twitter"]}" class="fa fa-twitter"></a><a href="{links_dict["google"]}" class="fa fa-google"></a><a href="{links_dict["reddit"]}" class="fa fa-reddit"></a>{github_html}</body></html>'
-    return '</html> '+ source_code + links_html
+    return "</html> " + source_code + links_html
 
 
 ######## GITHUB
 def get_git_bar(data, container):
-    
+
     with container:
         st.write(plot_cum_commits(data))
         contributors = data["author"].unique().tolist()
@@ -299,11 +334,16 @@ def plot_cumulative_lines_by_contributor(data, n=20):
     max_month = df_top_n_month["committed_on"].max()
 
     idx = pd.MultiIndex.from_product(
-        [pd.date_range(min_month, max_month, freq="M"), df_top_n_month["author"].unique()]
+        [
+            pd.date_range(min_month, max_month, freq="M"),
+            df_top_n_month["author"].unique(),
+        ]
     )
     df_top_n_month = df_top_n_month.set_index(["committed_on", "author"])
     df_top_n_month = df_top_n_month["lines_added"].reindex(idx, fill_value=0).to_frame()
-    df_top_n_month = df_top_n_month.rename_axis(["committed_on", "author"]).reset_index()
+    df_top_n_month = df_top_n_month.rename_axis(
+        ["committed_on", "author"]
+    ).reset_index()
     # Cumulative df
     df_top_n_month = (
         df_top_n_month.groupby(["author", "committed_on"])["lines_added"]
@@ -321,7 +361,9 @@ def plot_cumulative_lines_by_contributor(data, n=20):
         .encode(
             x=alt.X("committed_on", title=""),
             y=alt.Y("lines_added", title="Lines Added"),
-            color=alt.condition(selection, "author", alt.value("lightgray"), legend=None),
+            color=alt.condition(
+                selection, "author", alt.value("lightgray"), legend=None
+            ),
             tooltip=[
                 alt.Tooltip("committed_on"),
                 alt.Tooltip("lines_added", format=",.0f"),
@@ -329,7 +371,9 @@ def plot_cumulative_lines_by_contributor(data, n=20):
             ],
         )
         .properties(
-            width=800, height=350, title=f"Cumulative Lines Added by top-{n} Contributors"
+            width=800,
+            height=350,
+            title=f"Cumulative Lines Added by top-{n} Contributors",
         )
         .add_selection(selection)
     )

@@ -6,11 +6,12 @@ from streamlit.uploaded_file_manager import UploadedFile
 import json
 from datetime import datetime
 
-from repo import get_all_commits
+from .repo import get_all_commits
 
 
 DATE_COLUMN = 'last_updated'
-coin_file_path = "../scrapes/coin_info/coin_socials.json"
+coin_file_path = "/Users/nazihkalo/Github/crypto_metrics/cyrpto_scraper/streamlit_app/coin_info/coin_socials.json"
+
 
 ### COINGECKO
 @st.cache
@@ -19,6 +20,7 @@ def load_coingecko_data():
         with open(coin_file_path, "r") as file:
             jj = json.load(file)
         coin_social_data_df = pd.DataFrame.from_dict(jj,orient = "index")
+        print(f"Read df with {coin_social_data_df.shape} rows ")
         # lowercase = lambda x: str(x).lower()
         # data.rename(lowercase, axis='columns', inplace=True)
         coin_social_data_df[DATE_COLUMN] = pd.to_datetime(coin_social_data_df[DATE_COLUMN])
