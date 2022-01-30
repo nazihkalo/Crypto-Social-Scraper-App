@@ -4,5 +4,4 @@ env/*
 .env
 .streamlit/secrets.toml
 scrapes/*
-
 URS.egg-info/*

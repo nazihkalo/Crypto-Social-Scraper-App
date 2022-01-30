@@ -8,23 +8,24 @@ from streamlit_app.ui import (
     get_market_data,
     get_community_data,
     get_cg_summary_data,
+    get_repo_stats_history,
+    plot_coin_stats,
+    plot_stargazers_by_repo,
 )
 import streamlit.components.v1 as components
-from streamlit_app.utils import get_description, load_coingecko_data, get_repo_data
+from streamlit_app.utils import (
+    get_description,
+    get_subgraph_info,
+    load_coingecko_data,
+    get_repo_data,
+)
 from streamlit_app.dashboard import body
 from pathlib import Path
 
 st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
 
-left_col, right_col = st.columns(2)
 ## Basic setup and app layout
-with left_col:
-    st.title("Crypto Social Analysis App")
-    st.markdown(
-        "*Check out the methodology walk-through "
-        "[here](https://www.crosstab.io/articles/staged-rollout-analysis) and Streamlit "
-        "app mechanics [here](https://www.crosstab.io/articles/streamlit-review).*"
-    )
+st.title("Crypto Social Analysis App")
 
 ### LOAD DATA
 # Load 10,000 rows of data into the dataframe.
@@ -34,46 +35,32 @@ data = load_coingecko_data()
 loading_data_container.success("Loading data...done!")
 loading_data_container.empty()
 
-
+left_col, right_col = st.columns(2)
 ### SIDEBAR
-st.sidebar.title("Select which Cryptocurrency you'd like to look into!")
-coin_choice = st.sidebar.selectbox("Pick a coin", data.name.tolist())
-image_link = data.loc[data.name == str(coin_choice), "image"][0].get("small", "")
-st.sidebar.markdown(f"![]({image_link})")
+with left_col:
+    st.markdown("### Select which Cryptocurrency you'd like to look into!")
+    coin_choice = st.selectbox("Pick a coin", data.name.tolist())
+    image_link = data.loc[data.name == str(coin_choice), "image"][0].get("small", "")
+    # st.markdown(f"![]({image_link})")
+
+with st.sidebar:
+    get_cg_summary_data(coin_choice, data)
+    st.markdown(f"### Social Data / Links")
+    community_data = get_community_data(coin_choice, data)
+    components.html(str(get_social_links_html(coin_choice, data)))
+    st.markdown(
+        "*Check out the app mechanics [here](https://github.com/nazihkalo/Crypto-Social-Scraper-App).*"
+    )
 
 ## HIGH LEVEL STATS
-with left_col:
-    st.markdown(f"## Coin Info | ![]({image_link})")
+with right_col:
+    st.markdown(f"# {coin_choice} ![]({image_link})")
     ### Description
     description_text = get_description(data, coin_choice)
     lef_expander1 = st.expander("Coin Description")
     with lef_expander1:
         st.markdown(description_text, unsafe_allow_html=True)
-    left_expander2 = st.subheader("CoinGecko Stats")
-    get_cg_summary_data(coin_choice, data)
 
-
-##Summary Stats
-with right_col:
-    st.markdown(f"# Summary Stats")
-    ### Market Data
-    st.markdown(f"### Market Data")
-    market_data = get_market_data(coin_choice, data)
-    for stat in market_data.items():
-        st.markdown(
-            f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
-            unsafe_allow_html=True,
-        )
-
-    ### Social Data
-    st.markdown(f"### Social Data / Links")
-    components.html(str(get_social_links_html(coin_choice, data)))
-    community_data = get_community_data(coin_choice, data)
-    for stat in community_data.items():
-        st.markdown(
-            f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
-            unsafe_allow_html=True,
-        )
 
 links_dict = get_social_links_data(coin_choice, data)
 repo_link_choice = (
@@ -81,6 +68,17 @@ repo_link_choice = (
     if isinstance(links_dict["github"], list)
     else list(links_dict["github"])
 )
+data = get_repo_stats_history(coin_choice, data)
+if len(data) > 0:
+    st.altair_chart(plot_stargazers_by_repo(data), use_container_width=True)
+    st.altair_chart(plot_coin_stats(data), use_container_width=True)
+
+else:
+    st.write("No repo info found.")
+
+with st.empty():
+    get_subgraph_info(coin_choice, n=20)
+
 repo_choice = st.selectbox("Select a repo", repo_link_choice)
 input_type = st.radio(
     "Filter Repo Commits",

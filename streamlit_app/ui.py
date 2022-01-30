@@ -2,7 +2,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 from pandas.tseries import offsets
-
+from urllib.parse import urlparse
 from . import utils
 
 
@@ -10,26 +10,45 @@ from . import utils
 
 
 def get_cg_summary_data(coin_choice, df):
-    summary_cols = [
-        "genesis_date",
-        "market_cap_rank",
-        "sentiment_votes_up_percentage",
-        "sentiment_votes_down_percentage",
-        "coingecko_rank",
+    score_cols = [
         "coingecko_score",
         "developer_score",
         "community_score",
         "liquidity_score",
         "public_interest_score",
-        "last_updated",
-        "contract_address",
     ]
-    cg_data = df.loc[df.name == coin_choice, summary_cols]
-    for col in cg_data.columns:
+    coin_choice_df = df.loc[df.name == coin_choice]
+    genesis_date = coin_choice_df["genesis_date"].values[0]
+    last_updated = coin_choice_df["last_updated"].values[0]
+    contract_address = coin_choice_df["contract_address"].values[0]
+
+    coingecko_rank = coin_choice_df["coingecko_rank"].values[0]
+    market_cap_rank = coin_choice_df["market_cap_rank"].values[0]
+    sentiment_votes_up_percentage = coin_choice_df[
+        "sentiment_votes_up_percentage"
+    ].values[0]
+    sentiment_votes_down_percentage = coin_choice_df[
+        "sentiment_votes_down_percentage"
+    ].values[0]
+
+    st.markdown(
+        f"<h1>Market Cap Rank #{market_cap_rank}</h1><h1>CoinGecko Rank #{coingecko_rank}</h1>",
+        unsafe_allow_html=True,
+    )
+    get_market_data(coin_choice, df)
+    st.markdown(
+        f'<h1>CoinGecko Sentiment<br><span style="color: green;">{sentiment_votes_up_percentage}%</span> <span style="color: red;"> {sentiment_votes_down_percentage}%</span></h1>',
+        unsafe_allow_html=True,
+    )
+    for col in score_cols:
         st.markdown(
-            f"<p class='small-font'><strong>{col}</strong>: {cg_data[col].values[0]}</p>",  # noqa: E501
+            f"<p class='small-font'><strong>{col.replace('_', ' ').capitalize()}</strong>: {coin_choice_df[col].values[0]:.2f}%</p>",  # noqa: E501
             unsafe_allow_html=True,
         )
+    st.markdown(
+        f'<h1>Contract Address <a href="https://etherscan.io/address/{contract_address}">Etherscan</a></h1>',
+        unsafe_allow_html=True,
+    )
 
 
 ##### Market Data
@@ -51,7 +70,11 @@ def get_market_data(coin_choice, df):
             "%",
         ),
     }
-    return market_stats
+    for stat in market_stats.items():
+        st.markdown(
+            f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
+            unsafe_allow_html=True,
+        )
 
 
 ####### SOCIALS
@@ -61,7 +84,7 @@ def get_community_data(coin_choice, df):
     market_data_json = df.loc[df.name == coin_choice, "community_data"][0]
     market_data_json = {k: v if v else 0 for (k, v) in market_data_json.items()}
     resp = {
-        "Facebook Likes": (f"{market_data_json['facebook_likes']:,}", "💬"),
+        # "Facebook Likes": (f"{market_data_json['facebook_likes']:,}", "💬"),
         "Twitter Followers": (f"{market_data_json['twitter_followers']:,}", "💬"),
         "Reddit Average posts 48h": (
             f"{market_data_json['reddit_average_posts_48h']:,}",
@@ -81,7 +104,12 @@ def get_community_data(coin_choice, df):
             "💬",
         ),
     }
-    return resp
+    for stat in resp.items():
+
+        st.markdown(
+            f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
+            unsafe_allow_html=True,
+        )
 
 
 def get_social_links_data(coin_choice, df):
@@ -100,6 +128,18 @@ def get_social_links_data(coin_choice, df):
         "homepage": homepage,
         "google": google,
     }
+
+
+def get_repo_stats_history(coin_choice, data):
+    links_dict = get_social_links_data(coin_choice, data)
+    repo_link_choice = (
+        links_dict["github"]
+        if isinstance(links_dict["github"], list)
+        else list(links_dict["github"])
+    )
+    repo_paths = [f"'{str(urlparse(path).path)[1:]}'" for path in repo_link_choice]
+    df = utils.get_coin_multiple_repos_stats(repo_paths)
+    return df
 
 
 def get_social_links_html(coin_choice, df):
@@ -395,6 +435,81 @@ def plot_quarterly_commits(data):
             ],
         )
         .properties(width=500, height=130)
+    )
+
+    return plot
+
+
+def plot_coin_stats(data):
+
+    selection = alt.selection_single(on="mouseover")
+
+    coin_aggregates_df = (
+        data.groupby("week")
+        .sum()
+        .transform(lambda x: x.cumsum())
+        .reset_index()
+        .melt(id_vars=["week"])
+    )
+
+    plot = (
+        alt.Chart(coin_aggregates_df)
+        # .transform_filter(
+        # alt.datum.additions > 0  )
+        .mark_area()
+        .encode(
+            x=alt.X("week", title=""),
+            y=alt.Y("value", title="Lines Added"),
+            color=alt.condition(
+                selection, "variable", alt.value("lightgray"), legend=None
+            ),
+            row=alt.Row("variable"),
+            tooltip=[
+                alt.Tooltip("week"),
+                alt.Tooltip("value", format=",.0f"),
+                alt.Tooltip("variable"),
+            ],
+        )
+        .properties(
+            width=800,
+            height=100,
+            title=f"General Repo Stats",
+        )
+        .add_selection(selection)
+        .resolve_scale(y="independent")
+    )
+    return plot
+
+
+def plot_stargazers_by_repo(data):
+    selection = alt.selection_single(on="mouseover")
+
+    data["stargazer_cumsum"] = data.groupby(by=["repo_path"])[
+        "stargazer_size"
+    ].transform(lambda x: x.cumsum())
+    plot = (
+        alt.Chart(data)
+        # .transform_filter(
+        # alt.datum.additions > 0  )
+        .mark_area()
+        .encode(
+            x=alt.X("week", title=""),
+            y=alt.Y("stargazer_cumsum", title="Cumulative Stargazers by Repo"),
+            color=alt.condition(
+                selection, "repo_path", alt.value("lightgray"), legend=None
+            ),
+            tooltip=[
+                alt.Tooltip("week"),
+                alt.Tooltip("stargazer_cumsum", format=",.0f"),
+                alt.Tooltip("repo_path"),
+            ],
+        )
+        .properties(
+            width=800,
+            height=500,
+            title=f"Repo Specific Counts",
+        )
+        .add_selection(selection)
     )
 
     return plot
