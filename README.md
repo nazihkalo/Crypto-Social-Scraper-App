@@ -10,9 +10,20 @@
 2. CoinGecko's API for social links
 
 
-### Charts
+## Charts
+![](images/sidebar.png)
+
 ## Timeseries
+![](images/stars.png)
+
+![](images/starsdetail.png)
+
+![](images/linescommits.png)
+
 ### Github Repository Graph Network
+![](images/Graph1.png)
+
+![](images/Graphdetail.png)
 The Graph below represents the developer overlap between different tokens/ecosystems.
 #### Nodes
 The nodes are made up of the repositories associated with the parent token/ecosystem
