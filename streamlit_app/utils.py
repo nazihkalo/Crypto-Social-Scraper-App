@@ -272,11 +272,13 @@ options = '''var options = {
     "shadow": {
       "enabled": true
     },
+    "interaction": {
+    "hover": true},
     "smooth": false
   },
   "interaction": {
     "hover": true,
-    "multiselect": true,
+    "multiselect": false,
     "navigationButtons": false,
     "showButton": false
     
@@ -296,7 +298,7 @@ import networkx as nx
 from pyvis import network as net
 
 def draw_graph3(networkx_graph,notebook=True,output_filename='graph.html',show_buttons=False,only_physics_buttons=False,
-                height=None,width=None,bgcolor=None,font_color=None,pyvis_options=None):
+                height=None,width=None,bgcolor=None,font_color=None, color_node = None, pyvis_options=None):
     """
     This function accepts a networkx graph object,
     converts it to a pyvis network object preserving its node and edge attributes,
@@ -334,32 +336,35 @@ def draw_graph3(networkx_graph,notebook=True,output_filename='graph.html',show_b
         node_size = np.log10(int(node_attrs['stargazers_count']))*3
         # node_size = node_attrs['stargazers_count'] / max_stars
         # pyvis_graph.add_node(node,size = node_size,**node_attrs)
-        hover_text = f"<h1>{node}</h1><br>"
-        hover_text += f" <h3>Stargazers:{node_attrs['stargazers_count']}</h3><br>"
-        hover_text += f" <h3>Forks:{node_attrs['forks_count']}</h3><br>"
-        # hover_text += ' <h2>Repos:</h2><br>' + '<br>'.join(node_attrs['repos'])
-        
-        pyvis_graph.add_node(node, label = node, title = hover_text, size = node_size)
+        hover_text = f"<h1>{node}</h1>"
+        hover_text += f" <strong>Stargazers:{node_attrs['stargazers_count']:,.0f}<strong><br>"
+        hover_text += f" <strong>Forks:{node_attrs['forks_count']:,.0f}</strong><br>"
+        hover_text += ' <h2>Repos:</h2><br>' + '<br>'.join([f'<font size="1">{repo}</font>' for repo in node_attrs["repos"]])
+        if node == color_node:
+            pyvis_graph.add_node(node, label = node, title = hover_text, size = node_size, color = 'red', opacity = 0.3)
+        else:    
+            pyvis_graph.add_node(node, label = node, title = hover_text, size = node_size)
     max_edge_weigth = max([x[2]['weight'] for x in networkx_graph.edges(data=True)])
     # for each edge and its attributes in the networkx graph
     for source,target,edge_attrs in networkx_graph.edges(data=True):
         # if value/width not specified directly, and weight is specified, set 'value' to 'weight'
         if not 'value' in edge_attrs and not 'width' in edge_attrs and 'weight' in edge_attrs:
             # place at key 'value' the weight of the edge
-            edge_attrs['width'] = edge_attrs['weight'] / (max_edge_weigth*100)
-            edge_attrs['title'] = f"<h3>{source} & {target} share {edge_attrs['weight']} git contributors</h3>" 
-
+            edge_attrs['width'] = edge_attrs['weight'] / (max_edge_weigth*2)
+            edge_attrs['title'] = f"<strong>{source} & {target} share {edge_attrs['weight']} git contributors</strong>" 
             edge_attrs['value'] = f"{source} & {target} share {edge_attrs['weight']} git contributors" 
             edge_attrs['label'] = f"Shared Contributors={edge_attrs['weight']}"
         # add the edge
         pyvis_graph.add_edge(source,target,**edge_attrs)
     
     neighbor_map = pyvis_graph.get_adj_list()
-    max_edges = max([len(i) for i in neighbor_map.values()])
+    # max_edges = max([len(i) for i in neighbor_map.values()])
     # max_edges = max([len(i) for i in neighbor_map.values()])
     for node in pyvis_graph.nodes:
         # node['value'] = len(neighbor_map[node['id']])/ max_edges
-        node['title'] +=  f' <h3>Neighboring Tokens: {len(neighbor_map[node["id"]]) }</h3><br>'
+        node['title'] +=  f' <strong>Neighboring Tokens: {len(neighbor_map[node["id"]]) }</strong><br>'
+        
+
     # pyvis-specific options
     if pyvis_options:
         pyvis_graph.set_options(pyvis_options)
@@ -385,13 +390,13 @@ def get_subgraph_info(coin_choice, n):
     # Save and read graph as HTML file (on Streamlit Sharing)
     try:
         path = '/tmp'
-        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html', width = 1000, height = 1000, show_buttons=False,only_physics_buttons=True, pyvis_options=options)
+        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html', color_node = coin_choice,width = 1000, height = 1000, show_buttons=False,only_physics_buttons=True, pyvis_options=options)
         HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
 
     # Save and read graph as HTML file (locally)
     except:
         path = '/html_files'
-        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html',show_buttons=False,only_physics_buttons=True,  pyvis_options=options)
+        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html',color_node = str(coin_choice), show_buttons=False,only_physics_buttons=True,  pyvis_options=options)
         HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
 
     # Load HTML file in HTML component for display on Streamlit page
@@ -400,6 +405,6 @@ def get_subgraph_info(coin_choice, n):
         # col1, col2, col3 = st.columns([400,1000,1])
         # with col2:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-        components.html(HtmlFile.read(), width= 10000, height=10000)
+        components.html(HtmlFile.read(), width= 1000, height=1000)
     
     

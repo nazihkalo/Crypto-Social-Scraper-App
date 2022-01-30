@@ -1,8 +1,10 @@
 import datetime
 import pandas as pd
+from sqlalchemy import true
 import streamlit as st
 import json
 from streamlit_app.ui import (
+    concat_top_charts,
     get_social_links_html,
     get_social_links_data,
     get_market_data,
@@ -11,6 +13,8 @@ from streamlit_app.ui import (
     get_repo_stats_history,
     plot_coin_stats,
     plot_stargazers_by_repo,
+    plot_lines_stats,
+    plot_total_commits_,
 )
 import streamlit.components.v1 as components
 from streamlit_app.utils import (
@@ -52,6 +56,7 @@ with st.sidebar:
         "*Check out the app mechanics [here](https://github.com/nazihkalo/Crypto-Social-Scraper-App).*"
     )
 
+st.title("Github Section")
 ## HIGH LEVEL STATS
 with right_col:
     st.markdown(f"# {coin_choice} ![]({image_link})")
@@ -70,14 +75,29 @@ repo_link_choice = (
 )
 data = get_repo_stats_history(coin_choice, data)
 if len(data) > 0:
+    st.markdown("### Github Repo Lines & Commits over Time")
+    st.altair_chart(
+        concat_top_charts(data),
+        use_container_width=True,
+    )
+    st.markdown("### Github Repo Stargazer counts over Time")
     st.altair_chart(plot_stargazers_by_repo(data), use_container_width=True)
-    st.altair_chart(plot_coin_stats(data), use_container_width=True)
+    # st.altair_chart(plot_coin_stats(data), use_container_width=True)
 
 else:
     st.write("No repo info found.")
 
+st.markdown(
+    "<h2>Github Repository Graph Network</h2> \
+    <div>The Graph below represents the developer overlap between different tokens/ecosystems. \
+    The nodes are made up of the repositories associated with the parent token/ecosystem & the edges measure the number of shared developers between the ecosystems.</div> ",
+    unsafe_allow_html=True,
+)
+selector = st.select_slider(
+    "Select number of neigboring tokens", options=list(range(2, 50, 1))
+)
 with st.empty():
-    get_subgraph_info(coin_choice, n=20)
+    get_subgraph_info(coin_choice, n=selector)
 
 repo_choice = st.selectbox("Select a repo", repo_link_choice)
 input_type = st.radio(

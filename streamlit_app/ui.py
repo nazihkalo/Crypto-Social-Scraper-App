@@ -20,6 +20,7 @@ def get_cg_summary_data(coin_choice, df):
     coin_choice_df = df.loc[df.name == coin_choice]
     genesis_date = coin_choice_df["genesis_date"].values[0]
     last_updated = coin_choice_df["last_updated"].values[0]
+    pd.isna
     contract_address = coin_choice_df["contract_address"].values[0]
 
     coingecko_rank = coin_choice_df["coingecko_rank"].values[0]
@@ -45,10 +46,11 @@ def get_cg_summary_data(coin_choice, df):
             f"<p class='small-font'><strong>{col.replace('_', ' ').capitalize()}</strong>: {coin_choice_df[col].values[0]:.2f}%</p>",  # noqa: E501
             unsafe_allow_html=True,
         )
-    st.markdown(
-        f'<h1>Contract Address <a href="https://etherscan.io/address/{contract_address}">Etherscan</a></h1>',
-        unsafe_allow_html=True,
-    )
+    if not pd.isna(coin_choice_df["contract_address"].values[0]):
+        st.markdown(
+            f'<h1>Contract Address {contract_address} <a href="https://etherscan.io/address/{contract_address}">Etherscan</a></h1>',
+            unsafe_allow_html=True,
+        )
 
 
 ##### Market Data
@@ -440,6 +442,111 @@ def plot_quarterly_commits(data):
     return plot
 
 
+def plot_lines_stats(data):
+
+    selection = alt.selection_single(on="mouseover")
+
+    data_w_total_lines_df = data.copy()
+    data_w_total_lines_df["total_lines"] = (
+        data_w_total_lines_df.additions + data_w_total_lines_df.deletions
+    )
+    coin_aggregates_df = (
+        data_w_total_lines_df.groupby("week")
+        .sum()
+        .transform(lambda x: x.cumsum())
+        .reset_index()[["week", "deletions", "additions", "total_lines"]]
+        .melt(id_vars=["week"])
+    )
+    # coin_aggregates_df["value"] = coin_aggregates_df.value.astype(float)
+    domain = ["deletions", "additions", "total_lines"]
+    range_ = ["red", "green", "grey"]
+
+    plot = (
+        alt.Chart(coin_aggregates_df)
+        .mark_area()
+        .encode(
+            x=alt.X("week", title=""),
+            y=alt.Y("value", title="Lines of Code"),
+            opacity=alt.value(0.8),
+            color=alt.Color(
+                "variable",
+                scale=alt.Scale(domain=domain, range=range_),
+                legend=alt.Legend(title="Lines Aggregation", orient="top"),
+            ),
+            tooltip=[
+                alt.Tooltip("week"),
+                alt.Tooltip("value", format=",.0f", title="lines of code"),
+                alt.Tooltip("variable"),
+            ],
+        )
+        .properties(
+            width=800,
+            height=200,
+            title=f"Lines of Code Added/Deleted",
+        )
+        .add_selection(selection)
+    )
+    return plot
+
+
+def plot_total_commits_(data):
+
+    selection = alt.selection_single(on="mouseover")
+
+    results_df = data.copy()
+    weekly_totals = results_df.groupby("week").sum()
+    weekly_totals.columns = ["weekly_" + i for i in weekly_totals.columns]
+    cumulative_totals = results_df.groupby("week").sum().transform(lambda x: x.cumsum())
+    cumulative_totals.columns = ["cum_" + i for i in cumulative_totals.columns]
+    agg = pd.concat([weekly_totals, cumulative_totals], axis=1)
+
+    coin_aggregates_df = agg.reset_index()[
+        ["week", "cum_total_commits", "weekly_total_commits"]
+    ].melt(id_vars=["week"])
+    domain = ["weekly_total_commits", "cum_total_commits"]
+    range_ = ["black", "grey"]
+
+    plot = (
+        alt.Chart(coin_aggregates_df)
+        .mark_area()
+        .encode(
+            x=alt.X("week", title=""),
+            y=alt.Y("value", title="Number of Commits"),
+            opacity=alt.value(0.8),
+            color=alt.Color(
+                "variable",
+                scale=alt.Scale(domain=domain, range=range_),
+                legend=alt.Legend(title="Commits Aggregation", orient="top"),
+            ),
+            tooltip=[
+                alt.Tooltip("week"),
+                alt.Tooltip("value", format=",.0f", title="commits"),
+                alt.Tooltip("variable"),
+            ],
+        )
+        .properties(
+            width=800,
+            height=200,
+            title=f"Commits",
+        )
+        .add_selection(selection)
+        # .transform_filter(select_year)
+    )
+    return plot
+
+
+def concat_top_charts(data):
+    # selection = alt.selection_single(on="mouseover")
+    return (
+        alt.vconcat(plot_lines_stats(data), plot_total_commits_(data))
+        # .add_selection(selection)
+        .resolve_scale(
+            color="independent",
+            # selection="independent",  # y="independent", x="independent"
+        )
+    )
+
+
 def plot_coin_stats(data):
 
     selection = alt.selection_single(on="mouseover")
@@ -473,7 +580,7 @@ def plot_coin_stats(data):
         .properties(
             width=800,
             height=100,
-            title=f"General Repo Stats",
+            title=f"Lines of Code Added/Deleted",
         )
         .add_selection(selection)
         .resolve_scale(y="independent")
@@ -483,33 +590,37 @@ def plot_coin_stats(data):
 
 def plot_stargazers_by_repo(data):
     selection = alt.selection_single(on="mouseover")
-
-    data["stargazer_cumsum"] = data.groupby(by=["repo_path"])[
+    results_df = data.copy()
+    results_df["stargazer_cumsum"] = results_df.groupby(by=["repo_path"])[
         "stargazer_size"
     ].transform(lambda x: x.cumsum())
+    melted_df = results_df[
+        ["week", "stargazer_cumsum", "stargazer_size", "repo_path"]
+    ].melt(id_vars=["week", "repo_path"])
+    # melted_df = results_df.melt(id_vars=["week"])
     plot = (
-        alt.Chart(data)
-        # .transform_filter(
-        # alt.datum.additions > 0  )
+        alt.Chart(melted_df)
         .mark_area()
         .encode(
             x=alt.X("week", title=""),
-            y=alt.Y("stargazer_cumsum", title="Cumulative Stargazers by Repo"),
+            y=alt.Y("value", title="Cumulative Stargazers by Repo"),
             color=alt.condition(
                 selection, "repo_path", alt.value("lightgray"), legend=None
             ),
+            row=alt.Row("variable"),
             tooltip=[
                 alt.Tooltip("week"),
-                alt.Tooltip("stargazer_cumsum", format=",.0f"),
-                alt.Tooltip("repo_path"),
+                alt.Tooltip("value", format=",.0f", title="stargazers"),
+                alt.Tooltip("repo_path", title="Git repository"),
             ],
         )
         .properties(
-            width=800,
-            height=500,
-            title=f"Repo Specific Counts",
+            width=200,
+            height=200,
+            title=f"Stargazer Counts",
         )
         .add_selection(selection)
+        .resolve_scale(y="independent")
     )
 
     return plot
