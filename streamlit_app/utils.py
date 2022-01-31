@@ -11,11 +11,11 @@ from .repo import get_all_commits
 
 
 DATE_COLUMN = 'last_updated'
-coin_file_path = "./coin_info/coin_socials.json"
+coin_file_path = "coin_info/coin_socials.json"
 
 
 ### COINGECKO
-@st.cache
+@st.experimental_memo
 def load_coingecko_data():
     try:
         with open(coin_file_path, "r") as file:
