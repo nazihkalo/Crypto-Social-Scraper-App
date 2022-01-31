@@ -1,6 +1,7 @@
 import datetime
 import pandas as pd
-from sqlalchemy import true
+
+# from sqlalchemy import true
 import streamlit as st
 import json
 from streamlit_app.ui import (
@@ -26,7 +27,9 @@ from streamlit_app.utils import (
 from streamlit_app.dashboard import body
 from pathlib import Path
 
-st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
+st.set_page_config(
+    page_title="Crypto Social Analysis App", layout="wide", page_icon="🦈"
+)  # this needs to be the first Streamlit command called
 
 ## Basic setup and app layout
 st.title("Crypto Social Analysis App")

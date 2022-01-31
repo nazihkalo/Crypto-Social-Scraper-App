@@ -25,3 +25,4 @@ base58==2.1.0
 backcall==0.2.0
 cffi==1.14.5
 argon2-cffi==20.1.0
+terminado==0.10.1
