@@ -6,13 +6,15 @@ from streamlit.uploaded_file_manager import UploadedFile
 import streamlit.components.v1 as components
 import json
 from datetime import datetime
-
+from pathlib import Path
 from .repo import get_all_commits
 
 
 DATE_COLUMN = 'last_updated'
 coin_file_path = "coin_info/coin_socials.json"
 
+
+coin_file_path  = Path(__file__).parents[1] / 'streamlit_app/coin_info/coin_socials.json'
 
 ### COINGECKO
 @st.experimental_memo
