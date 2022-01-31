@@ -9,7 +9,6 @@ praw==7.3.0
 prawcore==2.2.0
 prettytable==2.1.0
 protobuf==3.19.4
-PyDriller==2.0
 pytest==6.2.4
 python-dotenv==0.19.2
 pyvis==0.1.9
@@ -25,4 +24,5 @@ base58==2.1.0
 backcall==0.2.0
 cffi==1.14.5
 argon2-cffi==20.1.0
-terminado==0.10.1
+terminado==0.10.14
+PyDriller==2.0
