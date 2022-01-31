@@ -11,7 +11,7 @@ from .repo import get_all_commits
 
 
 DATE_COLUMN = 'last_updated'
-coin_file_path = "streamlit_app/coin_info/coin_socials.json"
+coin_file_path = "./streamlit_app/coin_info/coin_socials.json"
 
 
 ### COINGECKO
