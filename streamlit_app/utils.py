@@ -1,5 +1,6 @@
 import base64
-
+import numpy as np
+import os
 import pandas as pd
 import streamlit as st
 from streamlit.uploaded_file_manager import UploadedFile
@@ -11,14 +12,17 @@ from .repo import get_all_commits
 
 
 DATE_COLUMN = 'last_updated'
-coin_file_path = "coin_info/coin_socials.json"
-
 
 coin_file_path  = Path(__file__).parents[1] / 'streamlit_app/coin_info/coin_socials.json'
+
 
 ### COINGECKO
 @st.experimental_memo
 def load_coingecko_data():
+    # coin_file_path = "streamlit_app/coin_info/coin_socials.json"
+    coin_file_path  = Path(__file__).parents[1] / 'streamlit_app/coin_info/coin_socials.json'
+    pkl_path = Path(__file__).parents[1] / 'streamlit_app/coin_info/merged_on_name_cg_agg.pkl'
+    print(f"reading file from {coin_file_path}")
     try:
         with open(coin_file_path, "r") as file:
             jj = json.load(file)
@@ -27,15 +31,75 @@ def load_coingecko_data():
         # lowercase = lambda x: str(x).lower()
         # data.rename(lowercase, axis='columns', inplace=True)
         coin_social_data_df[DATE_COLUMN] = pd.to_datetime(coin_social_data_df[DATE_COLUMN])
-        # Create a text element and let the reader know the data is loading.
-        return coin_social_data_df
+
+        # Add in repo info from electricCapital
+        additional_repo_info_df = pd.read_pickle(pkl_path)
+        # st.dataframe(additional_repo_info_df)
+        # print("Shape")
+        coin_social_data_df_merged = pd.merge(coin_social_data_df, additional_repo_info_df, left_on = 'name', right_on= 'name_coingecko', how = 'left')
+        return coin_social_data_df_merged
     except Exception as e:
         # Notify the reader that the data was successfully loaded.
         st.sidebar.error('Error loading data :(') 
         return None   
 
+@st.experimental_memo
+def get_one_token_latest(coin_choice):
+    import pandas as pd
+    from pycoingecko import CoinGeckoAPI
+    import time 
+    pkl_path = Path(__file__).parents[1] / 'streamlit_app/coin_info/merged_on_name_cg_agg.pkl'
+    # coin_data = {}
+    cg = CoinGeckoAPI()
+    coin_json = cg.get_coin_by_id(id=coin_choice, localization = False)
+    required_cols = ['id', 'symbol', 'name', 'asset_platform_id', 'platforms',
+       'block_time_in_minutes', 'hashing_algorithm', 'categories',
+       'public_notice', 'additional_notices', 'description', 'links', 'image',
+       'country_origin', 'genesis_date', 'sentiment_votes_up_percentage',
+       'sentiment_votes_down_percentage', 'market_cap_rank', 'coingecko_rank',
+       'coingecko_score', 'developer_score', 'community_score',
+       'liquidity_score', 'public_interest_score', 'market_data',
+       'community_data', 'developer_data', 'public_interest_stats',
+       'status_updates', 'last_updated', 'tickers', 'ico_data',
+       'contract_address']
+    df = pd.DataFrame.from_dict({coin_choice: coin_json}, orient="index")
+    for col in required_cols:
+        if col not in df.columns:
+            df[col] = np.nan
+    additional_repo_info_df = pd.read_pickle(pkl_path)
+        # st.dataframe(additional_repo_info_df)
+        # print("Shape")
+    coin_social_data_df_merged = pd.merge(df, additional_repo_info_df, left_on = 'name', right_on= 'name_coingecko', how = 'left')
+
+    return coin_social_data_df_merged
+
+@st.experimental_memo
+def get_one_token_latest_market_data(coin_choice):
+    import time
+    import datetime
+    from pycoingecko import CoinGeckoAPI
+    
+    from_time = "2014-01-01"
+    element = datetime.datetime.strptime(from_time,"%Y-%m-%d")
+    from_time = datetime.datetime.timestamp(element)
+
+    to_time = time.time()
+
+    cg = CoinGeckoAPI()
+    price_history = cg.get_coin_market_chart_range_by_id(coin_choice, vs_currency = 'usd', from_timestamp=from_time, to_timestamp=to_time)
+    prices_df = pd.DataFrame(price_history['prices']).rename(columns={0:'time', 1:'price'})
+    market_caps_df = pd.DataFrame(price_history['market_caps']).rename(columns={0:'time', 1:'market_cap'})
+    total_volumes_df = pd.DataFrame(price_history['total_volumes']).rename(columns={0:'time', 1:'volume'})
+
+    dfs = [prices_df, market_caps_df, total_volumes_df]
+    for df in dfs:
+        df['time'] = pd.to_datetime(df.time, unit='ms')
+    concated_dfs = pd.concat(dfs, axis = 1)[['time', 'price', 'market_cap', 'volume']].iloc[:,2:]
+
+    return concated_dfs
+
 def get_description(data, coin_choice):
-    description_text = data.loc[data.name == str(coin_choice), 'description'][0].get("en","")
+    description_text = data.loc[data.name == str(coin_choice), 'description'].values[0].get("en","")
     return description_text
 
 
@@ -164,6 +228,11 @@ def filter_by_contributor(df, x):
         return df
 
 
+@st.cache
+def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode('utf-8')
+
 def download_data(data):
     """
     Download data in .csv format
@@ -174,7 +243,7 @@ def download_data(data):
     """
     to_download = data.to_csv(index=False)
     b64 = base64.b64encode(to_download.encode()).decode()
-    href = f'<a href="data:file/text;base64,{b64}">Download csv file</a>'
+    href = f'<a target="_blank"  href="data:file/text;base64,{b64}">Download csv file</a>'
 
     return href
 
@@ -388,25 +457,26 @@ def draw_graph3(networkx_graph,notebook=True,output_filename='graph.html',show_b
 def get_subgraph_info(coin_choice, n):
     MG = load_netowrkxgraph()
     subgraph = get_subgraph(MG, nearest_nodes = coin_choice, n = n)
-    
-    # Save and read graph as HTML file (on Streamlit Sharing)
-    try:
-        path = '/tmp'
-        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html', color_node = coin_choice,width = 1000, height = 1000, show_buttons=False,only_physics_buttons=True, pyvis_options=options)
-        HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
+    if len(subgraph) > 0:
+        # Save and read graph as HTML file (on Streamlit Sharing)
+        try:
+            path = '/tmp'
+            graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html', color_node = coin_choice,width = 1000, height = 1000, show_buttons=False,only_physics_buttons=True, pyvis_options=options)
+            HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
 
-    # Save and read graph as HTML file (locally)
-    except:
-        path = '/html_files'
-        graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html',color_node = str(coin_choice), show_buttons=False,only_physics_buttons=True,  pyvis_options=options)
-        HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
+        # Save and read graph as HTML file (locally)
+        except:
+            path = '/html_files'
+            graph = draw_graph3(subgraph, output_filename= f'{path}/pyvis_graph.html',color_node = str(coin_choice), show_buttons=False,only_physics_buttons=True,  pyvis_options=options)
+            HtmlFile = open(f'{path}/pyvis_graph.html', 'r', encoding='utf-8')
 
-    # Load HTML file in HTML component for display on Streamlit page
-    st.markdown(f"Showing {n} Nearest Nodes to {coin_choice} based on overlapping contributor counts")
-    with open("streamlit_app/components/style.css") as f:
-        # col1, col2, col3 = st.columns([400,1000,1])
-        # with col2:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-        components.html(HtmlFile.read(), width= 1000, height=1000)
-    
+        # Load HTML file in HTML component for display on Streamlit page
+        st.markdown(f"Showing {n} Nearest Nodes to {coin_choice} based on overlapping contributor counts")
+        with open("streamlit_app/components/style.css") as f:
+            # col1, col2, col3 = st.columns([400,1000,1])
+            # with col2:
+            st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+            components.html(HtmlFile.read(), width= 1000, height=1000)
+    else:
+        st.info(f"This token is not part of the network graph, try picking another token to see the graph (ex. Ethereum)")
     

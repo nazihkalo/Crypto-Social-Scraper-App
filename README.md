@@ -8,6 +8,7 @@
 ## This section includes information about github repositories that are associated with the given parent token and/or ecosystem. The mapping of token <-> github repositories was retrieved from combination of sources:
 1. Electric Capitals Ecosystem Mapping
 2. CoinGecko's API for social links
+3. TrustWallet Assets Found Here -> [/trustwallet/assets](https://github.com/trustwallet/assets)
 
 
 ## Charts

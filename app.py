@@ -1,4 +1,5 @@
 import datetime
+from turtle import left
 import pandas as pd
 
 # from sqlalchemy import true
@@ -6,6 +7,8 @@ import streamlit as st
 import json
 from streamlit_app.ui import (
     concat_top_charts,
+    get_donate_button,
+    get_repo_stats_aggregates,
     get_social_links_html,
     get_social_links_data,
     get_market_data,
@@ -20,6 +23,8 @@ from streamlit_app.ui import (
 import streamlit.components.v1 as components
 from streamlit_app.utils import (
     get_description,
+    get_one_token_latest,
+    get_one_token_latest_market_data,
     get_subgraph_info,
     load_coingecko_data,
     get_repo_data,
@@ -38,7 +43,7 @@ st.title("Crypto Social Analysis App")
 # Load 10,000 rows of data into the dataframe.
 loading_data_container = st.sidebar.empty()
 loading_data_container.info("Loading data...")
-data = load_coingecko_data()
+static_data = load_coingecko_data()
 loading_data_container.success("Loading data...done!")
 loading_data_container.empty()
 
@@ -46,8 +51,12 @@ left_col, right_col = st.columns(2)
 ### SIDEBAR
 with left_col:
     st.markdown("### Select which Cryptocurrency you'd like to look into!")
-    coin_choice = st.selectbox("Pick a coin", data.name.tolist())
-    image_link = data.loc[data.name == str(coin_choice), "image"][0].get("small", "")
+    coin_choice = st.selectbox("Pick a coin", static_data.name.tolist())
+    coin_id = static_data[static_data.name == coin_choice].id.values[0]
+    data = get_one_token_latest(coin_id)
+    image_link = (
+        data.loc[data.name == str(coin_choice), "image"].values[0].get("small", "")
+    )
     # st.markdown(f"![]({image_link})")
 
 with st.sidebar:
@@ -62,6 +71,7 @@ with st.sidebar:
 st.title("Github Section")
 ## HIGH LEVEL STATS
 with right_col:
+
     st.markdown(f"# {coin_choice} ![]({image_link})")
     ### Description
     description_text = get_description(data, coin_choice)
@@ -69,26 +79,45 @@ with right_col:
     with lef_expander1:
         st.markdown(description_text, unsafe_allow_html=True)
 
-
-links_dict = get_social_links_data(coin_choice, data)
-repo_link_choice = (
-    links_dict["github"]
-    if isinstance(links_dict["github"], list)
-    else list(links_dict["github"])
-)
-data = get_repo_stats_history(coin_choice, data)
-if len(data) > 0:
-    st.markdown("### Github Repo Lines & Commits over Time")
+left_col, right_col = st.columns(2)
+chart_data = get_repo_stats_history(coin_choice, data)
+market_data = get_one_token_latest_market_data(coin_id)
+# st.dataframe(market_data)
+with right_col:
+    st.markdown("### Price Over Time")
     st.altair_chart(
-        concat_top_charts(data),
+        plot_coin_stats(market_data),
         use_container_width=True,
     )
-    st.markdown("### Github Repo Stargazer counts over Time")
-    st.altair_chart(plot_stargazers_by_repo(data), use_container_width=True)
-    # st.altair_chart(plot_coin_stats(data), use_container_width=True)
+    st.markdown("### Github Repo Stats Aggregated")
+    get_repo_stats_aggregates(coin_choice, data)
 
-else:
-    st.write("No repo info found.")
+
+with left_col:
+    st.markdown("### Github Repo Lines & Commits over Time")
+    if len(chart_data) > 0:
+        st.altair_chart(
+            plot_lines_stats(chart_data),
+            use_container_width=True,
+        )
+        st.altair_chart(
+            plot_total_commits_(chart_data),
+            use_container_width=True,
+        )
+        st.markdown("### Github Repo Stargazer counts over Time")
+        st.altair_chart(plot_stargazers_by_repo(chart_data), use_container_width=False)
+    else:
+        st.write("No repo info found.")
+
+
+# if len(chart_data) > 0:
+
+#     st.markdown("### Github Repo Stargazer counts over Time")
+#     st.altair_chart(plot_stargazers_by_repo(chart_data), use_container_width=True)
+#     # st.altair_chart(plot_coin_stats(data), use_container_width=True)
+
+# else:
+#     st.write("No repo info found.")
 
 st.markdown(
     "<h2>Github Repository Graph Network</h2> \
@@ -102,6 +131,7 @@ selector = st.select_slider(
 with st.empty():
     get_subgraph_info(coin_choice, n=selector)
 
+repo_link_choice = data.loc[data.name == coin_choice, "github_repos_complete"].values[0]
 repo_choice = st.selectbox("Select a repo", repo_link_choice)
 input_type = st.radio(
     "Filter Repo Commits",

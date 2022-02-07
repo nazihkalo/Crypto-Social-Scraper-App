@@ -1,9 +1,11 @@
+from millify import millify
 import altair as alt
 import pandas as pd
 import streamlit as st
 from pandas.tseries import offsets
 from urllib.parse import urlparse
 from . import utils
+import streamlit.components.v1 as components
 
 
 ### SUmmary stats from coingecko
@@ -20,7 +22,7 @@ def get_cg_summary_data(coin_choice, df):
     coin_choice_df = df.loc[df.name == coin_choice]
     genesis_date = coin_choice_df["genesis_date"].values[0]
     last_updated = coin_choice_df["last_updated"].values[0]
-    pd.isna
+
     contract_address = coin_choice_df["contract_address"].values[0]
 
     coingecko_rank = coin_choice_df["coingecko_rank"].values[0]
@@ -31,11 +33,20 @@ def get_cg_summary_data(coin_choice, df):
     sentiment_votes_down_percentage = coin_choice_df[
         "sentiment_votes_down_percentage"
     ].values[0]
-
-    st.markdown(
-        f"<h1>Market Cap Rank #{market_cap_rank}</h1><h1>CoinGecko Rank #{coingecko_rank}</h1>",
-        unsafe_allow_html=True,
+    # st.markdown("## Market Cap Rank")
+    st.metric(
+        label="Market Cap Rank",
+        value=f"#{market_cap_rank}",
     )
+    st.metric(
+        label="CoinGecko Rank",
+        value=f"#{coingecko_rank}",
+    )
+
+    # st.markdown(
+    #     f"<h1>Market Cap Rank #{market_cap_rank}</h1><h1>CoinGecko Rank #{coingecko_rank}</h1>",
+    #     unsafe_allow_html=True,
+    # )
     get_market_data(coin_choice, df)
     st.markdown(
         f'<h1>CoinGecko Sentiment<br><span style="color: green;">{sentiment_votes_up_percentage}%</span> <span style="color: red;"> {sentiment_votes_down_percentage}%</span></h1>',
@@ -55,35 +66,59 @@ def get_cg_summary_data(coin_choice, df):
 
 ##### Market Data
 def get_market_data(coin_choice, df):
-    market_data_json = df.loc[df.name == coin_choice, "market_data"][0]
+    market_data_json = df.loc[df.name == coin_choice, "market_data"].values[0]
     market_cap = market_data_json["market_cap"]
     current_price = market_data_json["current_price"]
     circulating_supply = market_data_json["circulating_supply"]
-    price_change_percentage_24h = market_data_json[
+    max_supply = market_data_json["max_supply"]
+    mc_change_percentage_24h = market_data_json[
         "market_cap_change_percentage_24h_in_currency"
     ]
+    price_change_percentage_24h = market_data_json[
+        "price_change_percentage_24h_in_currency"
+    ]
     # text = f"#### Market Cap {market_cap['usd']}\n#### Total Supply {circulating_supply}\n#### Current Price {current_price['usd']}\n#### Price Change 24h {price_change_percentage_24h['usd']}\n"
-    market_stats = {
-        "market_cap": (f"${market_cap['usd']:,}", "💰"),
-        "current_price": (f"${current_price['usd']:,}", "🤑"),
-        "circulating_supply": (f"{circulating_supply:,}", "💩"),
-        "price_change_percentage_24h": (
-            f"{price_change_percentage_24h['usd']:.0%}",
-            "%",
-        ),
-    }
-    for stat in market_stats.items():
-        st.markdown(
-            f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
-            unsafe_allow_html=True,
+    # market_stats = {
+    #     "market_cap": (f"${market_cap['usd']:,}", "💰"),
+    #     "current_price": (f"${current_price['usd']:,}", "🤑"),
+    #     "circulating_supply": (f"{circulating_supply:,}", "💩"),
+    #     "price_change_percentage_24h": (
+    #         f"{price_change_percentage_24h['usd']:.0}%",
+    #         "%",
+    #     ),
+    # }
+    st.metric(
+        label="Market Cap",
+        value=f"${millify(market_cap['usd'])} 💰",
+        # value=f"${market_cap['usd']:,}",
+        delta=f"MC Change 24h {mc_change_percentage_24h['usd']:.0}%",
+        delta_color="normal",
+    )
+    st.metric(
+        label="Current Price",
+        value=f"${current_price['usd']:,} 🤑",
+        delta=f"Price Change 24h {price_change_percentage_24h['usd']:.0}%",
+        delta_color="normal",
+    )
+    if max_supply:
+        st.metric(
+            label="Circulating Supply",
+            value=f"{millify(circulating_supply, precision = 3)} 💩",
+            delta=f"Max Supply {millify(max_supply, precision = 3)}",
+            delta_color="off",
         )
+    # for stat in market_stats.items():
+    #     st.markdown(
+    #         f"<p class='small-font'>{stat[1][1]} <strong>{stat[0]}</strong>: {stat[1][0]}</p>",  # noqa: E501
+    #         unsafe_allow_html=True,
+    #     )
 
 
 ####### SOCIALS
 
 
 def get_community_data(coin_choice, df):
-    market_data_json = df.loc[df.name == coin_choice, "community_data"][0]
+    market_data_json = df.loc[df.name == coin_choice, "community_data"].values[0]
     market_data_json = {k: v if v else 0 for (k, v) in market_data_json.items()}
     resp = {
         # "Facebook Likes": (f"{market_data_json['facebook_likes']:,}", "💬"),
@@ -116,7 +151,7 @@ def get_community_data(coin_choice, df):
 
 def get_social_links_data(coin_choice, df):
     """Gets Social media links from coingecko df"""
-    links_json = df.loc[df.name == coin_choice, "links"][0]
+    links_json = df.loc[df.name == coin_choice, "links"].values[0]
     homepage = links_json.get("homepage")[0]
     twitter_screen_name = links_json.get("twitter_screen_name")
     twitter_link = f"https://twitter.com/{twitter_screen_name}"
@@ -132,15 +167,107 @@ def get_social_links_data(coin_choice, df):
     }
 
 
-def get_repo_stats_history(coin_choice, data):
-    links_dict = get_social_links_data(coin_choice, data)
-    repo_link_choice = (
-        links_dict["github"]
-        if isinstance(links_dict["github"], list)
-        else list(links_dict["github"])
-    )
+def make_clickable(val):
+    return f'<a target="_blank" href="{val}">{val}</a>'
+
+
+def get_repo_stats_aggregates(coin_choice, data):
+    repo_link_choice = data.loc[
+        data.name == coin_choice, "github_repos_complete"
+    ].values[0]
+    import re
+
+    pd.set_option("display.max_colwidth", -1)
+
+    repo_link_choice = [re.sub("\.git", "", i) for i in repo_link_choice]
     repo_paths = [f"'{str(urlparse(path).path)[1:]}'" for path in repo_link_choice]
+    repo_paths_dict = {
+        f"{str(urlparse(path).path)[1:]}": path for path in repo_link_choice
+    }
     df = utils.get_coin_multiple_repos_stats(repo_paths)
+
+    df_agg = df.groupby(by=["repo_path"]).sum()
+
+    df_agg = df_agg.apply(lambda x: pd.to_numeric(x, downcast="integer"))
+
+    df_agg.sort_values(by="stargazer_size", ascending=False, inplace=True)
+    df_agg["url"] = df_agg.index.map(repo_paths_dict)
+    df_agg.reset_index(inplace=True)
+    # st.write(df_agg.index)
+    # st.write(repo_paths_dict.keys())
+    cell_hover = {  # for row hover use <tr> instead of <td>
+        "selector": "td:hover",
+        "props": [("background-color", "#ffffb3")],
+    }
+    index_names = {
+        "selector": ".index_name",
+        "props": "font-style: monospace; color: darkgrey; font-weight:normal;",
+    }
+    headers = {
+        "selector": "th:not(.index_name)",
+        "props": "background-color: #000066; color: white;",
+    }
+    df_agg_styled = (
+        df_agg.style.format(
+            {
+                "stargazer_size": "{:,}",
+                "additions": lambda x: f"{millify(x)}",
+                "deletions": lambda x: f"{millify(x)}",
+                "total_commits": "{:,}",
+                "url": make_clickable,
+            }
+        )
+        # .background_gradient(
+        #     axis=0,
+        #     cmap="YlOrRd",
+        #     subset=["additions", "deletions", "total_commits"],
+        # )
+        .bar(
+            subset=[
+                "stargazer_size",
+            ],
+            color="#a69232",
+        )
+        .bar(subset=["additions"], color="#308a20")
+        .bar(subset=["deletions"], color="#bd352b")
+        .bar(subset=["total_commits"], color="#2fc3d6")
+        .set_table_styles([cell_hover, index_names, headers])
+        .set_properties(**{"background-color": "#a3d3d9", "font-family": "monospace"})
+    )
+
+    # st.dataframe(df_agg, height=600)
+    # st.markdown(df_agg.to_html(), unsafe_allow_html=True)
+    # st.experimental_show(df_agg)
+    components.html(df_agg_styled.to_html(), height=600, scrolling=True)
+    # Data download button
+    download_data = utils.convert_df(df_agg)
+
+    st.download_button(
+        label="Download data as CSV",
+        data=download_data,
+        file_name="repo_stats_aggregates.csv",
+        mime="text/csv",
+    )
+
+    # download_url = utils.convert_df(df_agg)
+    # st.markdown(download_url, unsafe_allow_html=True)
+
+
+def get_repo_stats_history(coin_choice, data):
+    # links_dict = get_social_links_data(coin_choice, data)
+    # repo_link_choice = (
+    #     links_dict["github"]
+    #     if isinstance(links_dict["github"], list)
+    #     else list(links_dict["github"])
+    # )
+    repo_link_choice = data.loc[
+        data.name == coin_choice, "github_repos_complete"
+    ].values[0]
+    import re
+
+    repo_link_choice = [re.sub("\.git", "", i) for i in repo_link_choice]
+    repo_paths = [f"'{str(urlparse(path).path)[1:]}'" for path in repo_link_choice]
+    df = utils.get_coin_multiple_repos_stats(repo_paths[:100])
     return df
 
 
@@ -154,6 +281,12 @@ def get_social_links_html(coin_choice, df):
     )
     links_html = f'<body><a href="{links_dict["homepage"]}" class="fa fa-rss"></a><a href="{links_dict["twitter"]}" class="fa fa-twitter"></a><a href="{links_dict["google"]}" class="fa fa-google"></a><a href="{links_dict["reddit"]}" class="fa fa-reddit"></a>{github_html}</body></html>'
     return "</html> " + source_code + links_html
+
+
+def get_donate_button():
+    HtmlFile = open("streamlit_app/components/donate_eth.html", "r", encoding="utf-8")
+    source_code = HtmlFile.read()
+    return source_code
 
 
 ######## GITHUB
@@ -481,12 +614,16 @@ def plot_lines_stats(data):
         )
         .properties(
             width=800,
-            height=200,
+            height=350,
             title=f"Lines of Code Added/Deleted",
         )
         .add_selection(selection)
     )
     return plot
+
+
+def plot_market_data(data):
+    pass
 
 
 def plot_total_commits_(data):
@@ -526,7 +663,7 @@ def plot_total_commits_(data):
         )
         .properties(
             width=800,
-            height=200,
+            height=300,
             title=f"Commits",
         )
         .add_selection(selection)
@@ -551,36 +688,44 @@ def plot_coin_stats(data):
 
     selection = alt.selection_single(on="mouseover")
 
-    coin_aggregates_df = (
-        data.groupby("week")
-        .sum()
-        .transform(lambda x: x.cumsum())
-        .reset_index()
-        .melt(id_vars=["week"])
-    )
+    # coin_aggregates_df = (
+    #     data.groupby("week")
+    #     .sum()
+    #     .transform(lambda x: x.cumsum())
+    #     .reset_index()
+    #     .melt(id_vars=["week"])
+    # )
+    coin_aggregates_df = data.melt(id_vars=["time"])
+    domain = ["price", "market_cap", "volume"]
+    range_ = ["red", "orange", "green"]
 
     plot = (
         alt.Chart(coin_aggregates_df)
         # .transform_filter(
         # alt.datum.additions > 0  )
-        .mark_area()
+        .mark_line()
         .encode(
-            x=alt.X("week", title=""),
-            y=alt.Y("value", title="Lines Added"),
-            color=alt.condition(
-                selection, "variable", alt.value("lightgray"), legend=None
+            x=alt.X("time", title=""),
+            y=alt.Y("value", title="", axis=alt.Axis(format=f"$.2s")),
+            # color=alt.condition(
+            #     selection, "variable", alt.value("lightgray"), legend=None
+            # ),
+            color=alt.Color(
+                "variable",
+                scale=alt.Scale(domain=domain, range=range_),
+                legend=alt.Legend(title="Commits Aggregation", orient="top"),
             ),
-            row=alt.Row("variable"),
+            row=alt.Row("variable", title=""),
             tooltip=[
-                alt.Tooltip("week"),
+                alt.Tooltip("time"),
                 alt.Tooltip("value", format=",.0f"),
                 alt.Tooltip("variable"),
             ],
         )
         .properties(
-            width=800,
-            height=100,
-            title=f"Lines of Code Added/Deleted",
+            width=500,
+            height=200,
+            title=f"Market Data",
         )
         .add_selection(selection)
         .resolve_scale(y="independent")
@@ -603,11 +748,11 @@ def plot_stargazers_by_repo(data):
         .mark_area()
         .encode(
             x=alt.X("week", title=""),
-            y=alt.Y("value", title="Cumulative Stargazers by Repo"),
+            y=alt.Y("value", title=""),
             color=alt.condition(
                 selection, "repo_path", alt.value("lightgray"), legend=None
             ),
-            row=alt.Row("variable"),
+            row=alt.Row("variable", title=""),
             tooltip=[
                 alt.Tooltip("week"),
                 alt.Tooltip("value", format=",.0f", title="stargazers"),
@@ -615,8 +760,8 @@ def plot_stargazers_by_repo(data):
             ],
         )
         .properties(
-            width=200,
-            height=200,
+            width=600,
+            height=300,
             title=f"Stargazer Counts",
         )
         .add_selection(selection)
