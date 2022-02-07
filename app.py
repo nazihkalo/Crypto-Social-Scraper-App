@@ -113,14 +113,6 @@ else:
 st.markdown("### Github Repo Stats Aggregated")
 get_repo_stats_aggregates(coin_choice, data)
 
-# if len(chart_data) > 0:
-
-#     st.markdown("### Github Repo Stargazer counts over Time")
-#     st.altair_chart(plot_stargazers_by_repo(chart_data), use_container_width=True)
-#     # st.altair_chart(plot_coin_stats(data), use_container_width=True)
-
-# else:
-#     st.write("No repo info found.")
 
 st.markdown(
     "<h2>Github Repository Graph Network</h2> \
