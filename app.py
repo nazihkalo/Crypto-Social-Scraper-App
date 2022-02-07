@@ -89,13 +89,14 @@ with right_col:
         plot_coin_stats(market_data),
         use_container_width=True,
     )
-    st.markdown("### Github Repo Stats Aggregated")
-    get_repo_stats_aggregates(coin_choice, data)
 
 
-with left_col:
-    st.markdown("### Github Repo Lines & Commits over Time")
-    if len(chart_data) > 0:
+left_col.markdown("### Github Repo Lines & Commits over Time")
+
+if len(chart_data) > 0:
+    with left_col:
+        st.markdown("### Github Repo Lines & Commits over Time")
+
         st.altair_chart(
             plot_lines_stats(chart_data),
             use_container_width=True,
@@ -104,11 +105,13 @@ with left_col:
             plot_total_commits_(chart_data),
             use_container_width=True,
         )
-        st.markdown("### Github Repo Stargazer counts over Time")
-        st.altair_chart(plot_stargazers_by_repo(chart_data), use_container_width=False)
-    else:
-        st.write("No repo info found.")
+    st.markdown("### Github Repo Stargazer counts over Time")
+    st.altair_chart(plot_stargazers_by_repo(chart_data), use_container_width=True)
 
+else:
+    st.write("No repo info found.")
+st.markdown("### Github Repo Stats Aggregated")
+get_repo_stats_aggregates(coin_choice, data)
 
 # if len(chart_data) > 0:
 

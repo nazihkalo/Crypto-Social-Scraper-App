@@ -747,7 +747,7 @@ def plot_stargazers_by_repo(data):
         alt.Chart(melted_df)
         .mark_area()
         .encode(
-            x=alt.X("week", title=""),
+            x=alt.X("week", title="", axis=alt.Axis(labelFontSize=15)),
             y=alt.Y("value", title=""),
             color=alt.condition(
                 selection, "repo_path", alt.value("lightgray"), legend=None
@@ -761,7 +761,7 @@ def plot_stargazers_by_repo(data):
         )
         .properties(
             width=600,
-            height=300,
+            height=200,
             title=f"Stargazer Counts",
         )
         .add_selection(selection)
