@@ -127,4 +127,3 @@ google-cloud-bigquery==2.32.0
 networkx==2.6.3
 pyvis==0.1.9
 millify==0.1.1
-tkinter==3.10.2
