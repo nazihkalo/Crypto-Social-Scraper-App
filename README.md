@@ -1,5 +1,4 @@
-# Universal Crypto Social Scraper 
-
+# Universal Crypto Social Scraper -> [Test out the App Here :) ](https://share.streamlit.io/nazihkalo/crypto-social-scraper-app/app.py) <-
 ![GitHub top language](https://img.shields.io/github/languages/top/nazihkalo/Crypto-Social-Scraper-App?logo=Python)
 [![PRAW Version](https://img.shields.io/badge/PRAW-7.3.0-red?logo=Reddit)][PRAW]
 ![Total lines](https://img.shields.io/tokei/lines/github/nazihkalo/Crypto-Social-Scraper-App)
