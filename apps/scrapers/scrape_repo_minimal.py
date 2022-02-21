@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from rich import print
 from rich.progress import track
 from tqdm import tqdm
-from top_github_scraper.utils import ScrapeGithubUrl, UserProfileGetter, isnotebook
+# from top_github_scraper.utils import ScrapeGithubUrl, UserProfileGetter, isnotebook
 import logging
 from pathlib import Path
 from dotenv import load_dotenv
@@ -31,6 +31,18 @@ repo_list_file = "data/merged_repos.csv"
 
 ONE_HOUR = 3600
 
+from IPython import get_ipython
+def isnotebook():
+    try:
+        shell = get_ipython().__class__.__name__
+        if shell == 'ZMQInteractiveShell':
+            return True   # Jupyter notebook or qtconsole
+        elif shell == 'TerminalInteractiveShell':
+            return False  # Terminal running IPython
+        else:
+            return False  # Other type (?)
+    except NameError:
+        return False      # Probably standard Python interpreter
 
 class RepoScraper:
     """Scrape information of repos and the
@@ -442,12 +454,6 @@ SCRAPE_CLASS = {"Users": "mr-1", "Repositories": "v-align-middle"}
 
 USERNAME = os.getenv("GITHUB_USERNAME_LIVE")
 TOKEN = os.getenv("GITHUB_TOKEN_LIVE")
-
-if USERNAME is None or TOKEN is None:
-    logging.warning(
-        """You are using Github API as an unauthenticated user. For unauthenticated requests, the rate limit allows for up to 60 requests per hour.
-     Follow the instruction here to be authenticated and increase your rate limit: https://github.com/khuyentran1401/top-github-scraper#setup"""
-    )
 
 
 class ScrapeGithubUrl:
