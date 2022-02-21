@@ -130,3 +130,6 @@ millify==0.1.1
 pycoingecko==2.2.0
 hydralit==1.0.12
 hydralit-components==1.0.9
+rich==9.13.0
+ratelimit==2.2.1
+top-github-scraper==0.1.1.6

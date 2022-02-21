@@ -9,7 +9,6 @@ import requests
 from dotenv import load_dotenv
 from rich import print
 from rich.progress import track
-from sqlalchemy import TIMESTAMP
 from tqdm import tqdm
 from top_github_scraper.utils import ScrapeGithubUrl, UserProfileGetter, isnotebook
 import logging
