@@ -131,3 +131,4 @@ pycoingecko==2.2.0
 hydralit==1.0.12
 hydralit-components==1.0.9
 ratelimit==2.2.1
+PyGithub==1.55
