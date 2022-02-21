@@ -13,7 +13,6 @@ from .repo import get_all_commits
 
 DATE_COLUMN = 'last_updated'
 
-coin_file_path  = Path(__file__).parents[1] / 'streamlit_app/coin_info/coin_socials.json'
 
 
 ### COINGECKO
@@ -293,7 +292,7 @@ def knn(graph, node, n):
 @st.experimental_memo
 def load_netowrkxgraph():
     import networkx as nx
-    MG = nx.read_gpickle('streamlit_app/coin_info/graph_contributor_edges.pkl')
+    MG = nx.read_gpickle('./data/graph_contributor_edges.pkl')
     return MG
 
 # Build subgraph containing a subset of the nodes, and edges between those nodes

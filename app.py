@@ -23,7 +23,7 @@ if __name__ == "__main__":
     app = HydraApp(
         title="",
         favicon="🔭",
-        hide_streamlit_markers=False,
+        hide_streamlit_markers=True,
         # add a nice banner, this banner has been defined as 5 sections with spacing defined by the banner_spacing array below.
         use_banner_images=[
             {
